@@ -3,7 +3,7 @@
 </script>
 
 <Body class="writing" />
-<div class="">
+<div class="writing">
     <slot></slot>
 </div>
 
