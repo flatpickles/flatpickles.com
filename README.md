@@ -1,6 +1,7 @@
 # flatpickles.com
 
 ## List
+* Flash of unstyled content even when loading on Vercel
 * Work on basic layout and styling for each sector
 * Figure out implications of SSR vs CSR in SvelteKit
 * Figure out data schema (file system) for content
