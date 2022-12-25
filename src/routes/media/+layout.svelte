@@ -3,7 +3,7 @@
 </script>
 
 <Body class="media" />
-<div class="media">
+<div class="">
     <slot></slot>
 </div>
 
