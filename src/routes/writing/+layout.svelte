@@ -3,13 +3,12 @@
 </script>
 
 <Body class="writing" />
-<div class="writing">
+<div class="writing backdrop">
     <slot></slot>
 </div>
 
 <style lang="scss">
     :global(.writing) {
         background-color: #FFF;
-        height: 100vh;
     }
 </style>

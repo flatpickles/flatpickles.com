@@ -3,7 +3,7 @@
 </script>
 
 <Body class="media" />
-<div class="media">
+<div class="media backdrop">
     <slot></slot>
 </div>
 
@@ -11,6 +11,5 @@
     :global(.media) {
         color: #FFF;
         background-color: rgb(0, 0, 0);
-        height: 100vh;
     }
 </style>

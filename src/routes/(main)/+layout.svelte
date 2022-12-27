@@ -2,15 +2,17 @@
     import { Body } from 'svelte-body';
 </script>
 
-<Body class="main" />
-<div class="main">
-    <slot></slot>
+<div class="main backdrop">
+    <div class="container">
+        <slot></slot>
+    </div>
 </div>
 
-<style lang="scss">
-    .main {
-        /* background set in global.scss */
-        height: 100vh;
+<style>
+    .container {
+        width: 800px;
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; */
     }
-
 </style>
