@@ -1,7 +1,9 @@
 # flatpickles.com
 
 ## List
-* Flash of unstyled content even when loading on Vercel
+* Flash of unstyled content even when loading on Vercel?
+* Double render locally
+* Switch fonts to WOFF (faster loading?)
 * Work on basic layout and styling for each sector
 * Remove the font-face definitions we're not using
 * Smooth transitions between pages
