@@ -2,7 +2,7 @@
     import { Body } from 'svelte-body';
 </script>
 
-<div class="main backdrop">
+<div class="main wrapper">
     <div class="container">
         <slot></slot>
     </div>
@@ -11,8 +11,5 @@
 <style>
     .container {
         width: 800px;
-        /* display: flex;
-        flex-direction: column;
-        align-items: center; */
     }
 </style>

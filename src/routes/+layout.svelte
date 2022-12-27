@@ -4,25 +4,17 @@
     import './global.scss';
 </script>
 
-<div class="wrapper">
-    <slot></slot>
-</div>
+<slot></slot>
 
 <style>
-    .wrapper {
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
     /*
-        The wrapper contains a single div with class 'backdrop', which is
-        further configured in the corresponding contained layout.
+        Each group layout contains and further configures a single div with
+        class 'wrapper'. This wrapper is not contained within this because
+        each group may configure a different style (colors etc.)
     */
-    :global(.backdrop) {
+    :global(.wrapper) {
         width: 100%;
-        flex-grow: 1;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         align-items: center;

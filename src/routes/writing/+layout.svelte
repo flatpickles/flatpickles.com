@@ -3,7 +3,7 @@
 </script>
 
 <Body class="writing" />
-<div class="writing backdrop">
+<div class="writing wrapper">
     <slot></slot>
 </div>
 
