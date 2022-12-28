@@ -1,12 +1,19 @@
+<script lang="ts">
+    import { fit, parent_style } from '@leveluptuts/svelte-fit';
+
+    export let text: string;
+</script>
+
 <div class="header">
-    <slot></slot>
+    <div style={parent_style}>
+        <h1 use:fit={{min_size: 12, max_size:300 }}>{text}</h1>
+    </div>
 </div>
 
 <style>
-    .header {
+    h1 {
         font-family: 'Hobeaux';
-        font-size: 8em;
         font-weight: bold;
-        text-align: center;
+        white-space: nowrap;
     }
 </style>

@@ -8,9 +8,7 @@
     <title>Flat Pickles</title> 
 </svelte:head>
 
-<BigHeader>
-    Flat Pickles
-</BigHeader>
+<BigHeader text="Flat Pickles" />
 
 <PageBody>
     Hello world, it's me, Matt! Welcome to my internet living room.
