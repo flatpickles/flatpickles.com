@@ -6,7 +6,7 @@
 
 <slot></slot>
 
-<style>
+<style lang="scss">
     /*
         Each group layout contains and further configures a single div with
         class 'wrapper'. This wrapper is not contained within this because

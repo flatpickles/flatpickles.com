@@ -1,12 +1,11 @@
-h1 {
-    font-family: 'Hobeaux';
-}
-
 body {
     background-color: rgb(231, 255, 238);
     font-family: 'Vulf Sans';
 }
 
 // Global variables
-
-$padding: 8;
+:root {
+    --padding: 16px;
+    --page-width: 700px;
+    --page-top-bottom-padding: 100px;
+}

@@ -1,10 +1,21 @@
+<script>
+    import BigHeader from "./BigHeader.svelte";
+    import CopyrightFooter from "./CopyrightFooter.svelte";
+    import PageBody from "./PageBody.svelte";
+</script>
+
 <svelte:head>
     <title>Flat Pickles</title> 
 </svelte:head>
 
-<h1>Flat Pickles</h1>
-<p>This website is a work in progress!</p>
+<BigHeader>
+    Flat Pickles
+</BigHeader>
 
-<a href="./about">About Me</a> <br />
-<a href="./media">Media Projects</a> <br />
-<a href="./writing">Writing Projects</a> <br />
+<PageBody>
+    Hello world, it's me, Matt! Welcome to my internet living room.
+    This is where I put the stuff I'm creating and thinking about, and where I maintain an ongoing archive of projects and explorations.
+    If you see fit to poke around, I hope you find something cool. Thanks for visiting!
+</PageBody>
+
+<CopyrightFooter/>

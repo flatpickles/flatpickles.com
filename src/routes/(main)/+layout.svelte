@@ -1,15 +1,23 @@
-<script>
-    import { Body } from 'svelte-body';
-</script>
-
 <div class="main wrapper">
     <div class="container">
         <slot></slot>
     </div>
 </div>
 
-<style>
+<style lang="scss">
     .container {
-        width: 800px;
+        width: 100%;
+        max-width: var(--page-width);
+        padding-top: var(--page-top-bottom-padding);
+        padding-bottom: var(--page-top-bottom-padding);
+        padding-left: var(--padding);
+        padding-right: var(--padding);
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    :global(.container > *:not(:first-child)) {
+        padding-top: var(--padding);
     }
 </style>
