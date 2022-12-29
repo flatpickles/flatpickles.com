@@ -4,6 +4,7 @@
 
 <style>
     .footer {
+        padding-top: var(--padding);
         text-align: center;
         opacity: 0.3;
     }

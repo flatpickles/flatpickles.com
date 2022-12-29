@@ -6,7 +6,6 @@
 
 ## List
 * Main:
-    * Highlight cards
     * Content list
     * Spacing
 * API:
@@ -14,7 +13,6 @@
     * Asset retrieval
 * Media page
 * Writing page (w/ Markdown)
-
 * Smooth transitions between pages
 * Figure out implications of SSR vs CSR in SvelteKit
 * Figure out data schema (file system) for content
@@ -23,8 +21,11 @@
 # To consider
 * Improvements for title sizing: remove flash at small size
 * Typography alignment for title text
+* SEO improvements - [SvelteKit docs](https://kit.svelte.dev/docs/seo)
 
 ## Log
+* About page layout
+* Main highlight cards
 * Responsive main page title w/ svelte-fit
 * Switch fonts to WOFF (faster loading?)
 * Add svelte-body to change background colors in each sector
@@ -38,3 +39,4 @@
 
 ## Questions
 * What's the best way to set a different body color for different routes? svelte-body works, but renders with a flash; this is currently obscured by a full-height div wrapper of the same color. I'm not sure if this works as expected with both CSR & SSR.
+* Does specifying page content via component props (i.e. JS) interfere with the benefits of SSR, e.g. SEO?

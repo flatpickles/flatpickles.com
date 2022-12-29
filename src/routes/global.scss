@@ -1,9 +1,5 @@
-body {
-    background-color: rgb(231, 255, 238);
-    font-family: 'Vulf Sans';
-}
-
 // Global variables
+
 :root {
     --padding: 16px;
     --page-width: 700px;
@@ -11,4 +7,17 @@ body {
 
     --highlight-height: 130px;
     --highlight-min-width: 180px;
+}
+
+// Global styles
+
+body {
+    background-color: rgb(231, 255, 238);
+    font-family: 'Vulf Sans';
+}
+
+p {
+    &:not(:last-child)  {
+        margin-bottom: var(--padding);
+    }
 }
