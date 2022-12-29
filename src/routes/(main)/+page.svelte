@@ -1,7 +1,7 @@
 <script>
     import BigHeader from "./BigHeader.svelte";
     import CopyrightFooter from "./CopyrightFooter.svelte";
-    import HighlightCard from "./HighlightCard.svelte";
+    import Highlights from "./Highlights.svelte";
     import PageBody from "./PageBody.svelte";
 </script>
 
@@ -17,6 +17,6 @@
     If you see fit to poke around, I hope you find something cool. Thanks for visiting!
 </PageBody>
 
-<HighlightCard image="/images/goop.png" title="Sketchbook" />
+<Highlights />
 
 <CopyrightFooter/>
