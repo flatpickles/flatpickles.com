@@ -18,6 +18,6 @@
     }
 
     :global(.container > *:not(:first-child)) {
-        padding-top: var(--padding);
+        margin-top: var(--padding);
     }
 </style>

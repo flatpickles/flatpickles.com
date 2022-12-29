@@ -5,21 +5,33 @@
 * Double render (SSR + CSR) locally (seems expected - but why?)
 
 ## List
-* Work on basic layout and styling for each sector
-* Line height fix for title text
-* Responsive sizing for main title text
-* Remove the font-face definitions we're not using
+* Main:
+    * Highlight cards
+    * Content list
+    * Spacing
+* API:
+    * Content list w/ metadata (by type)
+    * Asset retrieval
+* Media page
+* Writing page (w/ Markdown)
+
 * Smooth transitions between pages
 * Figure out implications of SSR vs CSR in SvelteKit
 * Figure out data schema (file system) for content
 * Work on slug-based pages for each piece of data
 
+# To consider
+* Improvements for title sizing: remove flash at small size
+* Typography alignment for title text
+
 ## Log
+* Responsive main page title w/ svelte-fit
 * Switch fonts to WOFF (faster loading?)
 * Add svelte-body to change background colors in each sector
 * Figure out basic routing
 
 ## Packages added
+* npm i @leveluptuts/svelte-fit
 * npm i svelte-body -D
 * ress i ress
 * npm i sass -D
