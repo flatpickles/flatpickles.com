@@ -16,8 +16,6 @@ body {
     font-family: 'Vulf Sans';
 }
 
-p {
-    &:not(:last-child)  {
-        margin-bottom: var(--padding);
-    }
+p:not(:last-child)  {
+    margin-bottom: var(--padding);
 }
