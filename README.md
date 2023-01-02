@@ -6,6 +6,7 @@
 
 ## List
 * Content table
+    * Switch to CSS grid display
     * Click anywhere on a row to visit a link
     * Alternating colors (w/ rounding)
     * Hover colors?
