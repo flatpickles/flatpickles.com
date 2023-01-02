@@ -5,14 +5,22 @@
 * Double render (SSR + CSR) locally (seems expected - but why?)
 
 ## List
-* Main:
-    * Content list
-    * Spacing
+* Content table
+    * Click anywhere on a row to visit a link
+    * Alternating colors (w/ rounding)
+    * Hover colors?
+    * Responsive sizing (small screens)
+    * Sort by property type
 * API:
+    * Data model
     * Content list w/ metadata (by type)
     * Asset retrieval
 * Media page
 * Writing page (w/ Markdown)
+* Notes page
+* Global layout tuning
+* Global typography tuning (space, weight)
+* Main page(s) header sizing: FOUC
 * Smooth transitions between pages
 * Figure out implications of SSR vs CSR in SvelteKit
 * Figure out data schema (file system) for content
@@ -22,14 +30,6 @@
 * Improvements for title sizing: remove flash at small size
 * Typography alignment for title text
 * SEO improvements - [SvelteKit docs](https://kit.svelte.dev/docs/seo)
-
-## Log
-* About page layout
-* Main highlight cards
-* Responsive main page title w/ svelte-fit
-* Switch fonts to WOFF (faster loading?)
-* Add svelte-body to change background colors in each sector
-* Figure out basic routing
 
 ## Packages added
 * npm i @leveluptuts/svelte-fit

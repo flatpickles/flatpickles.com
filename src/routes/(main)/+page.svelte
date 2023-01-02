@@ -2,6 +2,7 @@
     import BigHeader from "./BigHeader.svelte";
     import Highlights from "./Highlights.svelte";
     import PageBody from "./PageBody.svelte";
+    import ProjectList from "./ProjectList.svelte";
 </script>
 
 <svelte:head>
@@ -19,3 +20,5 @@
 </PageBody>
 
 <Highlights />
+
+<ProjectList />
