@@ -10,4 +10,4 @@
 
 {data.title}
 
-<img src={data.url} alt={data.title}/>
+<img src={data.assetPath} alt={data.title}/>

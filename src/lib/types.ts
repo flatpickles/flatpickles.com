@@ -14,6 +14,7 @@ export const MediaTypes = [
 export interface ProjectData {
     title: string;
     url: string;
+    assetPath?: string;
     timestamp: Date;
     type: ProjectType;
 }
