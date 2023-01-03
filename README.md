@@ -41,3 +41,4 @@
 ## Questions
 * What's the best way to set a different body color for different routes? svelte-body works, but renders with a flash; this is currently obscured by a full-height div wrapper of the same color. I'm not sure if this works as expected with both CSR & SSR.
 * Does specifying page content via component props (i.e. JS) interfere with the benefits of SSR, e.g. SEO?
+* What's the best way to check if an enum type is one of several different options?

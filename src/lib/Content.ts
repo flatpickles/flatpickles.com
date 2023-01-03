@@ -1,37 +1,26 @@
-import type { ProjectData, ProjectRecord, ProjectType } from "./types";
+import { type ProjectData, ProjectType, MediaTypes } from './types';
+import { projects } from '../index';
 
 export default class Content {
-    static async all() {
+    static get all(): ProjectData[] {
+        return Object.values(projects);
+    }
+
+    static get media(): ProjectData[] {
+        return this.all.filter((project: ProjectData) => MediaTypes.indexOf(project.type) >= 0);
+    }
+    
+    static mediaProject(key: string): ProjectData | null {
+        key = key.replace('-', '_');
+        const candidate = projects[key];
+        return MediaTypes.indexOf(candidate.type) >= 0 ? candidate : null;
+    }
+
+    static writing() {
         // todo
     }
 
-    static async media() {
+    static writingProject(key: string) {
         // todo
-    }
-
-    static async mediaProject(key: string): Promise<ProjectData> {
-        const record: ProjectRecord = (await this.recordsMap())[key]; // todo: filter for media
-        return this.dataFromRecord(record);
-    }
-
-    static async writing() {
-        // todo
-    }
-
-    static async writingProject(key: string) {
-        // todo
-    }
-
-    private static async recordsMap(): Promise<{ [key: string]: ProjectRecord }> {
-        return (await import(`../projects.json`)).default;
-    }
-
-    private static dataFromRecord(record: ProjectRecord): ProjectData {
-        return {
-            title: record.title,
-            url: "/projects/media/" + record.filename, // todo: generalize
-            timestamp: new Date(record.date),
-            type: record.type as ProjectType
-        };
     }
 }

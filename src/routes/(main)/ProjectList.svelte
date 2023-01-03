@@ -1,4 +1,8 @@
 <script lang="ts">
+    import type { ProjectData } from "$lib/types";
+
+    export let projects: ProjectData[];
+
     const projectData = [
         {
             name: "Test project 1",
@@ -35,16 +39,20 @@
             <th class="project-header project-date">Date</th>
         </tr>
     </thead>
-    {#each projectData as project}
+    {#each projects as project}
         <tr>
             <td class="project-data project-name">
-                <a href={project.link}>{project.name}</a>
+                <a href={project.url}>{project.title}</a>
             </td>
             <td class="project-data project-type">
                 {project.type}
             </td>
             <td class="project-data project-date">
-                {project.date}
+                {project.timestamp.toLocaleDateString('en-us', {
+                    day: 'numeric',
+                    year: 'numeric',
+                    month: 'short'
+                })}
             </td>
         </tr>
     {/each}
@@ -74,7 +82,7 @@
 
     .project-name {
         padding-right: var(--padding);
-        width: 60%;
+        width: 50%;
     }
 
     .project-type {
@@ -84,5 +92,6 @@
 
     .project-date {
         width: 1px;
+        white-space: nowrap;
     }
 </style>

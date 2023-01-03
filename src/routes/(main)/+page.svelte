@@ -1,8 +1,12 @@
-<script>
+<script lang="ts">
+    import { dataset_dev } from "svelte/internal";
     import BigHeader from "./BigHeader.svelte";
     import Highlights from "./Highlights.svelte";
     import PageBody from "./PageBody.svelte";
     import ProjectList from "./ProjectList.svelte";
+    import type { PageData } from "./$types";
+
+    export let data: PageData;
 </script>
 
 <svelte:head>
@@ -21,4 +25,4 @@
 
 <Highlights />
 
-<ProjectList />
+<ProjectList projects={data.projects} />
