@@ -1,0 +1,14 @@
+{
+    "ethereal-goop": {
+        "title": "Ethereal Goop",
+        "filename": "ethereal-goop.jpg",
+        "date": "2021-05-08",
+        "type": "Image"
+    },
+    "mandelbrot-render": {
+        "title": "Mandelbrot Render",
+        "filename": "mandelbrot-render.png",
+        "date": "2022-06-26",
+        "type": "Image"
+    }
+}

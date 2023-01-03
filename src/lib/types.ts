@@ -1,3 +1,10 @@
+export enum ProjectType {
+    Image = "Image",
+    Video = "Video",
+    Audio = "Audio",
+    Other = "Other"
+}
+
 /**
  * ProjectRecord
  * 
@@ -8,6 +15,7 @@ export interface ProjectRecord {
     title: string;
     filename: string;
     date: string;
+    type: string;
 }
 
 /**
@@ -17,6 +25,7 @@ export interface ProjectRecord {
  */
 export interface ProjectData {
     title: string;
-    path: string;
+    url: string;
     timestamp: Date;
+    type: ProjectType;
 }
