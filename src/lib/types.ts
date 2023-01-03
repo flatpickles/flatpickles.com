@@ -2,6 +2,12 @@ export enum ProjectType {
     Image = "Image",
     Video = "Video",
     Audio = "Audio",
+    Live = "Live Sketch",
+    WebApp = "Web App",
+    VideoEffect = "Video Effect",
+    Writing = "Writing",
+    Playlist = "Playlist",
+    Transcription = "Transcription",
     Other = "Other"
 }
 
