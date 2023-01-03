@@ -253,7 +253,7 @@ export const projects: Record<string, ProjectData> = {
         'timestamp': new Date('2021-10-10'),
         'type': ProjectType.Playlist
     },
-    'flat_picks_illustration': {
+    'flat_picks': {
         'title': 'Flat Picks Illustration',
         'url': '/media/flat-picks',
         'assetPath': '/projects/media/flat-picks.png',

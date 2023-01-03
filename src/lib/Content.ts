@@ -11,9 +11,9 @@ export default class Content {
     }
     
     static mediaProject(key: string): ProjectData | null {
-        key = key.replace('-', '_');
+        key = key.replaceAll('-', '_');
         const candidate = projects[key];
-        return MediaTypes.indexOf(candidate.type) >= 0 ? candidate : null;
+        return (candidate && MediaTypes.indexOf(candidate.type) >= 0) ? candidate : null;
     }
 
     static writing() {
