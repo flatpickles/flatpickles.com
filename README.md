@@ -5,10 +5,16 @@
 * Double render (SSR + CSR) locally (seems expected - but why?)
 
 ## List
-* Add all content to index.ts
+* Slug page for media
+    * Header & footer layout
+    * Header & footer gradient backgrounds
+    * Header & footer text & links
+
 * Anchor page for media
+* Error page for media
 * Slug page for text (including md formatting)
 * Anchor page for text
+* Error page for media
 * Homepage content listing
     * Switch to CSS grid display
     * Click anywhere on a row to visit a link
@@ -23,10 +29,6 @@
 * Main page(s) header sizing: FOUC
 * Smooth transitions between pages
 * Update Spark effects and add links to archive
-
-# To consider
-* Improvements for title sizing: remove flash at small size
-* Typography alignment for title text
 * SEO improvements - [SvelteKit docs](https://kit.svelte.dev/docs/seo)
 
 ## Packages added
