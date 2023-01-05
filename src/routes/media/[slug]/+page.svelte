@@ -17,16 +17,22 @@
         </div>
     </div>
     <div class="overlay">
-        <div class="header">
-            {project.title}
+        <div class="meta header">
+            <a class="home" href="/">Flat Pickles</a>
+            <span class="title">/ {project.title}</span>
         </div>
-        <div class="footer">
-            {project.timestamp}
+        <div class="meta footer">
+            <span class="timestamp">Timestamp To Do</span>
         </div>
     </div>
 </div>
 
 <style lang="scss">
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+
     img {
         max-height: 100%;
         max-width: 100%;
@@ -54,5 +60,33 @@
 
     .overlay {
         z-index: 1;
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .meta {
+        padding: var(--padding);
+
+        font-family: 'Hobeaux';
+    }
+
+    .footer {
+        text-align: right;
+    }
+
+    .home:hover {
+        text-decoration: underline;
+    }
+
+    .title {
+        opacity: 70%;
+    }
+
+    .timestamp {
+        opacity: 70%;
     }
 </style>

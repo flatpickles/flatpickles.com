@@ -9,7 +9,6 @@
     * Header & footer layout
     * Header & footer gradient backgrounds
     * Header & footer text & links
-
 * Anchor page for media
 * Error page for media
 * Slug page for text (including md formatting)
