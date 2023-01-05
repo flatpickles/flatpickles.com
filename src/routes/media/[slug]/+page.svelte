@@ -22,7 +22,13 @@
             <span class="title">/ {project.title}</span>
         </div>
         <div class="meta footer">
-            <span class="timestamp">Timestamp To Do</span>
+            <span class="timestamp">
+                {project.timestamp.toLocaleDateString('en-us', {
+                    day: 'numeric',
+                    year: 'numeric',
+                    month: 'long'
+                })}
+            </span>
         </div>
     </div>
 </div>
@@ -74,7 +80,14 @@
         font-family: 'Hobeaux';
     }
 
+    .header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+        padding-bottom: calc(var(--padding) * 2);
+    }
+
     .footer {
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+        padding-top: calc(var(--padding) * 2);
         text-align: right;
     }
 

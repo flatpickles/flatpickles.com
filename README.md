@@ -6,9 +6,11 @@
 
 ## List
 * Slug page for media
-    * Header & footer layout
-    * Header & footer gradient backgrounds
-    * Header & footer text & links
+    * Smooth gradient backgrounds
+    * Header & footer text colors
+    * Hide header & footer between taps & mouse movement
+    * Content display for videos & audio
+    * Maybe abstract some of this into svelte components, for use w/ writing page and elsewhere
 * Anchor page for media
 * Error page for media
 * Slug page for text (including md formatting)
