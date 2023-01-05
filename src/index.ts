@@ -385,5 +385,249 @@ export const projects: Record<string, ProjectData> = {
         'assetPath': '/projects/media/trippy-flowers.mp4',
         'timestamp': new Date('2020-03-28'),
         'type': ProjectType.Video
-    }
+    },
+    'pathogen_header': {
+        'title': 'Pathogen Header',
+        'url': '/media/pathogen-header',
+        'assetPath': '/projects/media/pathogen-header.png',
+        'timestamp': new Date('2020-03-27'),
+        'type': ProjectType.Image
+    },
+    'pathogen': {
+        'title': 'Pathogen',
+        'url': '/media/pathogen',
+        'assetPath': '/projects/media/pathogen.mp4',
+        'timestamp': new Date('2020-03-27'),
+        'type': ProjectType.Video
+    },
+    'amoebas': {
+        'title': 'Amoebas',
+        'url': '/media/amoebas',
+        'assetPath': '/projects/media/amoebas.mp4',
+        'timestamp': new Date('2020-03-23'),
+        'type': ProjectType.Video
+    },
+    'keys': {
+        'title': 'Keys',
+        'url': '/media/keys',
+        'assetPath': '/projects/media/keys.mp4',
+        'timestamp': new Date('2020-03-20'),
+        'type': ProjectType.Video
+    },
+    'keys_header': {
+        'title': 'Keys',
+        'url': '/media/keys-header',
+        'assetPath': '/projects/media/keys-header.png',
+        'timestamp': new Date('2020-03-18'),
+        'type': ProjectType.Image
+    },
+    'cylinder_dance': {
+        'title': 'Cylinder Dance',
+        'url': '/media/cylinder-dance',
+        'assetPath': '/projects/media/cylinder-dance.mp4',
+        'timestamp': new Date('2020-03-17'),
+        'type': ProjectType.Video
+    },
+    'squircle_grid': {
+        'title': 'Squircle Grid',
+        'url': '/media/squircle-grid',
+        'assetPath': '/projects/media/squircle-grid.mp4',
+        'timestamp': new Date('2020-03-16'),
+        'type': ProjectType.Video
+    },
+    'circle_taurus': {
+        'title': 'Circle Taurus',
+        'url': '/media/circle-taurus',
+        'assetPath': '/projects/media/circle-taurus.png',
+        'timestamp': new Date('2020-03-10'),
+        'type': ProjectType.Image
+    },
+    'on_love_and_marriage': {
+        'title': 'On Love and Marriage',
+        'url': '/writing/on-love-and-marriage',
+        'assetPath': '/projects/writing/on-love-and-marriage.md',
+        'timestamp': new Date('2020-02-18'),
+        'type': ProjectType.Writing
+    },
+    'park_city_ski_run': {
+        'title': 'Park City Ski Run',
+        'url': '/media/park-city-ski-run',
+        'assetPath': '/projects/media/park-city-ski-run.mp4',
+        'timestamp': new Date('2020-02-09'),
+        'type': ProjectType.Video
+    },
+    'pft': {
+        'title': 'Pft',
+        'url': '/media/pft',
+        'assetPath': '/projects/media/pft.mp4',
+        'timestamp': new Date('2020-01-05'),
+        'type': ProjectType.Video
+    },
+    'hot_chocolate': {
+        'title': 'Hot Chocolate',
+        'url': '/media/hot-chocolate',
+        'assetPath': '/projects/media/hot-chocolate.mp4',
+        'timestamp': new Date('2019-12-08'),
+        'type': ProjectType.Video
+    },
+    'strawberry_hill': {
+        'title': 'Strawberry Hill',
+        'url': '/media/strawberry-hill',
+        'assetPath': '/projects/media/strawberry-hill.png',
+        'timestamp': new Date('2019-11-13'),
+        'type': ProjectType.Image
+    },
+    'on_happiness': {
+        'title': 'On Happiness',
+        'url': '/writing/on-happiness',
+        'assetPath': '/projects/writing/on-happiness.md',
+        'timestamp': new Date('2019-11-06'),
+        'type': ProjectType.Writing
+    },
+    '10000_bugs': {
+        'title': '10,000 Bugs',
+        'url': '/media/10000-bugs',
+        'assetPath': '/projects/media/10000-bugs.mp4',
+        'timestamp': new Date('2019-10-31'),
+        'type': ProjectType.Video
+    },
+    'foster_lockwood': {
+        'title': 'Foster Lockwood',
+        'url': '/media/foster-lockwood',
+        'assetPath': '/projects/media/foster-lockwood.mp4',
+        'timestamp': new Date('2019-10-17'),
+        'type': ProjectType.Video
+    },
+    'flat_picks_s2': {
+        'title': 'Flat Picks - Season 2',
+        'url': 'https://open.spotify.com/playlist/5QB5698lV4DguTVmvCZY9W?si=JGKeOjC7TeS8hqx9lhnBlg',
+        'timestamp': new Date('2019-10-12'),
+        'type': ProjectType.Playlist
+    },
+    'on_self_confidence': {
+        'title': 'On Self Confidence',
+        'url': '/writing/on-self-confidence',
+        'assetPath': '/projects/writing/on-self-confidence.md',
+        'timestamp': new Date('2019-10-12'),
+        'type': ProjectType.Writing
+    },
+    'flat_pickles_avatar': {
+        'title': 'Flat Pickles Avatar',
+        'url': '/media/flat-pickles-avatar',
+        'assetPath': '/projects/media/flat-pickles-avatar.png',
+        'timestamp': new Date('2019-10-07'),
+        'type': ProjectType.Image
+    },
+    'late_night_noodles': {
+        'title': 'Late Night Noodles',
+        'url': '/media/late-night-noodles',
+        'assetPath': '/projects/media/late-night-noodles.mp4',
+        'timestamp': new Date('2019-10-06'),
+        'type': ProjectType.Video
+    },
+    'pooper_no_twelve': {
+        'title': 'Pooper No. Twelve',
+        'url': '/media/pooper-no-twelve',
+        'assetPath': '/projects/media/pooper-no-twelve.png',
+        'timestamp': new Date('2019-10-04'),
+        'type': ProjectType.Image
+    },
+    'custom_dino_socks': {
+        'title': 'Custom Dino Socks',
+        'url': '/media/custom-dino-socks',
+        'assetPath': '/projects/media/custom-dino-socks.png',
+        'timestamp': new Date('2019-09-01'),
+        'type': ProjectType.Image
+    },
+    'on_intentionality': {
+        'title': 'On Self Intentionality',
+        'url': '/writing/on-intentionality',
+        'assetPath': '/projects/writing/on-intentionality.md',
+        'timestamp': new Date('2019-08-18'),
+        'type': ProjectType.Writing
+    },
+    'bottles': {
+        'title': 'Bottles',
+        'url': '/media/bottles',
+        'assetPath': '/projects/media/bottles.png',
+        'timestamp': new Date('2019-08-17'),
+        'type': ProjectType.Image
+    },
+    'self_sketch': {
+        'title': 'Self Sketch',
+        'url': '/media/self-sketch',
+        'assetPath': '/projects/media/self-sketch.png',
+        'timestamp': new Date('2019-08-10'),
+        'type': ProjectType.Image
+    },
+    'tube_and_friend': {
+        'title': 'Tube & Friend',
+        'url': '/media/tube-and-friend',
+        'assetPath': '/projects/media/tube-and-friend.png',
+        'timestamp': new Date('2019-08-06'),
+        'type': ProjectType.Image
+    },
+    'hang_loose': {
+        'title': 'Hang Loose',
+        'url': '/media/hang-loose',
+        'assetPath': '/projects/media/hang-loose.png',
+        'timestamp': new Date('2019-06-23'),
+        'type': ProjectType.Image
+    },
+    'spikeball': {
+        'title': 'Spikeball',
+        'url': '/media/spikeball',
+        'assetPath': '/projects/media/spikeball.png',
+        'timestamp': new Date('2019-06-23'),
+        'type': ProjectType.Image
+    },
+    'on_positive_feedback_cycles': {
+        'title': 'On Positive Feedback Cycles',
+        'url': '/writing/on-positive-feedback-cycles',
+        'assetPath': '/projects/writing/on-positive-feedback-cycles.md',
+        'timestamp': new Date('2019-06-23'),
+        'type': ProjectType.Writing
+    },
+    'dino_icon': {
+        'title': 'Dino Icon',
+        'url': '/media/dino-icon',
+        'assetPath': '/projects/media/dino-icon.svg',
+        'timestamp': new Date('2019-06-23'),
+        'type': ProjectType.Image
+    },
+    'on_disposable_time': {
+        'title': 'On Disposable Time',
+        'url': '/writing/on-disposable-time',
+        'assetPath': '/projects/writing/on-disposable-time.md',
+        'timestamp': new Date('2019-06-16'),
+        'type': ProjectType.Writing
+    },
+    'untitled_3': {
+        'title': 'Untitled',
+        'url': '/writing/untitled-3',
+        'assetPath': '/projects/writing/untitled-3.md',
+        'timestamp': new Date('2019-03-30'),
+        'type': ProjectType.Writing
+    },
+    'mantaur': {
+        'title': 'Mantaur',
+        'url': '/media/mantaur',
+        'assetPath': '/projects/media/mantaur.png',
+        'timestamp': new Date('2019-01-19'),
+        'type': ProjectType.Image
+    },
+    'heavy': {
+        'title': 'Heavy',
+        'url': '/media/heavy',
+        'assetPath': '/projects/media/heavy.png',
+        'timestamp': new Date('2019-01-10'),
+        'type': ProjectType.Image
+    },
+    'thoughts': {
+        'title': 'Thoughts',
+        'url': '/media/thoughts',
+        'assetPath': '/projects/media/thoughts.png',
+        'timestamp': new Date('2019-01-09'),
+        'type': ProjectType.Image
+    },
 } as const;
