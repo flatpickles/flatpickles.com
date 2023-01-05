@@ -630,4 +630,177 @@ export const projects: Record<string, ProjectData> = {
         'timestamp': new Date('2019-01-09'),
         'type': ProjectType.Image
     },
+    'disintegration': {
+        'title': 'Disintegration',
+        'url': '/writing/disintegration',
+        'assetPath': '/projects/writing/disintegration.md',
+        'timestamp': new Date('2018-12-11'),
+        'type': ProjectType.Writing
+    },
+    'nugs': {
+        'title': 'NUGS',
+        'url': '/media/nugs',
+        'assetPath': '/projects/media/nugs.svg',
+        'timestamp': new Date('2018-11-15'),
+        'type': ProjectType.Image
+    },
+    'chili_recipe': {
+        'title': 'Chili Recipe',
+        'url': '/writing/chili-recipe',
+        'assetPath': '/projects/writing/chili-recipe.md',
+        'timestamp': new Date('2018-11-11'),
+        'type': ProjectType.Writing
+    },
+    'breakfast_for_laura': {
+        'title': 'Breakfast for Laura',
+        'url': '/media/breakfast-for-laura',
+        'assetPath': '/projects/media/breakfast-for-laura.svg',
+        'timestamp': new Date('2018-10-15'),
+        'type': ProjectType.Image
+    },
+    'froggo': {
+        'title': 'Froggo',
+        'url': '/media/froggo',
+        'assetPath': '/projects/media/froggo.svg',
+        'timestamp': new Date('2018-10-14'),
+        'type': ProjectType.Image
+    },
+    'flat_picks_s1': {
+        'title': 'Flat Picks - Season 1',
+        'url': 'https://open.spotify.com/playlist/2FV9kc9KxDPRIPiUMgHtwv?si=wkkoRYEKQGKUTTijPh_Xcw',
+        'timestamp': new Date('2018-09-29'),
+        'type': ProjectType.Playlist
+    },
+    'bricolage': {
+        'title': 'Bricolage',
+        'url': '/writing/bricolage',
+        'assetPath': '/projects/writing/bricolage.md',
+        'timestamp': new Date('2018-08-31'),
+        'type': ProjectType.Writing
+    },
+    'bwm': {
+        'title': 'BWM',
+        'url': '/media/bwm',
+        'assetPath': '/projects/media/bwm.mp3',
+        'timestamp': new Date('2018-03-11'),
+        'type': ProjectType.Audio
+    },
+    'birdcrime': {
+        'title': 'Birdcrime',
+        'url': 'https://flatpickles.com/etc/birdcrime/index.html',
+        'timestamp': new Date('2017-12-03'),
+        'type': ProjectType.WebApp
+    },
+    'reverie': {
+        'title': 'Reverie',
+        'url': '/writing/reverie',
+        'assetPath': '/projects/writing/reverie.md',
+        'timestamp': new Date('2017-11-06'),
+        'type': ProjectType.Writing
+    },
+    'untitled_2': {
+        'title': 'Untitled',
+        'url': '/writing/untitled-2',
+        'assetPath': '/projects/writing/untitled-2.md',
+        'timestamp': new Date('2017-09-23'),
+        'type': ProjectType.Writing
+    },
+    'presence': {
+        'title': 'Presence',
+        'url': '/writing/presence',
+        'assetPath': '/projects/writing/presence.md',
+        'timestamp': new Date('2017-08-15'),
+        'type': ProjectType.Writing
+    },
+    'modern_times': {
+        'title': 'Modern Times',
+        'url': '/writing/modern-times',
+        'assetPath': '/projects/writing/modern-times.md',
+        'timestamp': new Date('2017-07-28'),
+        'type': ProjectType.Writing
+    },
+    'divine': {
+        'title': 'Divine',
+        'url': '/writing/divine',
+        'assetPath': '/projects/writing/divine.md',
+        'timestamp': new Date('2017-06-27'),
+        'type': ProjectType.Writing
+    },
+    'thank_god_its_fried_chicken': {
+        'title': 'Thank God It\'s Fried Chicken',
+        'url': '/media/thank-god-its-fried-chicken',
+        'assetPath': '/projects/media/thank-god-its-fried-chicken.mp3',
+        'timestamp': new Date('2017-06-17'),
+        'type': ProjectType.Audio
+    },
+    'inertia': {
+        'title': 'Inertia',
+        'url': '/writing/inertia',
+        'assetPath': '/projects/writing/inertia.md',
+        'timestamp': new Date('2017-05-26'),
+        'type': ProjectType.Writing
+    },
+    'frames_of_reference': {
+        'title': 'Frames of Reference',
+        'url': '/media/frames-of-reference',
+        'assetPath': '/projects/media/frames-of-reference.mp3',
+        'timestamp': new Date('2017-04-09'),
+        'type': ProjectType.Audio
+    },
+    'luxury': {
+        'title': 'Luxury',
+        'url': '/writing/luxury',
+        'assetPath': '/projects/writing/luxury.md',
+        'timestamp': new Date('2017-03-29'),
+        'type': ProjectType.Writing
+    },
+    'enter_dependence': {
+        'title': 'Enter: Dependence',
+        'url': '/writing/enter-dependence',
+        'assetPath': '/projects/writing/enter-dependence.md',
+        'timestamp': new Date('2017-02-26'),
+        'type': ProjectType.Writing
+    },
+    'the_solipsist': {
+        'title': 'The Solipsist',
+        'url': '/writing/the-solipsist',
+        'assetPath': '/projects/writing/the-solipsist.md',
+        'timestamp': new Date('2017-01-18'),
+        'type': ProjectType.Writing
+    },
+    'nightmare': {
+        'title': 'Nightmare',
+        'url': '/writing/nightmare',
+        'assetPath': '/projects/writing/nightmare.md',
+        'timestamp': new Date('2017-01-15'),
+        'type': ProjectType.Writing
+    },
+    'segfault': {
+        'title': 'Segfault',
+        'url': '/writing/segfault',
+        'assetPath': '/projects/writing/segfault.md',
+        'timestamp': new Date('2017-01-13'),
+        'type': ProjectType.Writing
+    },
+    'lunar_drift': {
+        'title': 'Lunar Drift',
+        'url': '/media/lunar-drift',
+        'assetPath': '/projects/media/lunar-drift.mp3',
+        'timestamp': new Date('2017-01-11'),
+        'type': ProjectType.Audio
+    },
+    'lunar_drift_art': {
+        'title': 'Lunar Drift Art',
+        'url': '/media/lunar-drift-art',
+        'assetPath': '/projects/media/lunar-drift-art.png',
+        'timestamp': new Date('2017-01-11'),
+        'type': ProjectType.Image
+    },
+    'somniloquy': {
+        'title': 'Somniloquy',
+        'url': '/writing/somniloquy',
+        'assetPath': '/projects/writing/somniloquy.md',
+        'timestamp': new Date('2017-01-02'),
+        'type': ProjectType.Writing
+    },
 } as const;
