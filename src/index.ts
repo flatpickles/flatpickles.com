@@ -803,4 +803,245 @@ export const projects: Record<string, ProjectData> = {
         'timestamp': new Date('2017-01-02'),
         'type': ProjectType.Writing
     },
+    'foslock_and_drop_it': {
+        'title': 'Foslock and Drop It',
+        'url': '/media/foslock-and-drop-it',
+        'assetPath': '/projects/media/foslock-and-drop-it.mp3',
+        'timestamp': new Date('2016-10-18'),
+        'type': ProjectType.Audio
+    },
+    'ascendance': {
+        'title': 'Ascendance',
+        'url': '/writing/ascendance',
+        'assetPath': '/projects/writing/ascendance.md',
+        'timestamp': new Date('2016-09-17'),
+        'type': ProjectType.Writing
+    },
+    'untitled_1': {
+        'title': 'Untitled',
+        'url': '/writing/untitled-1',
+        'assetPath': '/projects/writing/untitled-1.md',
+        'timestamp': new Date('2016-08-04'),
+        'type': ProjectType.Writing
+    },
+    'manimation': {
+        'title': 'Manimation',
+        'url': '/media/manimation',
+        'assetPath': '/projects/media/manimation.mp4',
+        'timestamp': new Date('2016-07-11'),
+        'type': ProjectType.Video
+    },
+    'god_bless': {
+        'title': 'God Bless',
+        'url': '/media/god-bless',
+        'assetPath': '/projects/media/god-bless.mp4',
+        'timestamp': new Date('2016-07-04'),
+        'type': ProjectType.Video
+    },
+    'safety_first': {
+        'title': 'Safety First',
+        'url': '/media/safety-first',
+        'assetPath': '/projects/media/safety-first.mp3',
+        'timestamp': new Date('2016-05-30'),
+        'type': ProjectType.Audio
+    },
+    'depth_charge': {
+        'title': 'Depth Charge',
+        'url': '/media/depth-charge',
+        'assetPath': '/projects/media/depth-charge.mp3',
+        'timestamp': new Date('2016-05-05'),
+        'type': ProjectType.Audio
+    },
+    'glitch': {
+        'title': 'Glitch',
+        'url': '/media/glitch',
+        'assetPath': '/projects/media/glitch.png',
+        'timestamp': new Date('2016-05-05'),
+        'type': ProjectType.Image
+    },
+    'cruise_control': {
+        'title': 'Cruise Control',
+        'url': '/media/cruise-control',
+        'assetPath': '/projects/media/cruise-control.mp3',
+        'timestamp': new Date('2016-04-12'),
+        'type': ProjectType.Audio
+    },
+    'torque': {
+        'title': 'Torque',
+        'url': '/media/torque',
+        'assetPath': '/projects/media/torque.mp3',
+        'timestamp': new Date('2016-02-25'),
+        'type': ProjectType.Audio
+    },
+    'post_hoc_ergo_propter_hoc': {
+        'title': 'Post Hoc Ergo Propter Hoc',
+        'url': '/media/post-hoc-ergo-propter-hoc',
+        'assetPath': '/projects/media/post-hoc-ergo-propter-hoc.mp3',
+        'timestamp': new Date('2016-01-27'),
+        'type': ProjectType.Audio
+    },
+    'chemtrails': {
+        'title': 'Chemtrails',
+        'url': '/media/chemtrails',
+        'assetPath': '/projects/media/chemtrails.png',
+        'timestamp': new Date('2016-01-27'),
+        'type': ProjectType.Image
+    },
+    'whispers_of_solitude': {
+        'title': 'Whispers of Solitude',
+        'url': '/media/whispers-of-solitude',
+        'assetPath': '/projects/media/whispers-of-solitude.mp3',
+        'timestamp': new Date('2015-12-05'),
+        'type': ProjectType.Audio
+    },
+    'autumn': {
+        'title': 'Autumn',
+        'url': '/media/autumn',
+        'assetPath': '/projects/media/autumn.png',
+        'timestamp': new Date('2015-11-24'),
+        'type': ProjectType.Image
+    },
+    'pupu_platter': {
+        'title': 'Pupu Platter',
+        'url': '/media/pupu-platter',
+        'assetPath': '/projects/media/pupu-platter.mp3',
+        'timestamp': new Date('2015-11-15'),
+        'type': ProjectType.Audio
+    },
+    'abstract_eyes': {
+        'title': 'Abstract Eyes',
+        'url': '/media/abstract-eyes',
+        'assetPath': '/projects/media/abstract-eyes.png',
+        'timestamp': new Date('2015-08-17'),
+        'type': ProjectType.Image
+    },
+    'obae': {
+        'title': 'OBAE',
+        'url': '/media/obae',
+        'assetPath': '/projects/media/obae.mp3',
+        'timestamp': new Date('2015-07-17'),
+        'type': ProjectType.Audio
+    },
+    'matt_hat': {
+        'title': 'Matt Hat',
+        'url': '/media/matt-hat',
+        'assetPath': '/projects/media/matt-hat.png',
+        'timestamp': new Date('2015-07-13'),
+        'type': ProjectType.Image
+    },
+    'heads_header': {
+        'title': 'Heads Header',
+        'url': '/media/heads-header',
+        'assetPath': '/projects/media/heads-header.png',
+        'timestamp': new Date('2015-03-13'),
+        'type': ProjectType.Image
+    },
+    'weird_eyes': {
+        'title': 'Weird Eyes',
+        'url': '/media/weird-eyes',
+        'assetPath': '/projects/media/weird-eyes.png',
+        'timestamp': new Date('2014-10-28'),
+        'type': ProjectType.Image
+    },
+    'balls': {
+        'title': 'Balls',
+        'url': 'https://flatpickles.com/etc/balls/index.html',
+        'timestamp': new Date('2014-09-22'),
+        'type': ProjectType.WebApp
+    },
+    'world_population_day': {
+        'title': 'World Population Day',
+        'url': '/writing/world-population-day',
+        'assetPath': '/projects/writing/world-population-day.md',
+        'timestamp': new Date('2014-07-11'),
+        'type': ProjectType.Writing
+    },
+    'caiman_like_a_wrecking_ball': {
+        'title': 'Caiman Like A Wrecking Ball',
+        'url': '/media/caiman-like-a-wrecking-ball',
+        'assetPath': '/projects/media/caiman-like-a-wrecking-ball.png',
+        'timestamp': new Date('2014-01-14'),
+        'type': ProjectType.Image
+    },
+    'line_fractal_generator': {
+        'title': 'Line Fractal Generator',
+        'url': 'https://flatpickles.com/etc/fractal-generator/index.html',
+        'timestamp': new Date('2013-07-22'),
+        'type': ProjectType.WebApp
+    },
+    'helicopter_game': {
+        'title': 'Helicopter Game',
+        'url': 'https://flatpickles.com/etc/heli/index.html',
+        'timestamp': new Date('2013-04-16'),
+        'type': ProjectType.WebApp
+    },
+    'rolling_shutter': {
+        'title': 'Rolling Shutter Post-Processing',
+        'url': '/media/rolling-shutter',
+        'assetPath': '/projects/media/rolling-shutter.mp4',
+        'timestamp': new Date('2012-12-18'),
+        'type': ProjectType.Video
+    },
+    'first_snow': {
+        'title': 'First Snow',
+        'url': '/media/first-snow',
+        'assetPath': '/projects/media/first-snow.png',
+        'timestamp': new Date('2012-12-07'),
+        'type': ProjectType.Image
+    },
+    'impermanence': {
+        'title': 'Impermanence',
+        'url': '/media/impermanence',
+        'assetPath': '/projects/media/impermanence.png',
+        'timestamp': new Date('2012-10-02'),
+        'type': ProjectType.Image
+    },
+    'stories': {
+        'title': 'Stories',
+        'url': '/writing/stories',
+        'assetPath': '/projects/writing/stories.md',
+        'timestamp': new Date('2012-07-29'),
+        'type': ProjectType.Writing
+    },
+    'fog': {
+        'title': 'Fog',
+        'url': '/writing/fog',
+        'assetPath': '/projects/writing/fog.md',
+        'timestamp': new Date('2012-06-14'),
+        'type': ProjectType.Writing
+    },
+    'wander': {
+        'title': 'Wander',
+        'url': '/writing/wander',
+        'assetPath': '/projects/writing/wander.md',
+        'timestamp': new Date('2012-05-24'),
+        'type': ProjectType.Writing
+    },
+    'incompleteness': {
+        'title': 'Incompleteness',
+        'url': '/writing/incompleteness',
+        'assetPath': '/projects/writing/incompleteness.md',
+        'timestamp': new Date('2012-04-01'),
+        'type': ProjectType.Writing
+    },
+    'webgl_fireworks': {
+        'title': 'WebGL Fireworks',
+        'url': 'http://www.goldberg.io/fireworks/',
+        'timestamp': new Date('2012-01-10'),
+        'type': ProjectType.WebApp
+    },
+    'endings': {
+        'title': 'Endings',
+        'url': '/writing/endings',
+        'assetPath': '/projects/writing/endings.md',
+        'timestamp': new Date('2011-07-11'),
+        'type': ProjectType.Writing
+    },
+    'overcast': {
+        'title': 'Overcast',
+        'url': '/writing/overcast',
+        'assetPath': '/projects/writing/overcast.md',
+        'timestamp': new Date('2011-07-11'),
+        'type': ProjectType.Writing
+    },
 } as const;
