@@ -1,6 +1,8 @@
 import { type ProjectData, ProjectType, MediaTypes } from '../types';
 import { projects } from '../../index';
 
+import { mediaProjects } from './media';
+import { externalProjects } from './external';
 
 /* NEW LAYOUT
  In this file, we combine
@@ -17,12 +19,20 @@ import { projects } from '../../index';
 
 export default class Content {
     static get all(): ProjectData[] {
-        const allContents: ProjectData[] = Object.values(projects);
+        const allContents: ProjectData[] = this.media.concat(this.external).concat(this.writing);
         return allContents.sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
     }
 
     static get media(): ProjectData[] {
-        return this.all.filter((project: ProjectData) => MediaTypes.indexOf(project.type) >= 0);
+        return Object.values(mediaProjects);
+    }
+
+    static get external(): ProjectData[] {
+        return externalProjects;
+    }
+
+    static get writing(): ProjectData[] {
+        return [];
     }
     
     static mediaProject(key: string): ProjectData | null {
@@ -31,17 +41,7 @@ export default class Content {
         return (candidate && MediaTypes.indexOf(candidate.type) >= 0) ? candidate : null;
     }
 
-    static writing() {
-        return this.all.filter((project: ProjectData) => project.type == ProjectType.Writing);
-    }
-
     static writingProject(key: string): ProjectData | null {
-        key = key.replaceAll('-', '_');
-        const candidate = projects[key];
-        return (candidate && candidate.type == ProjectType.Writing) ? candidate : null;
-    }
-
-    static async writing2() {
-        const allPostFiles = import.meta.glob('/src/routes/blog/*.md')
+        return null
     }
 }
