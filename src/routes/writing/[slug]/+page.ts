@@ -1,15 +1,10 @@
 import type { PageLoad } from './$types';
-import Content from '$lib/Content';
+import Content from '$lib/content/Content';
 
 export const load = (async ({ params }) => {
+    const post = await import(`../../../lib/content/writing/${params.slug}.md`)
     return {
         project: Content.writingProject(params.slug),
-        mdString: `
-            # Title
-
-            And a body
-
-            And more body
-        `
+        content: post.default
     };
 }) satisfies PageLoad;

@@ -4,7 +4,6 @@
 
     export let data: PageLoad | any; // suppress warnings
     const project: ProjectData = data.project;
-    const markdown: string = data.mdString;
 </script>
 
-{markdown}
+<svelte:component this={data.content} />

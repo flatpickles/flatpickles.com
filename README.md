@@ -32,6 +32,7 @@
 * Anchor page for text
 
 ## Packages added
+* npm i -D mdsvex
 * npm i @leveluptuts/svelte-fit
 * npm i svelte-body -D
 * ress i ress
