@@ -1,5 +1,6 @@
 <script lang="ts">
     import { ProjectType, type ProjectData } from "$lib/types";
+    import MediaOverlay from '../MediaOverlay.svelte';
     import type { PageLoad } from "./$types";
 
     export let data: PageLoad | any; // suppress warnings
@@ -33,29 +34,14 @@
             {/if}
         </div>
     </div>
-    <div class="overlay">
-        <div class="meta header">
-            <a class="home" href="/">Flat Pickles</a>
-            <span class="title">/ {project.title}</span>
-        </div>
-        <div class="meta footer">
-            <span class="timestamp">
-                {project.timestamp.toLocaleDateString('en-us', {
-                    day: 'numeric',
-                    year: 'numeric',
-                    month: 'long'
-                })}
-            </span>
-        </div>
-    </div>
+
+    <MediaOverlay
+        title={project.title}
+        date={project.timestamp}
+    />
 </div>
 
 <style lang="scss">
-    a {
-        color: inherit;
-        text-decoration: none;
-    }
-
     .media-container {
         position: absolute;
         width: 100%;
@@ -83,46 +69,5 @@
     .svg {
         width: 100%;
         height: 100%;
-    }
-
-    .overlay {
-        z-index: 1;
-        width: 100%;
-        height: 100%;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        pointer-events: none;
-    }
-
-    .meta {
-        padding: var(--padding);
-
-        font-family: 'Hobeaux';
-    }
-
-    .header {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
-        padding-bottom: calc(var(--padding) * 2);
-        pointer-events: all;
-    }
-
-    .footer {
-        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
-        padding-top: calc(var(--padding) * 2);
-        text-align: right;
-    }
-
-    .home:hover {
-        text-decoration: underline;
-    }
-
-    .title {
-        opacity: 70%;
-    }
-
-    .timestamp {
-        opacity: 70%;
     }
 </style>

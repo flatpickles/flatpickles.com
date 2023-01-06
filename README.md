@@ -28,6 +28,7 @@
 * Smooth transitions between pages
 * Update Spark effects and add links to archive
 * SEO improvements - [SvelteKit docs](https://kit.svelte.dev/docs/seo)
+* Adjust body class approach [this way](https://github.com/sveltejs/svelte/issues/3105#issuecomment-1373889014)
 * Anchor page for media
 * Anchor page for text
 
