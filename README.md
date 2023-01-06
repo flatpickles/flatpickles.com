@@ -6,15 +6,13 @@
 
 ## List
 * Slug page for media
+    * Content display for audio
     * Smooth gradient backgrounds
     * Header & footer text colors
     * Hide header & footer between taps & mouse movement
-    * Content display for videos & audio
     * Maybe abstract some of this into svelte components, for use w/ writing page and elsewhere
-* Anchor page for media
 * Error page for media
 * Slug page for text (including md formatting)
-* Anchor page for text
 * Error page for media
 * Homepage content listing
     * Switch to CSS grid display
@@ -31,6 +29,8 @@
 * Smooth transitions between pages
 * Update Spark effects and add links to archive
 * SEO improvements - [SvelteKit docs](https://kit.svelte.dev/docs/seo)
+* Anchor page for media
+* Anchor page for text
 
 ## Packages added
 * npm i @leveluptuts/svelte-fit
