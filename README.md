@@ -6,7 +6,6 @@
 
 ## List
 * Slug page for media
-    * Content display for audio
     * Smooth gradient backgrounds
     * Header & footer text colors
     * Hide header & footer between taps & mouse movement

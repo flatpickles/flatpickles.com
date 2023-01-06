@@ -27,7 +27,9 @@
                     <meta itemprop="name" content={project.title}>
                 </video>
             {:else if project.type == ProjectType.Audio}
-                AUDIO
+                <audio autoplay controls>
+                    <source src={project.assetPath} type="audio/mpeg">
+                </audio>
             {/if}
         </div>
     </div>
