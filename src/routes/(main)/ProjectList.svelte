@@ -50,7 +50,7 @@
             <td class="project-data project-date">
                 {project.timestamp.toLocaleDateString('en-us', {
                     day: 'numeric',
-                    year: 'numeric',
+                    year: '2-digit',
                     month: 'short'
                 })}
             </td>
@@ -93,5 +93,6 @@
     .project-date {
         width: 1px;
         white-space: nowrap;
+        text-align: right;
     }
 </style>

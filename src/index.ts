@@ -535,7 +535,7 @@ export const projects: Record<string, ProjectData> = {
     'custom_dino_socks': {
         'title': 'Custom Dino Socks',
         'url': '/media/custom-dino-socks',
-        'assetPath': '/projects/media/custom-dino-socks.png',
+        'assetPath': '/projects/media/custom-dino-socks.jpg',
         'timestamp': new Date('2019-09-01'),
         'type': ProjectType.Image
     },
@@ -654,7 +654,7 @@ export const projects: Record<string, ProjectData> = {
     'breakfast_for_laura': {
         'title': 'Breakfast for Laura',
         'url': '/media/breakfast-for-laura',
-        'assetPath': '/projects/media/breakfast-for-laura.svg',
+        'assetPath': '/projects/media/breakfast-for-laura.png',
         'timestamp': new Date('2018-10-15'),
         'type': ProjectType.Image
     },
@@ -985,14 +985,14 @@ export const projects: Record<string, ProjectData> = {
     'first_snow': {
         'title': 'First Snow',
         'url': '/media/first-snow',
-        'assetPath': '/projects/media/first-snow.png',
+        'assetPath': '/projects/media/first-snow.jpg',
         'timestamp': new Date('2012-12-07'),
         'type': ProjectType.Image
     },
     'impermanence': {
         'title': 'Impermanence',
         'url': '/media/impermanence',
-        'assetPath': '/projects/media/impermanence.png',
+        'assetPath': '/projects/media/impermanence.jpg',
         'timestamp': new Date('2012-10-02'),
         'type': ProjectType.Image
     },

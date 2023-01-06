@@ -1,6 +1,6 @@
 <script lang="ts">
-    import type { ProjectData } from "$lib/types";
-    import type { PageData, PageLoad } from "./$types";
+    import { ProjectType, type ProjectData } from "$lib/types";
+    import type { PageLoad } from "./$types";
 
     export let data: PageLoad | any; // suppress warnings
     const project: ProjectData = data.project;
@@ -13,7 +13,22 @@
 <div class="wrapper">
     <div class="media-container">
         <div class="media">
-            <img src={project.assetPath} alt={project.title}/>
+            {#if project.type == ProjectType.Image}
+                <img
+                    src={project.assetPath}
+                    alt={project.title}
+                    class="media_item"
+                    class:svg={project.assetPath?.includes(".svg")}
+                />
+            {:else if project.type == ProjectType.Video}
+                <!-- svelte-ignore a11y-media-has-caption -->
+                <video class="media_item" autoplay>
+                    <source src={project.assetPath} type="video/mp4">
+                    <meta itemprop="name" content={project.title}>
+                </video>
+            {:else if project.type == ProjectType.Audio}
+                AUDIO
+            {/if}
         </div>
     </div>
     <div class="overlay">
@@ -39,13 +54,6 @@
         text-decoration: none;
     }
 
-    img {
-        max-height: 100%;
-        max-width: 100%;
-        object-fit: contain;
-        image-resolution: from-image;
-    }
-
     .media-container {
         position: absolute;
         width: 100%;
@@ -64,6 +72,17 @@
         align-items: center;
     }
 
+    .media_item {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+    }
+
+    .svg {
+        width: 100%;
+        height: 100%;
+    }
+
     .overlay {
         z-index: 1;
         width: 100%;
@@ -72,6 +91,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        pointer-events: none;
     }
 
     .meta {
@@ -83,6 +103,7 @@
     .header {
         background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
         padding-bottom: calc(var(--padding) * 2);
+        pointer-events: all;
     }
 
     .footer {
