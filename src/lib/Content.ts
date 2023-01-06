@@ -17,10 +17,12 @@ export default class Content {
     }
 
     static writing() {
-        // todo
+        return this.all.filter((project: ProjectData) => project.type == ProjectType.Writing);
     }
 
-    static writingProject(key: string) {
-        // todo
+    static writingProject(key: string): ProjectData | null {
+        key = key.replaceAll('-', '_');
+        const candidate = projects[key];
+        return (candidate && candidate.type == ProjectType.Writing) ? candidate : null;
     }
 }
