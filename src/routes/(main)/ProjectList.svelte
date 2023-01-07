@@ -5,13 +5,13 @@
 </script>
 
 <table>
-    <thead>
+    <!-- <thead>
         <tr>
             <th class="project-header project-name">Project Name</th>
             <th class="project-header project-type">Project Type</th>
             <th class="project-header project-date">Date</th>
         </tr>
-    </thead>
+    </thead> -->
     {#each projects as project}
         <tr>
             <td class="project-data project-name">
@@ -34,6 +34,7 @@
 <style>
     table {
         border-collapse: collapse;
+        margin-top: calc(var(--padding) * 1.5);
     }
 
     thead {
@@ -43,14 +44,23 @@
         font-size: 1.2em;
     }
 
+    tr:nth-child(odd) td{
+        background-color: rgba(0, 0, 0, 7%);
+    }
+
     a {
         color: #000;
         text-decoration: none;
     }
 
     .project-data {
+        /* todo - this is janky */
         padding-top: calc(var(--padding) / 4);
+        padding-bottom: calc(var(--padding) / 2);
+        padding-left: calc(var(--padding) / 2);
+        padding-right: calc(var(--padding) / 2);
         font-size: 1.2em;
+        border-radius: calc(var(--padding) / 2);
     }
 
     .project-name {

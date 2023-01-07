@@ -14,6 +14,7 @@
         justify-content: space-between;
         flex-wrap: wrap;
         gap: var(--padding);
+        margin-top: var(--padding);
     }
 
     a {

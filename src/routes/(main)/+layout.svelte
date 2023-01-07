@@ -21,8 +21,4 @@
         display: flex;
         flex-direction: column;
     }
-
-    :global(.main-container > *:not(:first-child)) {
-        margin-top: var(--padding);
-    }
 </style>

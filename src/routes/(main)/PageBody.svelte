@@ -6,5 +6,6 @@
     .page-body {
         font-size: 1.2em;
         text-align: justify;
+        margin-top: var(--padding);
     }
 </style>

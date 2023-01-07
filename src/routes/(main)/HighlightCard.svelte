@@ -18,8 +18,10 @@
         background-image: var(--image-url);
         background-size: cover;
         flex: 1 0 var(--highlight-min-width);
-        filter: drop-shadow(0 0 calc(var(--padding) / 4) rgba(0, 0, 0, 0.1));
+        filter: drop-shadow(0 0 calc(var(--padding) / 2) rgba(0, 0, 0, 0.2));
         text-decoration: none;
+        border-radius: calc(var(--padding));
+        overflow: hidden;
     }
 
     .overlay {
