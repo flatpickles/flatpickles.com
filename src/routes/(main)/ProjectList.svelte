@@ -4,78 +4,77 @@
     export let projects: ProjectData[];
 </script>
 
-<table>
-    <!-- <thead>
-        <tr>
-            <th class="project-header project-name">Project Name</th>
-            <th class="project-header project-type">Project Type</th>
-            <th class="project-header project-date">Date</th>
-        </tr>
-    </thead> -->
+<div class="project-list">
     {#each projects as project}
-        <tr>
-            <td class="project-data project-name">
-                <a href={project.url}>{project.title}</a>
-            </td>
-            <td class="project-data project-type">
-                {project.type}
-            </td>
-            <td class="project-data project-date">
-                {project.timestamp.toLocaleDateString('en-us', {
-                    day: 'numeric',
-                    year: 'numeric',
-                    month: 'short'
-                })}
-            </td>
-        </tr>
+        <a href={project.url} class="project-row">
+            <div class="project-title">
+                {project.title}
+            </div>
+            <div class="project-metadata">
+                <div class="project-type">
+                    {project.type}
+                </div>
+                <div class="project-date">
+                    {project.timestamp.toLocaleDateString('en-us', {
+                        day: 'numeric',
+                        year: 'numeric',
+                        month: 'short'
+                    })}
+                </div>
+            </div>
+        </a>
     {/each}
-</table>
+</div>
 
 <style>
-    table {
-        border-collapse: collapse;
-        margin-top: calc(var(--padding) * 1.5);
-    }
-
-    thead {
-        text-align: left;
-        border-bottom: 2px solid #000;
-        font-family: 'Hobeaux';
-        font-size: 1.2em;
-    }
-
-    tr:nth-child(odd) td{
-        background-color: rgba(0, 0, 0, 7%);
-    }
-
     a {
-        color: #000;
+        color: inherit;
         text-decoration: none;
     }
 
-    .project-data {
-        /* todo - this is janky */
-        padding-top: calc(var(--padding) / 4);
-        padding-bottom: calc(var(--padding) / 2);
-        padding-left: calc(var(--padding) / 2);
-        padding-right: calc(var(--padding) / 2);
+    .project-list {
+        margin-top: var(--padding);
+
+        display: flex;
+        flex-direction: column;
+
         font-size: 1.2em;
+    }
+
+    .project-row {
+        padding: calc(var(--padding) / 2);
         border-radius: calc(var(--padding) / 2);
+
+        display: flex;
+        flex-direction: row;
+        column-gap: var(--padding);
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
 
-    .project-name {
-        padding-right: var(--padding);
-        width: 50%;
+    .project-row:nth-child(odd) {
+        background-color: rgba(0, 0, 0, 7%);
     }
 
-    .project-type {
-        padding-right: var(--padding);
+    .project-title {
+        flex-basis: 300px;
+        flex-grow: 2;
+
+        font-weight: bold;
         white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
-    .project-date {
-        width: 1px;
-        white-space: nowrap;
-        text-align: right;
+    .project-metadata {
+        flex-basis: 300px;
+        flex-grow: 1;
+
+        display: flex;
+        flex-direction: row;
+        column-gap: var(--padding);
+        justify-content: space-between;
+
+        color:rgba(0, 0, 0, 60%)
     }
 </style>

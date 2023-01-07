@@ -6,6 +6,7 @@
 * Generating full index requires loading all writing .md files (+100ms)
 
 ## List
+* Rename timestamp to date throughout
 * Slug page for text
     * Page spacing & styling
     * Header with homepage link

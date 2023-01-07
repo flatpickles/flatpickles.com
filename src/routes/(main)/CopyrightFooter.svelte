@@ -4,8 +4,8 @@
 
 <style>
     .footer {
-        padding-top: var(--padding);
+        padding-top: calc(var(--padding) * 2);
         text-align: center;
-        opacity: 0.3;
+        opacity: 0.6;
     }
 </style>
