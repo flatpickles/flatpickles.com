@@ -18,27 +18,41 @@ import { externalProjects } from './external';
 */
 
 export default class Content {
-    static get all(): ProjectData[] {
-        const allContents: ProjectData[] = this.media.concat(this.external).concat(this.writing);
+    static async all(): Promise<ProjectData[]> {
+        const writing: ProjectData[] = await this.writing();
+        const allContents: ProjectData[] = this.media().concat(this.external()).concat(writing);
         return allContents.sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
     }
 
-    static get media(): ProjectData[] {
+    static media(): ProjectData[] {
         return Object.values(mediaProjects);
     }
 
-    static get external(): ProjectData[] {
+    static external(): ProjectData[] {
         return externalProjects;
     }
 
-    static get writing(): ProjectData[] {
-        return [];
+    static async writing(): Promise<ProjectData[]> {
+        const allPostFiles = import.meta.glob('./writing/*.md');
+        const iterablePostFiles = Object.entries(allPostFiles);
+        const allPosts = await Promise.all(
+            iterablePostFiles.map(async ([path, resolver]) => {
+                const { metadata } = await resolver() as any;
+                const key = path.split('/').pop()?.split('.').shift();
+                return {
+                    title: metadata.title,
+                    url: `/writing/${key}`,
+                    timestamp: new Date(metadata.date),
+                    type: ProjectType.Writing
+                };
+            })
+        );
+        return allPosts;
     }
     
     static mediaProject(key: string): ProjectData | null {
         key = key.replaceAll('-', '_');
-        const candidate = projects[key];
-        return (candidate && MediaTypes.indexOf(candidate.type) >= 0) ? candidate : null;
+        return mediaProjects[key];
     }
 
     static writingProject(key: string): ProjectData | null {
