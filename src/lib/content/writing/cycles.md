@@ -1,6 +1,6 @@
 ---
 title: Cycles
-date: 01/21/2021
+date: 1/21/2021
 ---
 
 Waves arc shoreward  

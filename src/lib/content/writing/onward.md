@@ -1,6 +1,6 @@
 ---
 title: Onward
-date: 07/07/2022
+date: 7/7/2022
 ---
 
 I am a being entwined  

@@ -30,6 +30,7 @@
     .writing-container {
         display: flex;
         flex-direction: column;
+        max-width: 600px;
     }
 
     .title {

@@ -2,7 +2,7 @@ export enum ProjectType {
     Image = "Image",
     Video = "Video",
     Audio = "Audio",
-    Live = "Live Sketch",
+    Live = "Live Graphics",
     WebApp = "Web App",
     VideoEffect = "Video Effect",
     Writing = "Writing",
