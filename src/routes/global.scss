@@ -12,16 +12,8 @@
 // Global styles
 
 body {
-    min-height: 100vh;
-    /* mobile viewport bug fix */
-    min-height: -webkit-fill-available;
-
     background-color: rgb(231, 255, 238);
     font-family: 'Vulf Sans';
-}
-
-html {
-    height: -webkit-fill-available;
 }
 
 p:not(:last-child)  {

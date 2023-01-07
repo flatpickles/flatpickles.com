@@ -31,6 +31,9 @@
         text-decoration: none;
         border-radius: calc(var(--padding));
         overflow: hidden;
+
+        // https://stackoverflow.com/a/58283449/280404
+        transform: translateZ(0);
     }
 
     .overlay {
