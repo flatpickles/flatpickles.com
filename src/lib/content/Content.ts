@@ -1,5 +1,4 @@
-import { type ProjectData, ProjectType, MediaTypes } from '../types';
-import { projects } from '../../index';
+import { type ProjectData, ProjectType } from '../types';
 
 import { mediaProjects } from './media';
 import { externalProjects } from './external';
@@ -51,11 +50,11 @@ export default class Content {
     }
     
     static mediaProject(key: string): ProjectData | null {
-        key = key.replaceAll('-', '_');
         return mediaProjects[key];
     }
 
     static writingProject(key: string): ProjectData | null {
-        return null
+        // Todo!
+        return null;
     }
 }

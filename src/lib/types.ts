@@ -11,11 +11,19 @@ export enum ProjectType {
     Other = "Other"
 }
 
-export const MediaTypes = [
-    ProjectType.Image,
-    ProjectType.Video,
-    ProjectType.Audio
-];
+export const extensionMap: Record<string, ProjectType> = {
+    'png': ProjectType.Image,
+    'jpg': ProjectType.Image,
+    'svg': ProjectType.Image,
+    'mp4': ProjectType.Video,
+    'mp3': ProjectType.Audio,
+}
+
+export interface MediaRecord {
+    title: string,
+    filename: string,
+    date: string
+}
 
 export interface ProjectData {
     title: string;
