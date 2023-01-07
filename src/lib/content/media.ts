@@ -471,7 +471,7 @@ export const mediaProjects: Record<string, ProjectData> = Object.fromEntries(
         return [key, {
             title: record.title,
             url: `/media/${key}`,
-            assetPath: `/projects/media/${record.filename}`,
+            assetPath: `/media/${record.filename}`,
             timestamp: new Date(record.date),
             type: extensionMap[extension]
         }];
