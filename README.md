@@ -4,9 +4,10 @@
 * Flash of unstyled content even when loading on Vercel?
 * Double render (SSR + CSR) locally (seems expected - but why?)
 * Generating full index requires loading all writing .md files (+100ms)
+* ProjectList responsive design could be improved: CSS grid maybe, for fewer magic numbers.
 
 ## List
-* Rename timestamp to date throughout
+* Rename date to date throughout
 * Slug page for text
     * Page spacing & styling
     * Header with homepage link
@@ -18,7 +19,6 @@
     * Hide header & footer between taps & mouse movement
 * Error page for media
 * Error page for media
-* Homepage 2.1 - rounded corners, maybe no intro text
 * About page content
 * Homepage content listing
     * Switch to CSS grid display

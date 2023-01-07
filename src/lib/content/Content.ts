@@ -7,7 +7,7 @@ export default class Content {
     static async fullIndex(): Promise<ProjectData[]> {
         const writingIndex: ProjectData[] = await this.writingIndex();
         const allContents: ProjectData[] = this.mediaIndex().concat(this.externalIndex()).concat(writingIndex);
-        return allContents.sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
+        return allContents.sort((a, b) => b.date.getTime() - a.date.getTime());
     }
 
     static mediaIndex(): ProjectData[] {
@@ -47,7 +47,7 @@ export default class Content {
         return {
             title: metadata.title,
             url: `/writing/${key}`,
-            timestamp: new Date(metadata.date),
+            date: new Date(metadata.date),
             type: ProjectType.Writing
         };
     }

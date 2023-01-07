@@ -9,7 +9,7 @@
         <span class="title">/ {title}</span>
     </div>
     <div class="meta footer">
-        <span class="timestamp">
+        <span class="date">
             {date.toLocaleDateString('en-us', {
                 day: 'numeric',
                 year: 'numeric',
@@ -62,7 +62,7 @@
         opacity: 70%;
     }
 
-    .timestamp {
+    .date {
         opacity: 70%;
     }
 </style>

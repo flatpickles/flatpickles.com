@@ -16,7 +16,7 @@
     </div>
     
     <div class="date">
-        {project.timestamp.toLocaleDateString('en-us', {
+        {project.date.toLocaleDateString('en-us', {
             day: 'numeric',
             year: 'numeric',
             month: 'long'

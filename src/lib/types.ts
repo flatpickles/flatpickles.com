@@ -28,7 +28,7 @@ export interface MediaRecord {
 export interface ProjectData {
     title: string;
     url: string;
-    timestamp: Date;
+    date: Date;
     type: ProjectType;
     assetPath?: string;
     component?: ConstructorOfATypedSvelteComponent;

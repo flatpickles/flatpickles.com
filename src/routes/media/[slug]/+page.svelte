@@ -18,5 +18,5 @@
 
 <MediaOverlay
     title={project.title}
-    date={project.timestamp}
+    date={project.date}
 />
