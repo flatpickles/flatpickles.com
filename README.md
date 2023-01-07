@@ -7,7 +7,6 @@
 * ProjectList responsive design could be improved: CSS grid maybe, for fewer magic numbers.
 
 ## List
-* Rename date to date throughout
 * Slug page for text
     * Page spacing & styling
     * Header with homepage link
