@@ -10,7 +10,7 @@
     <title>{project.title}</title> 
 </svelte:head>
 
-<div class="container">
+<div class="writing-container">
     <div class="title">
         {project.title}
     </div>
@@ -27,7 +27,7 @@
 </div>
 
 <style>
-    .container {
+    .writing-container {
         display: flex;
         flex-direction: column;
     }

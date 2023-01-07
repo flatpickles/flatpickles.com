@@ -3,14 +3,14 @@
 </script>
 
 <div class="main wrapper">
-    <div class="container">
+    <div class="main-container">
         <slot></slot>
         <CopyrightFooter/>
     </div>
 </div>
 
 <style lang="scss">
-    .container {
+    .main-container {
         width: 100%;
         max-width: var(--page-width);
         padding-top: var(--page-top-bottom-padding);
@@ -22,7 +22,7 @@
         flex-direction: column;
     }
 
-    :global(.container > *:not(:first-child)) {
+    :global(.main-container > *:not(:first-child)) {
         margin-top: var(--padding);
     }
 </style>
