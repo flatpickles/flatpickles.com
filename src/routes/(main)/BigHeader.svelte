@@ -1,19 +1,18 @@
 <script lang="ts">
-    import { fit, parent_style } from '@leveluptuts/svelte-fit';
-
-    export let text: string;
+    export let matt: boolean;
 </script>
 
 <div class="header">
-    <div style={parent_style}>
-        <h1 use:fit={{min_size: 12, max_size:300 }}>{text}</h1>
-    </div>
+    {#if matt}
+        <img src="/images/mattnichols.svg" alt="Matt Nichols"/>
+    {:else}
+        <img src="/images/flatpickles.svg" alt="Flat Pickles"/>
+    {/if}
 </div>
 
 <style>
-    h1 {
-        font-family: 'Hobeaux';
-        font-weight: bold;
-        white-space: nowrap;
+    img {
+        width: 100%;
+        height: 100%;
     }
 </style>

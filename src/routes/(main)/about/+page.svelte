@@ -8,7 +8,7 @@
     <title>Matt Nichols</title> 
 </svelte:head>
 
-<BigHeader text="Matt Nichols" />
+<BigHeader matt={true} />
 
 <LinkBar />
 

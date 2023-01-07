@@ -23,7 +23,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@leveluptuts/svelte-fit": "^1.0.3",
 		"ress": "^5.0.2"
 	}
 }

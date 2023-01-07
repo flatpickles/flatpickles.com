@@ -1,5 +1,4 @@
 <script lang="ts">
-    import { dataset_dev } from "svelte/internal";
     import BigHeader from "./BigHeader.svelte";
     import Highlights from "./Highlights.svelte";
     import PageBody from "./PageBody.svelte";
@@ -13,7 +12,7 @@
     <title>Flat Pickles</title> 
 </svelte:head>
 
-<BigHeader text="Flat Pickles" />
+<BigHeader matt={false} />
 
 <PageBody>
     <p>

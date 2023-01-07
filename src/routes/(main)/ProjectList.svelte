@@ -2,33 +2,6 @@
     import type { ProjectData } from "$lib/types";
 
     export let projects: ProjectData[];
-
-    const projectData = [
-        {
-            name: "Test project 1",
-            type: "Test type",
-            date: "10/29/22",
-            link: "https://zombo.com"
-        },
-        {
-            name: "Test project 2",
-            type: "Test type",
-            date: "10/29/22",
-            link: "https://zombo.com"
-        },
-        {
-            name: "Test project 3",
-            type: "Test type",
-            date: "10/29/22",
-            link: "https://zombo.com"
-        },
-        {
-            name: "Test project 4",
-            type: "Test type",
-            date: "10/29/22",
-            link: "https://zombo.com"
-        },
-    ];
 </script>
 
 <table>
@@ -50,7 +23,7 @@
             <td class="project-data project-date">
                 {project.timestamp.toLocaleDateString('en-us', {
                     day: 'numeric',
-                    year: '2-digit',
+                    year: 'numeric',
                     month: 'short'
                 })}
             </td>

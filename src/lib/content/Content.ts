@@ -19,6 +19,7 @@ export default class Content {
     }
 
     static async writingIndex(): Promise<ProjectData[]> {
+        // return [];
         const allPostFiles = import.meta.glob('./writing/*.md');
         const iterablePostFiles = Object.entries(allPostFiles);
         const allPosts = await Promise.all(

@@ -3,15 +3,22 @@
 ## Known Issues
 * Flash of unstyled content even when loading on Vercel?
 * Double render (SSR + CSR) locally (seems expected - but why?)
+* Generating full index requires loading all writing .md files (+100ms)
 
 ## List
+* Slug page for text
+    * Page spacing & styling
+    * Header with homepage link
+    * Header gradient
+    * Header disappear when scrolling down 
 * Slug page for media
     * Smooth gradient backgrounds
     * Header & footer text colors
     * Hide header & footer between taps & mouse movement
 * Error page for media
-* Slug page for text (including md formatting)
 * Error page for media
+* Homepage 2.1 - rounded corners, maybe no intro text
+* About page content
 * Homepage content listing
     * Switch to CSS grid display
     * Click anywhere on a row to visit a link
@@ -23,7 +30,6 @@
 * Notes page
 * Global layout tuning
 * Global typography tuning (space, weight)
-* Main page(s) header sizing: FOUC
 * Smooth transitions between pages
 * Update Spark effects and add links to archive
 * SEO improvements - [SvelteKit docs](https://kit.svelte.dev/docs/seo)
@@ -33,7 +39,6 @@
 
 ## Packages added
 * npm i -D mdsvex
-* npm i @leveluptuts/svelte-fit
 * npm i svelte-body -D
 * ress i ress
 * npm i sass -D
