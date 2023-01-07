@@ -1,6 +1,11 @@
+---
+title: Cycles
+date: 01/21/2021
+---
+
 Waves arc shoreward  
 Sand and foam and entropy  
-Dispensing a star’s energy 
+Dispensing a star’s energy  
 Building careers, homes, families  
 A sense of self
 

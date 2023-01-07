@@ -2,9 +2,13 @@ import type { PageLoad } from './$types';
 import Content from '$lib/content/Content';
 
 export const load = (async ({ params }) => {
-    const post = await import(`../../../lib/content/writing/${params.slug}.md`)
+    const post = await import(`../../../lib/content/writing/${params.slug}.md`);
+    const { title, date } = post.metadata;
+    const content = post.default;
+  
     return {
-        project: Content.writingProject(params.slug),
-        content: post.default
-    };
+        title: title,
+        date: new Date(date),
+        content: content
+    }
 }) satisfies PageLoad;
