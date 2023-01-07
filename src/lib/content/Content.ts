@@ -17,33 +17,28 @@ import { externalProjects } from './external';
 */
 
 export default class Content {
-    static async all(): Promise<ProjectData[]> {
-        const writing: ProjectData[] = await this.writing();
-        const allContents: ProjectData[] = this.media().concat(this.external()).concat(writing);
+    static async fullIndex(): Promise<ProjectData[]> {
+        const writingIndex: ProjectData[] = await this.writingIndex();
+        const allContents: ProjectData[] = this.mediaIndex().concat(this.externalIndex()).concat(writingIndex);
         return allContents.sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
     }
 
-    static media(): ProjectData[] {
+    static mediaIndex(): ProjectData[] {
         return Object.values(mediaProjects);
     }
 
-    static external(): ProjectData[] {
+    static externalIndex(): ProjectData[] {
         return externalProjects;
     }
 
-    static async writing(): Promise<ProjectData[]> {
+    static async writingIndex(): Promise<ProjectData[]> {
         const allPostFiles = import.meta.glob('./writing/*.md');
         const iterablePostFiles = Object.entries(allPostFiles);
         const allPosts = await Promise.all(
             iterablePostFiles.map(async ([path, resolver]) => {
                 const { metadata } = await resolver() as any;
-                const key = path.split('/').pop()?.split('.').shift();
-                return {
-                    title: metadata.title,
-                    url: `/writing/${key}`,
-                    timestamp: new Date(metadata.date),
-                    type: ProjectType.Writing
-                };
+                const key: string = path.split('/').pop()?.split('.').shift() as string;
+                return this.makeWritingProject(key, metadata);
             })
         );
         return allPosts;
@@ -53,8 +48,19 @@ export default class Content {
         return mediaProjects[key];
     }
 
-    static writingProject(key: string): ProjectData | null {
-        // Todo!
-        return null;
+    static async writingProject(key: string): Promise<ProjectData> {
+        const post = await import(`./writing/${key}.md`);
+        const project = this.makeWritingProject(key, post.metadata);
+        project.component = post.default;
+        return project;
+    }
+
+    private static makeWritingProject(key: string, metadata: any): ProjectData {
+        return {
+            title: metadata.title,
+            url: `/writing/${key}`,
+            timestamp: new Date(metadata.date),
+            type: ProjectType.Writing
+        };
     }
 }

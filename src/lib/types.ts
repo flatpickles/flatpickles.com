@@ -31,5 +31,5 @@ export interface ProjectData {
     timestamp: Date;
     type: ProjectType;
     assetPath?: string;
-    content?: string;
+    component?: ConstructorOfATypedSvelteComponent;
 }

@@ -3,28 +3,27 @@
     import type { PageLoad } from "./$types";
 
     export let data: PageLoad | any; // suppress warnings
+    export let project: ProjectData = data.project;
 </script>
 
-
 <svelte:head>
-    <title>{data.title}</title> 
+    <title>{project.title}</title> 
 </svelte:head>
-
 
 <div class="container">
     <div class="title">
-        {data.title}
+        {project.title}
     </div>
     
     <div class="date">
-        {data.date.toLocaleDateString('en-us', {
+        {project.timestamp.toLocaleDateString('en-us', {
             day: 'numeric',
             year: 'numeric',
             month: 'long'
         })}
     </div>
 
-    <svelte:component this={data.content} />
+    <svelte:component this={project.component} />
 </div>
 
 <style>
