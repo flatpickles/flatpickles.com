@@ -4,7 +4,8 @@
     export let image: string;
 </script>
 
-<a href={link} class="card" style="--image-url: url({image})">
+<a href={link} class="card">
+    <img src={image} alt={title}/>
     <div class="overlay">
         <div class="title">
             {title}
@@ -13,6 +14,14 @@
 </a>
 
 <style lang="scss">
+    img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+
     .card {
         height: var(--highlight-height);
         background-image: var(--image-url);
