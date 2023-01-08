@@ -1,12 +1,7 @@
 # flatpickles.com
 
-## Known Issues
-* Flash of unstyled content even when loading on Vercel?
-* Double render (SSR + CSR) locally (seems expected - but why?)
-* Generating full index requires loading all writing .md files (+100ms)
-* ProjectList responsive design could be improved: CSS grid maybe, for fewer magic numbers.
-
 ## List
+* Responsive top & bottom padding
 * Slug page for text
     * Page spacing & styling
     * Header with homepage link
@@ -19,13 +14,7 @@
 * Error page for media
 * Error page for media
 * About page content
-* Homepage content listing
-    * Switch to CSS grid display
-    * Click anywhere on a row to visit a link
-    * Alternating colors (w/ rounding)
-    * Hover colors?
-    * Responsive sizing (small screens)
-    * Sort by property type
+* Hover behavior for ProjectList?
 * Move archived webapps to Vercel
 * Notes page
 * Global layout tuning
@@ -36,6 +25,12 @@
 * Adjust body class approach [this way](https://github.com/sveltejs/svelte/issues/3105#issuecomment-1373889014)
 * Anchor page for media
 * Anchor page for text
+
+## Known Issues
+* Flash of unstyled content even when loading on Vercel?
+* Double render (SSR + CSR) locally (seems expected - but why?)
+* Generating full index requires loading all writing .md files (+100ms)
+* ProjectList responsive design could be improved: CSS grid maybe, for fewer magic numbers.
 
 ## Packages added
 * npm i -D mdsvex

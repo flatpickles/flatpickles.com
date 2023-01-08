@@ -13,8 +13,8 @@
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: wrap;
-        gap: var(--padding);
-        margin-top: var(--padding);
+        gap: calc(var(--padding) / 2);
+        margin-top: calc(var(--padding) * 1.5);
     }
 
     a {

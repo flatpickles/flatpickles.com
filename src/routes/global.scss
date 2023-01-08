@@ -1,11 +1,16 @@
 // Global variables
 
 :root {
-    --padding: 16px;
+    --padding: 1em;
     --page-width: 700px;
-    --page-top-bottom-padding: 100px;
+    --page-top-bottom-padding: calc(
+        max(
+            min(100px, 100/7 * 1vw),
+            var(--padding)
+        )
+    );
 
-    --highlight-height: 130px;
+    --highlight-height: 120px;
     --highlight-min-width: 180px;
 }
 
