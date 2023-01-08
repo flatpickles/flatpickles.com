@@ -1,11 +1,6 @@
-<script>
-    import CopyrightFooter from "./CopyrightFooter.svelte";
-</script>
-
 <div class="main wrapper">
     <div class="main-container">
         <slot></slot>
-        <CopyrightFooter/>
     </div>
 </div>
 
