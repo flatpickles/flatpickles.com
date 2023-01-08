@@ -1,5 +1,7 @@
 <script lang="ts">
     import type { ProjectData } from "$lib/types";
+    import WritingDisplay from '../WritingDisplay.svelte';
+    import WritingOverlay from '../WritingOverlay.svelte';
     import type { PageLoad } from "./$types";
 
     export let data: PageLoad | any; // suppress warnings
@@ -10,35 +12,6 @@
     <title>{project.title}</title> 
 </svelte:head>
 
-<div class="writing-container">
-    <div class="title">
-        {project.title}
-    </div>
-    
-    <div class="date">
-        {project.date.toLocaleDateString('en-us', {
-            day: 'numeric',
-            year: 'numeric',
-            month: 'long'
-        })}
-    </div>
+<WritingOverlay />
 
-    <svelte:component this={project.component} />
-</div>
-
-<style>
-    .writing-container {
-        display: flex;
-        flex-direction: column;
-        max-width: 600px;
-    }
-
-    .title {
-        font-size: 2em;
-    }
-
-    .date {
-        font-style: italic;
-        padding-bottom: 10px;
-    }
-</style>
+<WritingDisplay project={project} />

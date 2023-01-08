@@ -1,11 +1,13 @@
 <script lang="ts">
+    import HomeLink from '$lib/Components/HomeLink.svelte';
+
     export let title: string;
     export let date: Date;
 </script>
 
 <div class="overlay">
     <div class="meta header">
-        <a class="home" href="/">Flat Pickles</a>
+        <HomeLink opacity=0.7 />
         <span class="title">/ {title}</span>
     </div>
     <div class="meta footer">
@@ -54,12 +56,9 @@
         text-align: right;
     }
 
-    .home:hover {
-        text-decoration: underline;
-    }
-
     .title {
         opacity: 70%;
+        font-size: 1.25em;
     }
 
     .date {

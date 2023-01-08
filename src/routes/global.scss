@@ -6,7 +6,7 @@
     --page-top-bottom-padding: calc(
         max(
             min(100px, 100/7 * 1vw),
-            var(--padding)
+            calc(var(--padding) * 2)
         )
     );
 

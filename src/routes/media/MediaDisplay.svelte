@@ -4,8 +4,8 @@
     export let project: ProjectData
 </script>
 
-<div class="media-container">
-    <div class="media">
+<div class="media-outer-container">
+    <div class="media-inner-container">
         {#if project.type == ProjectType.Image}
             <img
                 src={project.assetPath}
@@ -28,7 +28,7 @@
 </div>
 
 <style>
-    .media-container {
+    .media-outer-container {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -38,7 +38,7 @@
         align-items: center;
     }
 
-    .media {
+    .media-inner-container {
         height: 100%;
 
         display: flex;
