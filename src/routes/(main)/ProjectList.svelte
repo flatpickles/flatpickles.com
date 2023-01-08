@@ -37,8 +37,6 @@
 
         display: flex;
         flex-direction: column;
-
-        font-size: 1.2em;
     }
 
     .project-row {
@@ -50,6 +48,7 @@
         column-gap: var(--padding);
         justify-content: space-between;
         flex-wrap: wrap;
+        align-items: baseline;
     }
 
     .project-row:nth-child(odd) {
@@ -64,6 +63,7 @@
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+        font-size: 1.25em;
     }
 
     .project-metadata {
@@ -75,6 +75,7 @@
         column-gap: var(--padding);
         justify-content: space-between;
 
-        color:rgba(0, 0, 0, 60%)
+        color: rgba(0, 0, 0, 60%);
+        font-size: 1.25em;
     }
 </style>

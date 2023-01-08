@@ -4,7 +4,7 @@
 
 <style>
     .page-body {
-        font-size: 1.2em;
+        font-size: 1.25em;
         text-align: justify;
         margin-top: var(--padding);
     }

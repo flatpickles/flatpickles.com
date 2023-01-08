@@ -1,7 +1,6 @@
 # flatpickles.com
 
 ## List
-* Responsive top & bottom padding
 * Slug page for text
     * Page spacing & styling
     * Header with homepage link

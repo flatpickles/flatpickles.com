@@ -19,7 +19,7 @@
 
     a {
         font-family: 'Hobeaux';
-        font-size: 1.2em;
+        font-size: 1.25em;
         text-decoration: none;
         color: rgb(11, 85, 11);
     }
