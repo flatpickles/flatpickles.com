@@ -27,5 +27,6 @@
 
         height: 100vh;
         height: calc(var(--vh, 1vh) * 100);
+        overflow: hidden; /* No mobile scroll */
     }
 </style>
