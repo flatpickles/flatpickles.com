@@ -7,17 +7,17 @@
 
 <div class="overlay">
     <div class="meta header">
-        <span class="title">{title}</span>
+        <div class="metadata">
+            <div class="title">{title}</div>
+            <div class="date">
+                {date.toLocaleDateString('en-us', {
+                    day: 'numeric',
+                    year: 'numeric',
+                    month: 'long'
+                })}
+            </div>
+        </div>
         <HomeLink opacity=0.7 />
-    </div>
-    <div class="meta footer">
-        <span class="date">
-            {date.toLocaleDateString('en-us', {
-                day: 'numeric',
-                year: 'numeric',
-                month: 'long'
-            })}
-        </span>
     </div>
 </div>
 
@@ -25,7 +25,6 @@
     .overlay {
         z-index: 1;
         width: 100%;
-        height: 100%;
 
         display: flex;
         flex-direction: column;
@@ -35,8 +34,6 @@
 
     .meta {
         padding: var(--padding);
-
-        font-family: 'Hobeaux';
     }
 
     .header {
@@ -50,18 +47,12 @@
         justify-content: space-between;
     }
 
-    .footer {
-        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
-        padding-top: calc(var(--padding) * 2);
-        text-align: right;
+    .metadata {
+        opacity: 80%;
     }
 
     .title {
-        opacity: 70%;
         font-size: 1.25em;
-    }
-
-    .date {
-        opacity: 70%;
+        font-family: 'Hobeaux';
     }
 </style>

@@ -3,7 +3,7 @@
 </script>
 
 <div class="overlay">
-    <HomeLink opacity=0.5/>
+    <HomeLink opacity=0.7/>
 </div>
 
 <style>
