@@ -9,9 +9,11 @@
 <style>
     img {
         /* todo: resize asset, or use SVG */
+        display: block;
         width: calc(var(--padding) * 1.5);
         height: calc(var(--padding) * 1.5);
     }
+    
     a {
         color: inherit;
         text-decoration: none;

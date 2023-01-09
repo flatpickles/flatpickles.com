@@ -1,11 +1,8 @@
 # flatpickles.com
 
-## List
 * Slug page for text
-    * Page spacing & styling
-    * Header with homepage link
-    * Header gradient
-    * Header disappear when scrolling down 
+    * Remove gradient
+    * Hide header when scrolling down (maybe within HomeLinkOverlay)
 * Slug page for media
     * Smooth gradient backgrounds
     * Header & footer text colors
