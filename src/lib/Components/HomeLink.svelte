@@ -2,9 +2,16 @@
     export let opacity: string = "0.5";
 </script>
 
-<a href="/" style="--base-opacity: {opacity}">Flat Pickles</a>
+<a href="/" style="--base-opacity: {opacity}">
+    <img src="/media/quick-pick.png" alt="Flat Pickles" />
+</a>
 
 <style>
+    img {
+        /* todo: resize asset, or use SVG */
+        width: calc(var(--padding) * 1.5);
+        height: calc(var(--padding) * 1.5);
+    }
     a {
         color: inherit;
         text-decoration: none;

@@ -23,5 +23,6 @@
             rgba(255, 255, 255, 0)
         );
         font-family: 'Hobeaux';
+        text-align: right;
     }
 </style>

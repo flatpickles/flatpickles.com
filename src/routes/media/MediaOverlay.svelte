@@ -7,8 +7,8 @@
 
 <div class="overlay">
     <div class="meta header">
+        <span class="title">{title}</span>
         <HomeLink opacity=0.7 />
-        <span class="title">/ {title}</span>
     </div>
     <div class="meta footer">
         <span class="date">
@@ -22,11 +22,6 @@
 </div>
 
 <style>
-    a {
-        color: inherit;
-        text-decoration: none;
-    }
-
     .overlay {
         z-index: 1;
         width: 100%;
@@ -48,6 +43,11 @@
         background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
         padding-bottom: calc(var(--padding) * 2);
         pointer-events: all;
+
+        display: flex;
+        flex-direction: row;
+        align-items: top;
+        justify-content: space-between;
     }
 
     .footer {
