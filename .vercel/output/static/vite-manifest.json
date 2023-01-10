@@ -1,0 +1,822 @@
+{
+  "src/lib/assets/notes.svg": {
+    "file": "_app/immutable/assets/notes-0e97c44b.svg",
+    "src": "src/lib/assets/notes.svg"
+  },
+  "src/lib/assets/flatpickles.svg": {
+    "file": "_app/immutable/assets/flatpickles-15b23cba.svg",
+    "src": "src/lib/assets/flatpickles.svg"
+  },
+  "src/lib/assets/mattnichols.svg": {
+    "file": "_app/immutable/assets/mattnichols-016e0fd8.svg",
+    "src": "src/lib/assets/mattnichols.svg"
+  },
+  "src/lib/assets/rect.png": {
+    "file": "_app/immutable/assets/rect-feaad3ca.png",
+    "src": "src/lib/assets/rect.png"
+  },
+  "src/lib/assets/floppy.png": {
+    "file": "_app/immutable/assets/floppy-de44fd06.png",
+    "src": "src/lib/assets/floppy.png"
+  },
+  "src/lib/assets/goop.png": {
+    "file": "_app/immutable/assets/goop-c92fba15.png",
+    "src": "src/lib/assets/goop.png"
+  },
+  "src/routes/(main)/+page.css": {
+    "file": "_app/immutable/assets/_page-035d7317.css",
+    "src": "src/routes/(main)/+page.css"
+  },
+  "PageBody.css": {
+    "file": "_app/immutable/assets/PageBody-c65049a2.css",
+    "src": "PageBody.css"
+  },
+  "src/routes/media/+layout.css": {
+    "file": "_app/immutable/assets/_layout-9d33a2ee.css",
+    "src": "src/routes/media/+layout.css"
+  },
+  "HomeLink.css": {
+    "file": "_app/immutable/assets/HomeLink-b996a35b.css",
+    "src": "HomeLink.css"
+  },
+  "src/routes/writing/[slug]/+page.css": {
+    "file": "_app/immutable/assets/_page-69680b0d.css",
+    "src": "src/routes/writing/[slug]/+page.css"
+  },
+  "src/routes/(main)/+layout.css": {
+    "file": "_app/immutable/assets/_layout-fc8fba14.css",
+    "src": "src/routes/(main)/+layout.css"
+  },
+  "src/routes/media/[slug]/+page.css": {
+    "file": "_app/immutable/assets/_page-409db997.css",
+    "src": "src/routes/media/[slug]/+page.css"
+  },
+  "src/routes/(main)/about/+page.css": {
+    "file": "_app/immutable/assets/_page-b133028d.css",
+    "src": "src/routes/(main)/about/+page.css"
+  },
+  "BigHeader.css": {
+    "file": "_app/immutable/assets/BigHeader-d296a487.css",
+    "src": "BigHeader.css"
+  },
+  "src/routes/+layout.css": {
+    "file": "_app/immutable/assets/_layout-76275e1d.css",
+    "src": "src/routes/+layout.css"
+  },
+  "src/routes/(main)/notes/+page.css": {
+    "file": "_app/immutable/assets/_page-d09413ec.css",
+    "src": "src/routes/(main)/notes/+page.css"
+  },
+  "src/routes/writing/+layout.css": {
+    "file": "_app/immutable/assets/_layout-35d03867.css",
+    "src": "src/routes/writing/+layout.css"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "_app/immutable/components/error.svelte-756cbaeb.js",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-39f73bf8.js",
+      "_singletons-376d00d5.js"
+    ]
+  },
+  ".svelte-kit/generated/nodes/10.js": {
+    "file": "_app/immutable/chunks/10-1965699c.js",
+    "src": ".svelte-kit/generated/nodes/10.js",
+    "isDynamicEntry": true
+  },
+  ".svelte-kit/generated/nodes/0.js": {
+    "file": "_app/immutable/chunks/0-84782d96.js",
+    "src": ".svelte-kit/generated/nodes/0.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/+layout.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/1.js": {
+    "file": "_app/immutable/chunks/1-1663390c.js",
+    "src": ".svelte-kit/generated/nodes/1.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
+    ]
+  },
+  "src/lib/content/writing/bricolage.md": {
+    "file": "_app/immutable/chunks/bricolage-669fac5b.js",
+    "src": "src/lib/content/writing/bricolage.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  ".svelte-kit/generated/nodes/8.js": {
+    "file": "_app/immutable/chunks/8-1965699c.js",
+    "src": ".svelte-kit/generated/nodes/8.js",
+    "isDynamicEntry": true
+  },
+  "__page-fcbbcc29.js": {
+    "file": "_app/immutable/chunks/_page-fcbbcc29.js",
+    "imports": [
+      "_Content-716830af.js"
+    ]
+  },
+  "_index-86335922.js": {
+    "file": "_app/immutable/chunks/index-86335922.js",
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "src/lib/content/writing/fog.md": {
+    "file": "_app/immutable/chunks/fog-1e997a07.js",
+    "src": "src/lib/content/writing/fog.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  ".svelte-kit/generated/nodes/11.js": {
+    "file": "_app/immutable/chunks/11-51e114dc.js",
+    "src": ".svelte-kit/generated/nodes/11.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__page-fcbbcc29.js",
+      "src/routes/writing/[slug]/+page.svelte"
+    ]
+  },
+  "src/lib/content/writing/cycles.md": {
+    "file": "_app/immutable/chunks/cycles-caf14901.js",
+    "src": "src/lib/content/writing/cycles.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "src/lib/content/writing/endings.md": {
+    "file": "_app/immutable/chunks/endings-f51ddb19.js",
+    "src": "src/lib/content/writing/endings.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "src/lib/content/writing/disintegration.md": {
+    "file": "_app/immutable/chunks/disintegration-e56f61e8.js",
+    "src": "src/lib/content/writing/disintegration.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "src/lib/content/writing/ascendance.md": {
+    "file": "_app/immutable/chunks/ascendance-11b4777d.js",
+    "src": "src/lib/content/writing/ascendance.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "src/lib/content/writing/reverie.md": {
+    "file": "_app/immutable/chunks/reverie-46d4070c.js",
+    "src": "src/lib/content/writing/reverie.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "src/lib/content/writing/presence.md": {
+    "file": "_app/immutable/chunks/presence-f8d4aaed.js",
+    "src": "src/lib/content/writing/presence.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  ".svelte-kit/generated/nodes/6.js": {
+    "file": "_app/immutable/chunks/6-70510910.js",
+    "src": ".svelte-kit/generated/nodes/6.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/(main)/about/+page.svelte"
+    ]
+  },
+  "src/lib/content/writing/somniloquy.md": {
+    "file": "_app/immutable/chunks/somniloquy-48227c60.js",
+    "src": "src/lib/content/writing/somniloquy.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "src/lib/content/writing/untitled-1.md": {
+    "file": "_app/immutable/chunks/untitled-1-29aec5c3.js",
+    "src": "src/lib/content/writing/untitled-1.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "src/lib/content/writing/segfault.md": {
+    "file": "_app/immutable/chunks/segfault-7994db36.js",
+    "src": "src/lib/content/writing/segfault.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "src/lib/content/writing/chili-recipe.md": {
+    "file": "_app/immutable/chunks/chili-recipe-deebbed6.js",
+    "src": "src/lib/content/writing/chili-recipe.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "_singletons-376d00d5.js": {
+    "file": "_app/immutable/chunks/singletons-376d00d5.js",
+    "imports": [
+      "_index-86335922.js"
+    ]
+  },
+  "src/lib/content/writing/the-solipsist.md": {
+    "file": "_app/immutable/chunks/the-solipsist-4d4c13f3.js",
+    "src": "src/lib/content/writing/the-solipsist.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "src/routes/(main)/+page.ts": {
+    "file": "_app/immutable/modules/pages/(main)/_page.ts-c2c3ee75.js",
+    "src": "src/routes/(main)/+page.ts",
+    "isEntry": true,
+    "imports": [
+      "_Content-716830af.js",
+      "__page-a1dcf1c3.js"
+    ]
+  },
+  "__page-0209be1c.js": {
+    "file": "_app/immutable/chunks/_page-0209be1c.js",
+    "imports": [
+      "_Content-716830af.js"
+    ]
+  },
+  "src/lib/content/writing/intentions-for-this-website.md": {
+    "file": "_app/immutable/chunks/intentions-for-this-website-7f510225.js",
+    "src": "src/lib/content/writing/intentions-for-this-website.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "_index-39f73bf8.js": {
+    "file": "_app/immutable/chunks/index-39f73bf8.js"
+  },
+  "src/routes/writing/[slug]/+page.ts": {
+    "file": "_app/immutable/modules/pages/writing/_slug_/_page.ts-ca9d9203.js",
+    "src": "src/routes/writing/[slug]/+page.ts",
+    "isEntry": true,
+    "imports": [
+      "_Content-716830af.js",
+      "__page-fcbbcc29.js"
+    ]
+  },
+  "src/routes/media/[slug]/+page.ts": {
+    "file": "_app/immutable/modules/pages/media/_slug_/_page.ts-fc8711e7.js",
+    "src": "src/routes/media/[slug]/+page.ts",
+    "isEntry": true,
+    "imports": [
+      "_Content-716830af.js",
+      "__page-0209be1c.js"
+    ]
+  },
+  "src/lib/content/writing/untitled-3.md": {
+    "file": "_app/immutable/chunks/untitled-3-32993898.js",
+    "src": "src/lib/content/writing/untitled-3.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "src/lib/content/writing/inertia.md": {
+    "file": "_app/immutable/chunks/inertia-5c7b7238.js",
+    "src": "src/lib/content/writing/inertia.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "src/routes/(main)/+layout.svelte": {
+    "file": "_app/immutable/components/pages/(main)/_layout.svelte-30527c5d.js",
+    "src": "src/routes/(main)/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout-fc8fba14.css"
+    ]
+  },
+  "src/routes/(main)/about/+page.svelte": {
+    "file": "_app/immutable/components/pages/(main)/about/_page.svelte-d2f2cfae.js",
+    "src": "src/routes/(main)/about/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-39f73bf8.js",
+      "_types-97872eb5.js",
+      "_BigHeader-fcf9e982.js",
+      "_PageBody-00b1fc12.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-b133028d.css"
+    ]
+  },
+  "src/lib/content/writing/world-population-day.md": {
+    "file": "_app/immutable/chunks/world-population-day-2e5f8a7b.js",
+    "src": "src/lib/content/writing/world-population-day.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "_Content-716830af.js": {
+    "file": "_app/immutable/chunks/Content-716830af.js",
+    "imports": [
+      "_preload-helper-41c905a7.js",
+      "_types-97872eb5.js"
+    ],
+    "dynamicImports": [
+      "src/lib/content/writing/ascendance.md",
+      "src/lib/content/writing/beauty.md",
+      "src/lib/content/writing/bricolage.md",
+      "src/lib/content/writing/chili-recipe.md",
+      "src/lib/content/writing/cycles.md",
+      "src/lib/content/writing/disassociation.md",
+      "src/lib/content/writing/disintegration.md",
+      "src/lib/content/writing/divine.md",
+      "src/lib/content/writing/endings.md",
+      "src/lib/content/writing/enter-dependence.md",
+      "src/lib/content/writing/fog.md",
+      "src/lib/content/writing/incompleteness.md",
+      "src/lib/content/writing/inertia.md",
+      "src/lib/content/writing/intentions-for-this-website.md",
+      "src/lib/content/writing/luxury.md",
+      "src/lib/content/writing/modern-times.md",
+      "src/lib/content/writing/nightmare.md",
+      "src/lib/content/writing/on-algorithmic-media.md",
+      "src/lib/content/writing/on-art-and-enlightenment.md",
+      "src/lib/content/writing/on-disposable-time.md",
+      "src/lib/content/writing/on-happiness.md",
+      "src/lib/content/writing/on-intentionality.md",
+      "src/lib/content/writing/on-love-and-marriage.md",
+      "src/lib/content/writing/on-positive-feedback-cycles.md",
+      "src/lib/content/writing/on-self-confidence.md",
+      "src/lib/content/writing/onward.md",
+      "src/lib/content/writing/overcast.md",
+      "src/lib/content/writing/presence.md",
+      "src/lib/content/writing/reverie.md",
+      "src/lib/content/writing/segfault.md",
+      "src/lib/content/writing/somniloquy.md",
+      "src/lib/content/writing/stories.md",
+      "src/lib/content/writing/the-solipsist.md",
+      "src/lib/content/writing/untitled-1.md",
+      "src/lib/content/writing/untitled-2.md",
+      "src/lib/content/writing/untitled-3.md",
+      "src/lib/content/writing/wander.md",
+      "src/lib/content/writing/whole.md",
+      "src/lib/content/writing/world-population-day.md",
+      "src/lib/content/writing/ascendance.md",
+      "src/lib/content/writing/beauty.md",
+      "src/lib/content/writing/bricolage.md",
+      "src/lib/content/writing/chili-recipe.md",
+      "src/lib/content/writing/cycles.md",
+      "src/lib/content/writing/disassociation.md",
+      "src/lib/content/writing/disintegration.md",
+      "src/lib/content/writing/divine.md",
+      "src/lib/content/writing/endings.md",
+      "src/lib/content/writing/enter-dependence.md",
+      "src/lib/content/writing/fog.md",
+      "src/lib/content/writing/incompleteness.md",
+      "src/lib/content/writing/inertia.md",
+      "src/lib/content/writing/intentions-for-this-website.md",
+      "src/lib/content/writing/luxury.md",
+      "src/lib/content/writing/modern-times.md",
+      "src/lib/content/writing/nightmare.md",
+      "src/lib/content/writing/on-algorithmic-media.md",
+      "src/lib/content/writing/on-art-and-enlightenment.md",
+      "src/lib/content/writing/on-disposable-time.md",
+      "src/lib/content/writing/on-happiness.md",
+      "src/lib/content/writing/on-intentionality.md",
+      "src/lib/content/writing/on-love-and-marriage.md",
+      "src/lib/content/writing/on-positive-feedback-cycles.md",
+      "src/lib/content/writing/on-self-confidence.md",
+      "src/lib/content/writing/onward.md",
+      "src/lib/content/writing/overcast.md",
+      "src/lib/content/writing/presence.md",
+      "src/lib/content/writing/reverie.md",
+      "src/lib/content/writing/segfault.md",
+      "src/lib/content/writing/somniloquy.md",
+      "src/lib/content/writing/stories.md",
+      "src/lib/content/writing/the-solipsist.md",
+      "src/lib/content/writing/untitled-1.md",
+      "src/lib/content/writing/untitled-2.md",
+      "src/lib/content/writing/untitled-3.md",
+      "src/lib/content/writing/wander.md",
+      "src/lib/content/writing/whole.md",
+      "src/lib/content/writing/world-population-day.md"
+    ]
+  },
+  "__page-a1dcf1c3.js": {
+    "file": "_app/immutable/chunks/_page-a1dcf1c3.js",
+    "imports": [
+      "_Content-716830af.js"
+    ]
+  },
+  ".svelte-kit/generated/nodes/5.js": {
+    "file": "_app/immutable/chunks/5-f024a4de.js",
+    "src": ".svelte-kit/generated/nodes/5.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__page-a1dcf1c3.js",
+      "src/routes/(main)/+page.svelte"
+    ]
+  },
+  "_HomeLink-f575bf6d.js": {
+    "file": "_app/immutable/chunks/HomeLink-f575bf6d.js",
+    "imports": [
+      "_index-39f73bf8.js"
+    ],
+    "css": [
+      "_app/immutable/assets/HomeLink-b996a35b.css"
+    ]
+  },
+  "src/lib/content/writing/beauty.md": {
+    "file": "_app/immutable/chunks/beauty-e203c3e3.js",
+    "src": "src/lib/content/writing/beauty.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "_PageBody-00b1fc12.js": {
+    "file": "_app/immutable/chunks/PageBody-00b1fc12.js",
+    "imports": [
+      "_index-39f73bf8.js"
+    ],
+    "css": [
+      "_app/immutable/assets/PageBody-c65049a2.css"
+    ]
+  },
+  ".svelte-kit/generated/nodes/2.js": {
+    "file": "_app/immutable/chunks/2-cd842d7c.js",
+    "src": ".svelte-kit/generated/nodes/2.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/(main)/+layout.svelte"
+    ]
+  },
+  "_types-97872eb5.js": {
+    "file": "_app/immutable/chunks/types-97872eb5.js"
+  },
+  "src/lib/content/writing/divine.md": {
+    "file": "_app/immutable/chunks/divine-72ff5bb7.js",
+    "src": "src/lib/content/writing/divine.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "src/lib/content/writing/onward.md": {
+    "file": "_app/immutable/chunks/onward-b23e0e8d.js",
+    "src": "src/lib/content/writing/onward.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "src/lib/content/writing/untitled-2.md": {
+    "file": "_app/immutable/chunks/untitled-2-9b873563.js",
+    "src": "src/lib/content/writing/untitled-2.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "src/lib/content/writing/incompleteness.md": {
+    "file": "_app/immutable/chunks/incompleteness-81fd8c94.js",
+    "src": "src/lib/content/writing/incompleteness.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "src/lib/content/writing/stories.md": {
+    "file": "_app/immutable/chunks/stories-db7cdec6.js",
+    "src": "src/lib/content/writing/stories.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  ".svelte-kit/generated/nodes/3.js": {
+    "file": "_app/immutable/chunks/3-a3ab2a10.js",
+    "src": ".svelte-kit/generated/nodes/3.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/media/+layout.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/7.js": {
+    "file": "_app/immutable/chunks/7-b9c4a840.js",
+    "src": ".svelte-kit/generated/nodes/7.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/(main)/notes/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/9.js": {
+    "file": "_app/immutable/chunks/9-ff3525d3.js",
+    "src": ".svelte-kit/generated/nodes/9.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__page-0209be1c.js",
+      "src/routes/media/[slug]/+page.svelte"
+    ]
+  },
+  "src/lib/content/writing/enter-dependence.md": {
+    "file": "_app/immutable/chunks/enter-dependence-119e021e.js",
+    "src": "src/lib/content/writing/enter-dependence.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "src/lib/content/writing/disassociation.md": {
+    "file": "_app/immutable/chunks/disassociation-d303a240.js",
+    "src": "src/lib/content/writing/disassociation.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "src/routes/writing/[slug]/+page.svelte": {
+    "file": "_app/immutable/components/pages/writing/_slug_/_page.svelte-46ee9869.js",
+    "src": "src/routes/writing/[slug]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-39f73bf8.js",
+      "_HomeLink-f575bf6d.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-69680b0d.css"
+    ]
+  },
+  "src/routes/media/[slug]/+page.svelte": {
+    "file": "_app/immutable/components/pages/media/_slug_/_page.svelte-f4200404.js",
+    "src": "src/routes/media/[slug]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-39f73bf8.js",
+      "_types-97872eb5.js",
+      "_HomeLink-f575bf6d.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-409db997.css"
+    ]
+  },
+  "src/lib/content/writing/on-intentionality.md": {
+    "file": "_app/immutable/chunks/on-intentionality-08d9cd0f.js",
+    "src": "src/lib/content/writing/on-intentionality.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "src/routes/writing/+layout.svelte": {
+    "file": "_app/immutable/components/pages/writing/_layout.svelte-47a17928.js",
+    "src": "src/routes/writing/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-39f73bf8.js",
+      "_Body-03f3b21a.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout-35d03867.css"
+    ]
+  },
+  "src/lib/content/writing/on-happiness.md": {
+    "file": "_app/immutable/chunks/on-happiness-2dee59b8.js",
+    "src": "src/lib/content/writing/on-happiness.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "_BigHeader-fcf9e982.js": {
+    "file": "_app/immutable/chunks/BigHeader-fcf9e982.js",
+    "imports": [
+      "_index-39f73bf8.js",
+      "_types-97872eb5.js"
+    ],
+    "css": [
+      "_app/immutable/assets/BigHeader-d296a487.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/flatpickles-15b23cba.svg",
+      "_app/immutable/assets/notes-0e97c44b.svg",
+      "_app/immutable/assets/mattnichols-016e0fd8.svg"
+    ]
+  },
+  "src/lib/content/writing/on-positive-feedback-cycles.md": {
+    "file": "_app/immutable/chunks/on-positive-feedback-cycles-112fd226.js",
+    "src": "src/lib/content/writing/on-positive-feedback-cycles.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "src/lib/content/writing/nightmare.md": {
+    "file": "_app/immutable/chunks/nightmare-340f3c6d.js",
+    "src": "src/lib/content/writing/nightmare.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "src/lib/content/writing/on-self-confidence.md": {
+    "file": "_app/immutable/chunks/on-self-confidence-d2d4f638.js",
+    "src": "src/lib/content/writing/on-self-confidence.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "src/lib/content/writing/whole.md": {
+    "file": "_app/immutable/chunks/whole-1e4f1fc1.js",
+    "src": "src/lib/content/writing/whole.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "src/routes/media/+layout.svelte": {
+    "file": "_app/immutable/components/pages/media/_layout.svelte-0c58465f.js",
+    "src": "src/routes/media/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-39f73bf8.js",
+      "_Body-03f3b21a.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout-9d33a2ee.css"
+    ]
+  },
+  "src/lib/content/writing/on-algorithmic-media.md": {
+    "file": "_app/immutable/chunks/on-algorithmic-media-6650dc27.js",
+    "src": "src/lib/content/writing/on-algorithmic-media.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "_preload-helper-41c905a7.js": {
+    "file": "_app/immutable/chunks/preload-helper-41c905a7.js"
+  },
+  "src/lib/content/writing/modern-times.md": {
+    "file": "_app/immutable/chunks/modern-times-a340649a.js",
+    "src": "src/lib/content/writing/modern-times.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "src/lib/content/writing/overcast.md": {
+    "file": "_app/immutable/chunks/overcast-838dd09f.js",
+    "src": "src/lib/content/writing/overcast.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "src/routes/+layout.svelte": {
+    "file": "_app/immutable/components/pages/_layout.svelte-99bbfc64.js",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout-76275e1d.css"
+    ]
+  },
+  ".svelte-kit/generated/nodes/4.js": {
+    "file": "_app/immutable/chunks/4-4c3d3a86.js",
+    "src": ".svelte-kit/generated/nodes/4.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/writing/+layout.svelte"
+    ]
+  },
+  "src/lib/content/writing/luxury.md": {
+    "file": "_app/immutable/chunks/luxury-0de2c998.js",
+    "src": "src/lib/content/writing/luxury.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "src/routes/(main)/+page.svelte": {
+    "file": "_app/immutable/components/pages/(main)/_page.svelte-4fd75d16.js",
+    "src": "src/routes/(main)/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-39f73bf8.js",
+      "_BigHeader-fcf9e982.js",
+      "_types-97872eb5.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-035d7317.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/floppy-de44fd06.png",
+      "_app/immutable/assets/goop-c92fba15.png",
+      "_app/immutable/assets/rect-feaad3ca.png"
+    ]
+  },
+  "src/lib/content/writing/on-love-and-marriage.md": {
+    "file": "_app/immutable/chunks/on-love-and-marriage-6fc950bc.js",
+    "src": "src/lib/content/writing/on-love-and-marriage.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "src/lib/content/writing/wander.md": {
+    "file": "_app/immutable/chunks/wander-a78ce346.js",
+    "src": "src/lib/content/writing/wander.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "_Body-03f3b21a.js": {
+    "file": "_app/immutable/chunks/Body-03f3b21a.js",
+    "imports": [
+      "_index-39f73bf8.js",
+      "_index-86335922.js"
+    ]
+  },
+  "src/lib/content/writing/on-art-and-enlightenment.md": {
+    "file": "_app/immutable/chunks/on-art-and-enlightenment-6f4985ab.js",
+    "src": "src/lib/content/writing/on-art-and-enlightenment.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "src/lib/content/writing/on-disposable-time.md": {
+    "file": "_app/immutable/chunks/on-disposable-time-ac43bdeb.js",
+    "src": "src/lib/content/writing/on-disposable-time.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-39f73bf8.js"
+    ]
+  },
+  "src/routes/(main)/notes/+page.svelte": {
+    "file": "_app/immutable/components/pages/(main)/notes/_page.svelte-dd71da09.js",
+    "src": "src/routes/(main)/notes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-39f73bf8.js",
+      "_PageBody-00b1fc12.js",
+      "_BigHeader-fcf9e982.js",
+      "_types-97872eb5.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page-d09413ec.css"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
+    "file": "_app/immutable/start-60ded45b.js",
+    "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-39f73bf8.js",
+      "_singletons-376d00d5.js",
+      "_preload-helper-41c905a7.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/generated/nodes/0.js",
+      ".svelte-kit/generated/nodes/1.js",
+      ".svelte-kit/generated/nodes/2.js",
+      ".svelte-kit/generated/nodes/3.js",
+      ".svelte-kit/generated/nodes/4.js",
+      ".svelte-kit/generated/nodes/5.js",
+      ".svelte-kit/generated/nodes/6.js",
+      ".svelte-kit/generated/nodes/7.js",
+      ".svelte-kit/generated/nodes/8.js",
+      ".svelte-kit/generated/nodes/9.js",
+      ".svelte-kit/generated/nodes/10.js",
+      ".svelte-kit/generated/nodes/11.js"
+    ]
+  }
+}

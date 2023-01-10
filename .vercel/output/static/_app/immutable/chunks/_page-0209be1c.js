@@ -1,0 +1,1 @@
+import{C as o}from"./Content-716830af.js";const t=async({params:e})=>({project:o.mediaProject(e.slug)}),a=Object.freeze(Object.defineProperty({__proto__:null,load:t},Symbol.toStringTag,{value:"Module"}));export{a as _,t as l};

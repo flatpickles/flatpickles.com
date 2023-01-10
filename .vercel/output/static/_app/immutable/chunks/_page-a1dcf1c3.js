@@ -1,0 +1,1 @@
+import{C as e}from"./Content-716830af.js";const t=async({params:o})=>({projects:await e.fullIndex()}),l=Object.freeze(Object.defineProperty({__proto__:null,load:t},Symbol.toStringTag,{value:"Module"}));export{l as _,t as l};
