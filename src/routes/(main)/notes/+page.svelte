@@ -8,7 +8,6 @@
 
 <svelte:head>
     <title>Notes and Such</title>
-    <link rel="preload" as="image" href="/images/notes.svg">
 </svelte:head>
 
 <BigHeader type={HeaderType.NotesAndSuch} />

@@ -10,7 +10,6 @@
 
 <svelte:head>
     <title>Flat Pickles</title>
-    <link rel="preload" as="image" href="/images/flatpickles.svg">
 </svelte:head>
 
 <BigHeader type={HeaderType.FlatPickles} />

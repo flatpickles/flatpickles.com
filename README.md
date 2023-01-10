@@ -23,6 +23,7 @@
 * Adjust body class approach [this way](https://github.com/sveltejs/svelte/issues/3105#issuecomment-1373889014)
 * Anchor page for media
 * Anchor page for text
+* Maybe use Vite imports for media assets
 
 ## Known Issues
 * Flash of unstyled content even when loading on Vercel?

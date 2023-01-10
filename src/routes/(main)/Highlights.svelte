@@ -1,22 +1,26 @@
 <script>
-    import HighlightCard from "./HighlightCard.svelte";
+    import HighlightCard from './HighlightCard.svelte';
+
+    import floppyImg from '$lib/assets/floppy.png';
+    import goopImg from '$lib/assets/goop.png';
+    import rectImg from '$lib/assets/rect.png';
 </script>
 
 <div class="highlights">
     <HighlightCard 
         title="Sketchbook"
         link="https://sketchbook.flatpickles.com"
-        image="/images/floppy.png"
+        image={floppyImg}
     />
     <HighlightCard 
         title="Notes and Such"
         link="/notes"
-        image="/images/goop.png"
+        image={goopImg}
     />
     <HighlightCard 
         title="About Me"
         link="/about"
-        image="/images/rect.png"
+        image={rectImg}
     />
 </div>
 

@@ -7,7 +7,6 @@
 
 <svelte:head>
     <title>Matt Nichols</title>
-    <link rel="preload" as="image" href="/images/mattnichols.svg">
 </svelte:head>
 
 <BigHeader type={HeaderType.MattNichols} />

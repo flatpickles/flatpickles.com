@@ -1,5 +1,5 @@
 <script lang="ts">
-    import HomeLink from '$lib/Components/HomeLink.svelte';
+    import HomeLink from '$lib/components/HomeLink.svelte';
 
     export let title: string;
     export let date: Date;
