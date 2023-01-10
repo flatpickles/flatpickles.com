@@ -1,20 +1,22 @@
 # flatpickles.com
 
 * Slug page for text
-    * Remove gradient
     * Hide header when scrolling down (maybe within HomeLinkOverlay)
 * Slug page for media
     * Smooth gradient backgrounds
     * Header & footer text colors
     * Hide header & footer between taps & mouse movement
+    * Content loading indicator
+* Clean up
+    * Text colors/opacity throughout
+    * Text link style/color
+    * layout architecture for sub-sections
 * Error page for media
 * Error page for media
 * About page content
 * Hover behavior for ProjectList?
 * Move archived webapps to Vercel
 * Notes page
-* Global layout tuning
-* Global typography tuning (space, weight)
 * Smooth transitions between pages
 * Update Spark effects and add links to archive
 * SEO improvements - [SvelteKit docs](https://kit.svelte.dev/docs/seo)

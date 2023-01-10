@@ -1,10 +1,17 @@
-<script>
-  import PageBody from "../PageBody.svelte";
-  import PagesDisplay from "./PagesDisplay.svelte";
-  import Note from "./Note.svelte";
+<script lang="ts">
+    import PageBody from "../PageBody.svelte";
+    import PagesDisplay from "./PagesDisplay.svelte";
+    import Note from "./Note.svelte";
+    import BigHeader from "../BigHeader.svelte";
+    import { HeaderType } from "$lib/types";
 </script>
 
-<h1>Notes and Such</h1> <!-- BigHeader -->
+<svelte:head>
+    <title>Notes and Such</title>
+    <link rel="preload" as="image" href="/images/notes.svg">
+</svelte:head>
+
+<BigHeader type={HeaderType.NotesAndSuch} />
 
 <div class="notes-lede">
     <p>
@@ -22,11 +29,6 @@
 </PageBody>
 
 <style>
-    h1 {
-        font-size: 6em; /* Todo: svg */
-        font-family: 'Hobeaux';
-    }
-
     a {
         color: rgb(0, 0, 134);
         text-decoration: none;
@@ -40,6 +42,7 @@
         font-size: 1.25em;
         text-align: justify;
         padding: calc(var(--padding) / 2);
+        margin-top: var(--padding);
         border-radius: calc(var(--padding) / 2);
         background-color: rgba(0, 0, 0, 7%);
     }

@@ -14,7 +14,7 @@
         justify-content: space-between;
         flex-wrap: wrap;
         gap: calc(var(--padding) / 2);
-        margin-top: calc(var(--padding) * 1.5);
+        margin-top: var(--padding);
     }
 
     a {

@@ -11,6 +11,12 @@ export enum ProjectType {
     Other = "Other"
 }
 
+export enum HeaderType {
+    FlatPickles,
+    NotesAndSuch,
+    MattNichols
+}
+
 export const extensionMap: Record<string, ProjectType> = {
     'png': ProjectType.Image,
     'jpg': ProjectType.Image,
