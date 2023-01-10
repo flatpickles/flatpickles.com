@@ -1,5 +1,11 @@
 # flatpickles.com
 
+## Issues
+* Header image loads after page on mobile
+
+## To do
+* favicon
+* HomeLink dedicated smaller image + Vite import
 * Slug page for text
     * Hide header when scrolling down (maybe within HomeLinkOverlay)
 * Slug page for media
@@ -23,9 +29,10 @@
 * Adjust body class approach [this way](https://github.com/sveltejs/svelte/issues/3105#issuecomment-1373889014)
 * Anchor page for media
 * Anchor page for text
-* Maybe use Vite imports for media assets
+* Maybe use Vite imports for media assets`
 
-## Known Issues
+## Low pri issues
+* Header image presented small first, then sized up (one frame)
 * Flash of unstyled content even when loading on Vercel?
 * Double render (SSR + CSR) locally (seems expected - but why?)
 * Generating full index requires loading all writing .md files (+100ms)

@@ -11,8 +11,8 @@
 <div class="header">
     <!-- Load all images so they're ready to go for CSR, mas rapido -->
     <img src={flatPicklesImg} alt="Flat Pickles" class:hidden={type != HeaderType.FlatPickles}/>
-    <img src={notesImg} alt="Notes and Such" class="hidden" class:hidden={type != HeaderType.NotesAndSuch}/>
-    <img src={mattNicholsImg} alt="Matt Nichols" class="hidden" class:hidden={type != HeaderType.MattNichols}/>
+    <img src={notesImg} alt="Notes and Such" class:hidden={type != HeaderType.NotesAndSuch}/>
+    <img src={mattNicholsImg} alt="Matt Nichols" class:hidden={type != HeaderType.MattNichols}/>
 </div>
 
 <style>
