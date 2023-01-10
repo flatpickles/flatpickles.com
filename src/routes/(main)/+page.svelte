@@ -26,3 +26,15 @@
 <Highlights />
 
 <ProjectList projects={data.projects} />
+
+<div class="copyright">
+    Copyright &copy 2023 Matt Nichols
+</div>
+
+<style>
+    .copyright {
+        text-align: center;
+        margin-top: calc(var(--padding) * 2);
+        opacity: 0.4;
+    }
+</style>
