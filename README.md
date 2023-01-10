@@ -39,6 +39,7 @@
 * ProjectList responsive design could be improved: CSS grid maybe, for fewer magic numbers.
 
 ## Packages added
+* npm i @sveltejs/adapter-vercel
 * npm i -D mdsvex
 * npm i svelte-body -D
 * ress i ress
