@@ -1,5 +1,5 @@
 <script lang="ts">
-    import HomeLinkOverlay from '$lib/components/HomeLinkOverlay.svelte';
+    import HomeLinkOverlay from '$lib/Components/HomeLinkOverlay.svelte';
     import type { ProjectData } from "$lib/types";
     import WritingDisplay from '../WritingDisplay.svelte';
     import type { PageLoad } from "./$types";
