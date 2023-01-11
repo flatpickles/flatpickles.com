@@ -17,20 +17,6 @@ export enum HeaderType {
     MattNichols
 }
 
-export const extensionMap: Record<string, ProjectType> = {
-    'png': ProjectType.Image,
-    'jpg': ProjectType.Image,
-    'svg': ProjectType.Image,
-    'mp4': ProjectType.Video,
-    'mp3': ProjectType.Audio,
-}
-
-export interface MediaRecord {
-    title: string,
-    filename: string,
-    date: string
-}
-
 export interface ProjectData {
     title: string;
     url: string;
@@ -38,4 +24,12 @@ export interface ProjectData {
     type: ProjectType;
     assetPath?: string;
     component?: ConstructorOfATypedSvelteComponent;
+}
+
+export interface NoteData {
+    title: string;
+    url: string;
+    date: Date;
+    updated?: Date;
+    component: ConstructorOfATypedSvelteComponent;
 }

@@ -2,6 +2,7 @@
 
 ## Issues
 * Header image loads after page on mobile
+* Jumpy dates, man
 
 ## To do
 * Slug page for text
@@ -44,9 +45,11 @@
 * npm i -D sass 
 
 ## Questions
-* Comparison with TypeScript enum - triple equals?
+* Comparison with TypeScript enum - triple equals? // ??
 * TypeScript warning in media page.svelte
 * Implications of SSR vs CSR in SvelteKit?
 * What's the best way to set a different body color for different routes? svelte-body works, but renders with a flash; this is currently obscured by a full-height div wrapper of the same color. I'm not sure if this works as expected with both CSR & SSR.
 * Does specifying page content via component props (i.e. JS) interfere with the benefits of SSR, e.g. SEO?
 * What's the best way to check if an enum type is one of several different options?
+* Why doesn't import.meta.glob return a promise, while import does?
+* `const { metadata, default: component} = module as any;` -- why type only for second?

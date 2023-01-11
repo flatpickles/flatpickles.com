@@ -1,4 +1,18 @@
-import { type ProjectData, type MediaRecord, extensionMap } from '$lib/types';
+import { type ProjectData, ProjectType } from '$lib/types';
+
+interface MediaRecord {
+    title: string,
+    filename: string,
+    date: string
+}
+
+const extensionMap: Record<string, ProjectType> = {
+    'png': ProjectType.Image,
+    'jpg': ProjectType.Image,
+    'svg': ProjectType.Image,
+    'mp4': ProjectType.Video,
+    'mp3': ProjectType.Audio,
+}
 
 const mediaRecords: MediaRecord[] = [
     {
