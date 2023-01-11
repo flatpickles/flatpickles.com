@@ -1,17 +1,18 @@
 <script lang="ts">
     export let opacity: string = "0.5";
+
+    import fpIcon from '$lib/assets/fp-icon.svg';
 </script>
 
 <a href="/" style="--base-opacity: {opacity}">
-    <img src="/media/quick-pick.png" alt="Flat Pickles" />
+    <img src={fpIcon} alt="Flat Pickles" />
 </a>
 
 <style>
     img {
-        /* todo: resize asset, or use SVG */
         display: block;
-        width: calc(var(--padding) * 1.5);
-        height: calc(var(--padding) * 1.5);
+        width: 1.5em;
+        height: 1.5em;
     }
     
     a {

@@ -4,8 +4,6 @@
 * Header image loads after page on mobile
 
 ## To do
-* favicon
-* HomeLink dedicated smaller image + Vite import
 * Slug page for text
     * Hide header when scrolling down (maybe within HomeLinkOverlay)
 * Slug page for media
