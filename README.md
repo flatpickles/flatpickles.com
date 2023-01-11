@@ -5,6 +5,12 @@
 * Jumpy dates, man
 
 ## To do
+* Cleanup Writing index with eager glob import
+* Notes and Such
+    * Slug page, w/ links from main page
+    * Style / design choices
+    * Pagination for main page
+    * Display only part of long notes?
 * Slug page for text
     * Hide header when scrolling down (maybe within HomeLinkOverlay)
 * Slug page for media
@@ -21,7 +27,6 @@
 * About page content
 * Hover behavior for ProjectList?
 * Move archived webapps to Vercel
-* Notes page
 * Smooth transitions between pages
 * Update Spark effects and add links to archive
 * SEO improvements - [SvelteKit docs](https://kit.svelte.dev/docs/seo)
