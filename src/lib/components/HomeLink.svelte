@@ -20,7 +20,6 @@
         text-decoration: none;
         opacity: var(--base-opacity);
         transition: opacity 0.3s ease-out;
-        font-size: 1.25em;
         pointer-events: all;
     }
 

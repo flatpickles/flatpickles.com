@@ -48,10 +48,11 @@
     }
 
     .title {
-        font-family: 'Hobeaux';
-        font-size: 1.25em;
-        color: #FFF;
         padding: var(--padding);
         user-select: none;
+
+        font-family: 'Hobeaux';
+        color: #FFF;
+        font-size: 1.2em;
     }
 </style>

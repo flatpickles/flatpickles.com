@@ -9,17 +9,20 @@
 
 <style lang="scss">
     .links {
+        margin-top: var(--padding);
+        margin-bottom: var(--padding);
+
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: wrap;
         gap: calc(var(--padding) / 2);
-        margin-top: var(--padding);
+
+        font-size: 1.2em;
     }
 
     a {
         font-family: 'Hobeaux';
-        font-size: 1.25em;
         text-decoration: none;
         color: rgb(11, 85, 11);
     }

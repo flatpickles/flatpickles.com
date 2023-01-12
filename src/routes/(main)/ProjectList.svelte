@@ -33,10 +33,10 @@
     }
 
     .project-list {
-        margin-top: var(--padding);
-
         display: flex;
         flex-direction: column;
+
+        font-size: 1.2em;
     }
 
     .project-row {
@@ -63,7 +63,6 @@
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-        font-size: 1.25em;
     }
 
     .project-metadata {
@@ -76,6 +75,5 @@
         justify-content: space-between;
 
         color: rgba(0, 0, 0, 60%);
-        font-size: 1.25em;
     }
 </style>

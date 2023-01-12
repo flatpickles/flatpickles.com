@@ -45,9 +45,11 @@
 
     .date {
         opacity: 0.5;
+        font-size: 1.1em;
     }
 
     .writing-body {
         padding-top: var(--padding);
+        font-size: 1.1em;
     }
 </style>

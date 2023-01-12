@@ -37,11 +37,17 @@
     }
 
     .note-title {
-        font-size: 1.5em;
+        font-size: 2em;
         font-family: 'Hobeaux';
     }
 
     .note-date {
         opacity: 0.5;
+        font-size: 1.1em;
+    }
+
+    .note-body {
+        font-size: 1.1em;
+        text-align: justify;
     }
 </style>

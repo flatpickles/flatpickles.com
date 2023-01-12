@@ -30,6 +30,8 @@
         flex-direction: column;
         justify-content: space-between;
         pointer-events: none;
+
+        font-size: 1.2em;
     }
 
     .meta {
@@ -52,7 +54,6 @@
     }
 
     .title {
-        font-size: 1.25em;
         font-family: 'Hobeaux';
     }
 </style>

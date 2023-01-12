@@ -14,14 +14,6 @@
 
 <BigHeader type={HeaderType.FlatPickles} />
 
-<!-- <PageBody>
-    <p>
-        Hello world, it's me, Matt! Welcome to my internet living room.
-        This is where I put the stuff I'm creating and thinking about, and where I maintain an ongoing archive of projects and explorations.
-        If you see fit to poke around, I hope you find something cool. Thanks for visiting!
-    </p>
-</PageBody> -->
-
 <Highlights />
 
 <ProjectList projects={data.projects} />

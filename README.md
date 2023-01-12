@@ -5,6 +5,7 @@
 * Jumpy dates, man
 
 ## To do
+* robots.txt
 * Cleanup Writing index with eager glob import
 * Notes and Such
     * Slug page, w/ links from main page
@@ -22,6 +23,7 @@
     * Text colors/opacity throughout
     * Text link style/color
     * layout architecture for sub-sections
+    * Variables - Sass?
 * Error page for media
 * Error page for media
 * About page content
@@ -36,6 +38,7 @@
 * Maybe use Vite imports for media assets`
 
 ## Low pri issues
+* Occasional "Not found: /favicon.ico" errors
 * Header image presented small first, then sized up (one frame)
 * Flash of unstyled content even when loading on Vercel?
 * Double render (SSR + CSR) locally (seems expected - but why?)
