@@ -1,5 +1,5 @@
 <script lang="ts">
-    import type { ProjectData } from "$lib/types";
+    import type { ProjectData } from '$lib/types';
     import MediaDisplay from '../MediaDisplay.svelte';
     import MediaOverlay from '../MediaOverlay.svelte';
     import type { PageLoad } from "./$types";

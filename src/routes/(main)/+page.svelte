@@ -1,9 +1,10 @@
-<script lang="ts">
-    import BigHeader from "./BigHeader.svelte";
-    import Highlights from "./Highlights.svelte";
-    import ProjectList from "./ProjectList.svelte";
-    import type { PageData } from "./$types";
+<script lang='ts'>
     import { HeaderType } from '$lib/types';
+    import type { PageData } from './$types';
+
+    import BigHeader from './BigHeader.svelte';
+    import Highlights from './Highlights.svelte';
+    import ProjectList from './ProjectList.svelte';
 
     export let data: PageData;
 </script>

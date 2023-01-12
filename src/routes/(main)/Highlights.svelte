@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import HighlightCard from './HighlightCard.svelte';
 
     import floppyImg from '$lib/assets/floppy.png';

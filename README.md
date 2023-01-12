@@ -1,12 +1,7 @@
 # flatpickles.com
 
-## Issues
-* Header image loads after page on mobile
-* Jumpy dates, man
-
 ## To do
-* robots.txt
-* Cleanup Writing index with eager glob import
+* Cleanup Writing index with eager glob import (rename some stuff too)
 * Notes and Such
     * Slug page, w/ links from main page
     * Pagination for main page (non-eager glob import)
@@ -26,9 +21,15 @@
     * Experiment with different weights
     * Include only the weights that are actually used
 * Error pages (same one for everything?)
-* SEO improvements - [SvelteKit docs](https://kit.svelte.dev/docs/seo)
+* SEO improvements
+    * [SvelteKit docs](https://kit.svelte.dev/docs/seo)
+    * robots.txt
 * Adjust body class approach [this way](https://github.com/sveltejs/svelte/issues/3105#issuecomment-1373889014)
 * Adjust pixel-sized page width calculations to em values
+* Final polish
+    * Remove/address todos & questions
+    * Sort imports
+    * Remove SASS (unless used by then)
 * Publishing
     * Move archived webapps to Vercel
     * Redirect flatpickles.com URL to vercel
@@ -40,13 +41,15 @@
 * Anchor page for media
 * Anchor page for text
 
-## Low pri issues
-* Occasional "Not found: /favicon.ico" errors
+## Known problems
+* Text doesn't look quite centered vertically in project list entries
+* Header image loads after page on mobile
 * Header image presented small first, then sized up (one frame)
 * Flash of unstyled content even when loading on Vercel?
-* Double render (SSR + CSR) locally (seems expected - but why?)
+* Occasional "Not found: /favicon.ico" errors
 * Generating full index requires loading all writing .md files (+100ms)
 * ProjectList responsive design could be improved: CSS grid maybe, for fewer magic numbers.
+* Double render (SSR + CSR) locally (seems expected - but why?)
 
 ## Packages added
 * npm i -D @sveltejs/adapter-vercel

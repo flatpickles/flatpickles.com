@@ -1,5 +1,5 @@
 <script lang="ts">
-    import type { ProjectData } from "$lib/types";
+    import type { ProjectData } from '$lib/types';
 
     export let projects: ProjectData[];
 </script>

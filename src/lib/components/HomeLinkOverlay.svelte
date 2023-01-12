@@ -1,5 +1,5 @@
-<script>
-    import HomeLink from "./HomeLink.svelte";
+<script lang="ts">
+    import HomeLink from './HomeLink.svelte';
 </script>
 
 <div class="home-wrapper">
