@@ -24,3 +24,12 @@ body {
 p:not(:last-child)  {
     margin-bottom: 1em;
 }
+
+a {
+    text-decoration: none;
+    color: rgb(37, 104, 55);
+}
+
+a:hover {
+    text-decoration: underline;
+}

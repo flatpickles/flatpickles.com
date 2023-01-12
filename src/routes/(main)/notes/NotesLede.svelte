@@ -6,15 +6,6 @@
 
 
 <style>
-    a {
-        color: rgb(0, 0, 134);
-        text-decoration: none;
-    }
-
-    a:hover {
-        text-decoration: underline;
-    }
-
     .notes-lede {
         margin-top: 1em;
         margin-bottom: 1em;

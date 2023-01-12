@@ -23,12 +23,6 @@
 
     a {
         font-family: 'Hobeaux';
-        text-decoration: none;
-        color: rgb(11, 85, 11);
-    }
-
-    a:hover {
-        text-decoration: underline;
     }
 
     /*

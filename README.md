@@ -9,33 +9,36 @@
 * Cleanup Writing index with eager glob import
 * Notes and Such
     * Slug page, w/ links from main page
-    * Style / design choices
-    * Pagination for main page
+    * Pagination for main page (non-eager glob import)
     * Display only part of long notes?
+    * Consolidate writing display and note display?
+* Smooth gradients in:
+    * MediaOverlay
+    * HighlightCard
+* About page content
 * Slug page for text
     * Hide header when scrolling down (maybe within HomeLinkOverlay)
 * Slug page for media
-    * Smooth gradient backgrounds
-    * Header & footer text colors
     * Hide header & footer between taps & mouse movement
     * Content loading indicator
-* Clean up
-    * Text colors/opacity throughout
-    * Text link style/color
-    * layout architecture for sub-sections
-    * Variables - Sass?
-* Error page for media
-* Error page for media
-* About page content
-* Hover behavior for ProjectList?
-* Move archived webapps to Vercel
-* Smooth transitions between pages
-* Update Spark effects and add links to archive
+* Finalize fonts
+    * Buy Hobeaux
+    * Experiment with different weights
+    * Include only the weights that are actually used
+* Error pages (same one for everything?)
 * SEO improvements - [SvelteKit docs](https://kit.svelte.dev/docs/seo)
 * Adjust body class approach [this way](https://github.com/sveltejs/svelte/issues/3105#issuecomment-1373889014)
+* Adjust pixel-sized page width calculations to em values
+* Publishing
+    * Move archived webapps to Vercel
+    * Redirect flatpickles.com URL to vercel
+    * Close out GitHub pages
+    * Publish new repository as public (why not)
+* Smooth transitions between pages
+* Update Spark effects and add links to archive
+* Maybe use Vite imports for media assets
 * Anchor page for media
 * Anchor page for text
-* Maybe use Vite imports for media assets`
 
 ## Low pri issues
 * Occasional "Not found: /favicon.ico" errors
