@@ -9,14 +9,14 @@
 
 <style lang="scss">
     .links {
-        margin-top: var(--padding);
-        margin-bottom: var(--padding);
+        margin-top: 1em;
+        margin-bottom: 0.8em;
 
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: wrap;
-        gap: calc(var(--padding) / 2);
+        gap: 0.5em;
 
         font-size: 1.2em;
     }

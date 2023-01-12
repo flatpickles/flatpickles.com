@@ -23,13 +23,13 @@
     }
 
     .card {
-        height: var(--highlight-height);
+        height: 7em;
         background-image: var(--image-url);
         background-size: cover;
-        flex: 1 0 var(--highlight-min-width);
-        filter: drop-shadow(0 0 calc(var(--padding) / 2) rgba(0, 0, 0, 0.2));
+        flex: 1 0 11em;
+        filter: drop-shadow(0 0 0.5em rgba(0, 0, 0, 0.2));
         text-decoration: none;
-        border-radius: calc(var(--padding));
+        border-radius: calc(1em);
         overflow: hidden;
 
         // https://stackoverflow.com/a/58283449/280404
@@ -48,7 +48,7 @@
     }
 
     .title {
-        padding: var(--padding);
+        padding: 1em;
         user-select: none;
 
         font-family: 'Hobeaux';

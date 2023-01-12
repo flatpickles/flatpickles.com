@@ -27,15 +27,15 @@
         --writing-container-top-bottom-padding: calc(
             max(
                 min(100px, 100/7 * 1vw),
-                calc(var(--padding) * 4)
+                4em
             )
         );
 
         max-width: var(--page-width);
         padding-top: var(--writing-container-top-bottom-padding);
         padding-bottom: var(--writing-container-top-bottom-padding);
-        padding-left: var(--padding);
-        padding-right: var(--padding);
+        padding-left: 1em;
+        padding-right: 1em;
     }
 
     .title {
@@ -49,7 +49,7 @@
     }
 
     .writing-body {
-        padding-top: var(--padding);
+        padding-top: 1em;
         font-size: 1.1em;
     }
 </style>

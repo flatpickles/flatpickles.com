@@ -10,8 +10,8 @@
     .home-wrapper {
         position: fixed;
         background-color: inherit;
-        top: var(--padding);
-        right: var(--padding);
+        top: 1em;
+        right: 1em;
         border-radius: 50%;
     }
 </style>

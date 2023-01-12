@@ -16,10 +16,10 @@
     }
 
     .notes-lede {
-        margin-top: var(--padding);
-        margin-bottom: var(--padding);
-        padding: calc(var(--padding) / 2);
-        border-radius: calc(var(--padding) / 2);
+        margin-top: 1em;
+        margin-bottom: 1em;
+        padding: 0.5em;
+        border-radius: 0.5em;
         background-color: rgba(0, 0, 0, 7%);
 
         text-align: justify;

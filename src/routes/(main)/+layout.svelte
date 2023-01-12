@@ -10,8 +10,8 @@
         max-width: var(--page-width);
         padding-top: var(--page-top-bottom-padding);
         padding-bottom: var(--page-top-bottom-padding);
-        padding-left: var(--padding);
-        padding-right: var(--padding);
+        padding-left: 1em;
+        padding-right: 1em;
 
         display: flex;
         flex-direction: column;

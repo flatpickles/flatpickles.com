@@ -29,8 +29,8 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        gap: calc(var(--padding) / 2);
-        margin-top: calc(var(--padding) * 1.5);
-        margin-bottom: calc(var(--padding) * 1.5);
+        gap: 0.5em;
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
     }
 </style>

@@ -25,7 +25,7 @@
 <style>
     .copyright {
         text-align: center;
-        margin-top: calc(var(--padding) * 2);
+        margin-top: 2em;
         opacity: 0.4;
     }
 </style>

@@ -1,17 +1,13 @@
 // Global variables
 
 :root {
-    --padding: 1em;
     --page-width: 700px;
     --page-top-bottom-padding: calc(
         max(
             min(100px, 100/7 * 1vw),
-            calc(var(--padding) * 2)
+            2em
         )
     );
-
-    --highlight-height: 120px;
-    --highlight-min-width: 180px;
 }
 
 // Global styles
@@ -22,5 +18,5 @@ body {
 }
 
 p:not(:last-child)  {
-    margin-bottom: var(--padding);
+    margin-bottom: 1em;
 }

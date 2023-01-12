@@ -40,12 +40,12 @@
     }
 
     .project-row {
-        padding: calc(var(--padding) / 2);
-        border-radius: calc(var(--padding) / 2);
+        padding: 0.5em;
+        border-radius: 0.5em;
 
         display: flex;
         flex-direction: row;
-        column-gap: var(--padding);
+        column-gap: 1em;
         justify-content: space-between;
         flex-wrap: wrap;
         align-items: baseline;
@@ -71,7 +71,7 @@
 
         display: flex;
         flex-direction: row;
-        column-gap: var(--padding);
+        column-gap: 1em;
         justify-content: space-between;
 
         color: rgba(0, 0, 0, 60%);

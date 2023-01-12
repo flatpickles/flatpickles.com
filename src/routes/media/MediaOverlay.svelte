@@ -35,12 +35,12 @@
     }
 
     .meta {
-        padding: var(--padding);
+        padding: 1em;
     }
 
     .header {
         background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
-        padding-bottom: calc(var(--padding) * 2);
+        padding-bottom: 0.5em;
         pointer-events: all;
 
         display: flex;

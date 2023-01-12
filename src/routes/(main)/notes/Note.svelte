@@ -26,7 +26,7 @@
 
 <style>
     .note {
-        padding-bottom: var(--padding);
+        padding-bottom: 1em;
     }
 
     .note-header {
