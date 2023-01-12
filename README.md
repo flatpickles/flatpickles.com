@@ -3,10 +3,10 @@
 ## To do
 * Cleanup Writing index with eager glob import (rename some stuff too)
 * Notes and Such
-    * Slug page, w/ links from main page
+    * Figure out top padding - same as writing display probably
+    * Consolidate writing display and note display?
     * Pagination for main page (non-eager glob import)
     * Display only part of long notes?
-    * Consolidate writing display and note display?
 * Smooth gradients in:
     * MediaOverlay
     * HighlightCard

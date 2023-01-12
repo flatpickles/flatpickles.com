@@ -50,6 +50,11 @@ export default class Content {
         return project;
     }
 
+    static async note(key: string): Promise<NoteData> {
+        const module = await import(`./notes/${key}.md`);
+        return this.makeNote(key, module);
+    }
+
     /*** Private Utilities ***/
 
     private static keyFromPath(path: string): string {
