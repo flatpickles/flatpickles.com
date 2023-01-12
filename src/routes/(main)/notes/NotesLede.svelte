@@ -8,7 +8,7 @@
 <style>
     .notes-lede {
         margin-top: 1em;
-        margin-bottom: 1em;
+        margin-bottom: 1.5em;
         padding: 0.5em;
         border-radius: 0.5em;
         background-color: var(--transparent-background);
