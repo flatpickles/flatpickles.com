@@ -26,6 +26,7 @@
     .copyright {
         text-align: center;
         margin-top: 2em;
-        opacity: 0.4;
+        font-size: 1.1em;
+        color: var(--transparent-dark-text);
     }
 </style>

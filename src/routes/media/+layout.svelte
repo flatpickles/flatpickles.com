@@ -9,7 +9,7 @@
 
 <style lang="scss">
     :global(.media) {
-        color: #FFF;
+        color: rgb(255, 255, 255);
         background-color: rgb(0, 0, 0);
         overflow: hidden; /* No mobile scroll */
     }

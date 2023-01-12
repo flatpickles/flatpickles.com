@@ -8,6 +8,10 @@
             2em
         )
     );
+
+    --transparent-background: rgba(0, 0, 0, 7%);
+    --transparent-dark-text: rgba(0, 0, 0, 50%);
+    --transparent-light-text: rgba(255, 255, 255, 70%);
 }
 
 // Global styles

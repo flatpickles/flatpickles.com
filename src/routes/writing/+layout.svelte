@@ -9,6 +9,6 @@
 
 <style lang="scss">
     :global(.writing) {
-        background-color: #FFF;
+        background-color: rgb(255, 255, 255);
     }
 </style>

@@ -1,10 +1,8 @@
 <script lang="ts">
-    export let opacity: string = "0.5";
-
     import fpIcon from '$lib/assets/fp-icon.svg';
 </script>
 
-<a href="/" style="--base-opacity: {opacity}">
+<a href="/">
     <img src={fpIcon} alt="Flat Pickles" />
 </a>
 
@@ -18,7 +16,7 @@
     a {
         color: inherit;
         text-decoration: none;
-        opacity: var(--base-opacity);
+        opacity: 0.7;
         transition: opacity 0.3s ease-out;
         pointer-events: all;
     }

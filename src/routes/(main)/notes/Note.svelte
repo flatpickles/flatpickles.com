@@ -42,7 +42,7 @@
     }
 
     .note-date {
-        opacity: 0.5;
+        color: var(--transparent-dark-text);
         font-size: 1.1em;
     }
 

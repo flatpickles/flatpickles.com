@@ -20,7 +20,7 @@
         margin-bottom: 1em;
         padding: 0.5em;
         border-radius: 0.5em;
-        background-color: rgba(0, 0, 0, 7%);
+        background-color: var(--transparent-background);
 
         text-align: justify;
         font-size: 1.2em;

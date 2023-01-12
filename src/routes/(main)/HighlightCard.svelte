@@ -52,7 +52,7 @@
         user-select: none;
 
         font-family: 'Hobeaux';
-        color: #FFF;
+        color: rgb(255, 255, 255);
         font-size: 1.2em;
     }
 </style>

@@ -21,6 +21,6 @@
     }
 
     .other-page {
-        opacity: 0.5;
+        color: var(--transparent-dark-text);
     }
 </style>

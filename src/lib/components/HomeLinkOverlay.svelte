@@ -3,7 +3,7 @@
 </script>
 
 <div class="home-wrapper">
-    <HomeLink opacity=0.7 />
+    <HomeLink />
 </div>
 
 <style>

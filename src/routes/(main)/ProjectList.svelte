@@ -52,7 +52,7 @@
     }
 
     .project-row:nth-child(odd) {
-        background-color: rgba(0, 0, 0, 7%);
+        background-color: var(--transparent-background);
     }
 
     .project-title {
@@ -74,6 +74,6 @@
         column-gap: 1em;
         justify-content: space-between;
 
-        color: rgba(0, 0, 0, 60%);
+        color: var(--transparent-dark-text);
     }
 </style>

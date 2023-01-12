@@ -17,7 +17,7 @@
                 })}
             </div>
         </div>
-        <HomeLink opacity=0.7 />
+        <HomeLink />
     </div>
 </div>
 
@@ -30,8 +30,6 @@
         flex-direction: column;
         justify-content: space-between;
         pointer-events: none;
-
-        font-size: 1.2em;
     }
 
     .meta {
@@ -49,11 +47,12 @@
         justify-content: space-between;
     }
 
-    .metadata {
-        opacity: 80%;
-    }
-
     .title {
         font-family: 'Hobeaux';
+        font-size: 1.2em;
+    }
+
+    .date {
+        color: var(--transparent-light-text);
     }
 </style>
