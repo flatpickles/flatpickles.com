@@ -5,7 +5,9 @@
 * Notes and Such
     * Pagination for main page (non-eager glob import)
     * Redirect /note to /notes (unless slugged)
+    * No number in key
     * Display only part of long notes?
+    * "Back to Notes and Such" link at the bottom of exclusive note
 * Smooth gradients in:
     * MediaOverlay
     * HighlightCard

@@ -4,12 +4,10 @@ import { redirect } from '@sveltejs/kit';
 
 export const load = (async ({ params }) => {
     const pageNumber = parseInt(params.slug);
-    if (isNaN(pageNumber)) {
-        throw redirect(307, '1');
-    }
-
     const currentPage = await Content.notesPage(pageNumber);
-    // todo: redirect (as above) if pageNumber isn't valid (notesPage should error)
+    // todo: redirect if notesPage returned in error
+    // throw redirect(307, '1');
+
     return {
         page: currentPage
     }

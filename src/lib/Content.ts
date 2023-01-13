@@ -1,3 +1,4 @@
+import Config from './Config';
 import { type ProjectData, type NoteData, ProjectType, type NotesPage } from './types';
 
 import { mediaProjects } from './content/media';
@@ -39,15 +40,28 @@ export default class Content {
         });
     }
 
-    static async notesPage(pageNum: number): Promise<NotesPage> {
+    static async notesPage(pageNumber: number): Promise<NotesPage> {
+        // Validate numeric input
+        if (isNaN(pageNumber)) {
+            throw new Error('Non-numeric page number provided.')
+        }
+
+        // Collect notes files and sort them by filename
         const allNotesFiles = import.meta.glob('./content/notes/*.md');
         const iterableNotes = Object.entries(allNotesFiles);
         const sortedNotes = iterableNotes.sort(([pathA], [pathB]) => {
             return pathA.localeCompare(pathB);
         });
 
-        const pageFiles = [sortedNotes[pageNum - 1]];
+        // Calculate page bounds and check validity
+        const pageStart = (pageNumber - 1) * Config.notesPageSize;
+        if (pageStart >= sortedNotes.length) {
+            throw new Error(`Page ${pageNumber} does not exist.`);
+        }
+        const pageEnd = pageNumber * Config.notesPageSize;
+        const pageFiles = sortedNotes.slice(pageStart, pageEnd);
 
+        // Return NotesPage
         return {
             notes: await Promise.all(
                 pageFiles.map(async ([path, resolver]) => {
@@ -56,8 +70,8 @@ export default class Content {
                     return this.makeNote(key, module);
                 })
             ),
-            currentPage: pageNum,
-            pageCount: 8
+            currentPage: pageNumber,
+            pageCount: Math.ceil(sortedNotes.length / Config.notesPageSize)
         }
     }
     
