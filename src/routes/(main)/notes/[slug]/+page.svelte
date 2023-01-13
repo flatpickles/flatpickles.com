@@ -23,8 +23,10 @@
         <Note {note} />
     {/each}
 
-    <PagesDisplay 
-        currentPage={page.currentPage}
-        pageCount={page.pageCount}
-    />
+    {#if page.pageCount > 1}
+        <PagesDisplay 
+            currentPage={page.currentPage}
+            pageCount={page.pageCount}
+        />
+    {/if}
 </div>

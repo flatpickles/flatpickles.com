@@ -2,15 +2,12 @@
 
 ## To do
 * Cleanup Writing index with eager glob import (rename some stuff too)
-* Notes and Such
-    * Redirect /note to /notes (unless slugged)
-    * Display only part of long notes?
-    * "Back to Notes and Such" link at the bottom of exclusive note
 * Smooth gradients in:
     * MediaOverlay
     * HighlightCard
 * About page content
-* Slug page for text
+* Error pages (same one for everything?)
+* Slug page for text & notes
     * Hide header when scrolling down (maybe within HomeLinkOverlay)
 * Slug page for media
     * Hide header & footer between taps & mouse movement
@@ -19,7 +16,6 @@
     * Buy Hobeaux
     * Experiment with different weights
     * Include only the weights that are actually used
-* Error pages (same one for everything?)
 * SEO improvements
     * [SvelteKit docs](https://kit.svelte.dev/docs/seo)
     * robots.txt
@@ -55,6 +51,8 @@
 ## Ideas / considerations
 * WritingDisplay & NoteDisplay are similar but intentionally different. Maybe these should be consolidated, as a component and/or into the same design.
 * Better original date display within NoteDisplay
+* Display only the first part of especially long notes on the main notes page
+* Return to whichever notes page we came from on [Back to Notes and Such] (re: pagination)
 
 ## Packages added
 * npm i -D @sveltejs/adapter-vercel
@@ -74,3 +72,4 @@
 * `const { metadata, default: component} = module as any;` -- why type only for second?
 * Type 'never' error workaround in notes/.../+page.svelte
 * redirect usage in +page.ts vs +page.server.ts – should I worry about CSR vs SSR?
+* number | null vs. number | undefined (in TypeScript)

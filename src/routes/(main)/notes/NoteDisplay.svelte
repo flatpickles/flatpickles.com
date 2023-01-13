@@ -70,6 +70,7 @@
 
     .note-body {
         padding-top: 0.5em;
+        padding-bottom: 0.5em;
         font-size: 1.1em;
         text-align: justify;
     }

@@ -51,8 +51,8 @@ export default class Content {
             return this.makeNote(key, module as Record<string, any>); // ??
         })
         const sortedNotes = hydratedNotes.sort((noteA, noteB) => {
-            const dateA = noteA.updated ?? noteA.date;
-            const dateB = noteB.updated ?? noteB.date;
+            const dateA: Date = noteA.updated ?? noteA.date;
+            const dateB: Date = noteB.updated ?? noteB.date;
             return dateB.getTime() - dateA.getTime();
         });
 

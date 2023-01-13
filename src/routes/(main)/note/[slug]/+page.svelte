@@ -15,3 +15,21 @@
     exclusive = {true}
 />
 
+<nav class="back">
+    <a href="/notes">[Back to Notes and Such]</a>
+</nav>
+
+<style>
+    a {
+        color: var(--transparent-dark-text);
+    }
+
+    a:hover {
+        color: var(--link-color);
+    }
+
+    .back {
+        text-align: center;
+        font-size: 1.1em;
+    }
+</style>
