@@ -3,6 +3,9 @@
 
     export let note: NoteData;
     export let exclusive = false;
+
+    const updated: boolean = (note.updated != undefined);
+    const displayedDate: Date = (updated ? note.updated : note.date) as Date;
 </script>
 
 <article class="note">
@@ -17,11 +20,12 @@
             {/if}
         </h1>
 
-        <time class="note-date" datetime={note.date.toISOString()}>
-            {note.date.toLocaleDateString('en-us', {
+        <time class="note-date" datetime={displayedDate.toISOString()} title={`Published: ${note.date.toLocaleDateString()}`}>
+            {#if updated}Updated:{/if}
+            {displayedDate.toLocaleDateString('en-us', {
                 day: 'numeric',
-                year: 'numeric',
-                month: 'long'
+                year: updated ? '2-digit' : 'numeric',
+                month: updated ? 'short' : 'long'
             })}
         </time>
     </header>

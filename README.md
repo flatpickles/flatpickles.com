@@ -4,6 +4,7 @@
 * Cleanup Writing index with eager glob import (rename some stuff too)
 * Notes and Such
     * Pagination for main page (non-eager glob import)
+    * Updated display
     * Redirect /note to /notes (unless slugged)
     * No number in key
     * Display only part of long notes?
@@ -56,6 +57,7 @@
 
 ## Ideas / considerations
 * WritingDisplay & NoteDisplay are similar but intentionally different. Maybe these should be consolidated, as a component and/or into the same design.
+* Better original date display within NoteDisplay
 
 ## Packages added
 * npm i -D @sveltejs/adapter-vercel

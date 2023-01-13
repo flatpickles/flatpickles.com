@@ -4,12 +4,18 @@ import { type ProjectData, type NoteData, ProjectType, type NotesPage } from './
 import { mediaProjects } from './content/media';
 import { externalProjects } from './content/external';
 
+/**
+ * Content is a pseudo-API for all content included on flatpickles.com! Perhaps someday
+ * the site will outgrow this approach, but for now it should be sufficient & efficient.
+ */
 export default class Content {
     static async fullIndex(): Promise<ProjectData[]> {
         const writingIndex: ProjectData[] = await this.writingIndex();
         const allContents: ProjectData[] = this.mediaIndex().concat(this.externalIndex()).concat(writingIndex);
         return allContents.sort((a, b) => b.date.getTime() - a.date.getTime());
     }
+
+    /*** Entry collection requests ***/
 
     static mediaIndex(): ProjectData[] {
         return Object.values(mediaProjects);
@@ -31,26 +37,23 @@ export default class Content {
         );
     }
 
-    static notesIndex(): NoteData[] {
-        const allNotesFiles = import.meta.glob('./content/notes/*.md', { eager: true });
-        const iterableNotesFiles = Object.entries(allNotesFiles);
-        return iterableNotesFiles.map(([path, module]) => {
-            const key = this.keyFromPath(path);
-            return this.makeNote(key, module as Record<string, any>); // ??
-        });
-    }
-
-    static async notesPage(pageNumber: number): Promise<NotesPage> {
+    static notesPage(pageNumber: number): NotesPage {
         // Validate numeric input
         if (isNaN(pageNumber)) {
             throw new Error('Non-numeric page number provided.')
         }
 
-        // Collect notes files and sort them by filename
-        const allNotesFiles = import.meta.glob('./content/notes/*.md');
-        const iterableNotes = Object.entries(allNotesFiles);
-        const sortedNotes = iterableNotes.sort(([pathA], [pathB]) => {
-            return pathA.localeCompare(pathB);
+        // Collect notes files and sort them by published or updated date
+        const allNotesFiles = import.meta.glob('./content/notes/*.md', { eager: true });
+        const iterableNotes: [string, any][] = Object.entries(allNotesFiles);
+        const hydratedNotes: NoteData[] = iterableNotes.map(([path, module]) => {
+            const key = this.keyFromPath(path);
+            return this.makeNote(key, module as Record<string, any>); // ??
+        })
+        const sortedNotes = hydratedNotes.sort((noteA, noteB) => {
+            const dateA = noteA.updated ?? noteA.date;
+            const dateB = noteB.updated ?? noteB.date;
+            return dateB.getTime() - dateA.getTime();
         });
 
         // Calculate page bounds and check validity
@@ -63,17 +66,13 @@ export default class Content {
 
         // Return NotesPage
         return {
-            notes: await Promise.all(
-                pageFiles.map(async ([path, resolver]) => {
-                    const module = await resolver() as any;
-                    const key = this.keyFromPath(path);
-                    return this.makeNote(key, module);
-                })
-            ),
+            notes: pageFiles,
             currentPage: pageNumber,
             pageCount: Math.ceil(sortedNotes.length / Config.notesPageSize)
-        }
+        };
     }
+
+    /*** Single entry request */
     
     static mediaProject(key: string): ProjectData | null {
         return mediaProjects[key];
@@ -91,7 +90,7 @@ export default class Content {
         return this.makeNote(key, module);
     }
 
-    /*** Private Utilities ***/
+    /*** Private utilities ***/
 
     private static keyFromPath(path: string): string {
         return path.split('/').pop()?.split('.').shift() as string; // ??
@@ -111,7 +110,7 @@ export default class Content {
             title: module.metadata.title,
             url: `/note/${key}`,
             date: new Date(module.metadata.date),
-            // updated: todo
+            updated: module.metadata.updated ? new Date(module.metadata.updated) : undefined,
             component: module.default
         };
     }

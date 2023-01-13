@@ -2,13 +2,15 @@ import type { PageLoad } from './$types';
 import Content from '$lib/Content';
 import { redirect } from '@sveltejs/kit';
 
-export const load = (async ({ params }) => {
+export const load = (({ params }) => {
     const pageNumber = parseInt(params.slug);
-    const currentPage = await Content.notesPage(pageNumber);
-    // todo: redirect if notesPage returned in error
-    // throw redirect(307, '1');
-
-    return {
-        page: currentPage
+    try {
+        const currentPage = Content.notesPage(pageNumber);
+        return {
+            page: currentPage
+        }
+    } catch {
+        // Redirect to first page of notes if anything goes awry
+        throw redirect(307, '1');
     }
 }) satisfies PageLoad;
