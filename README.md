@@ -3,10 +3,7 @@
 ## To do
 * Cleanup Writing index with eager glob import (rename some stuff too)
 * Notes and Such
-    * Pagination for main page (non-eager glob import)
-    * Updated display
     * Redirect /note to /notes (unless slugged)
-    * No number in key
     * Display only part of long notes?
     * "Back to Notes and Such" link at the bottom of exclusive note
 * Smooth gradients in:
