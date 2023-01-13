@@ -34,6 +34,7 @@
     * Redirect flatpickles.com URL to vercel
     * Close out GitHub pages
     * Publish new repository as public (why not)
+* Tests - [helpful resource](https://el3um4s.medium.com/how-to-test-sveltekit-app-with-jest-848afa8edbc7)
 * Smooth transitions between pages
 * Update Spark effects and add links to archive
 * Maybe use Vite imports for media assets
@@ -69,3 +70,5 @@
 * What's the best way to check if an enum type is one of several different options?
 * Why doesn't import.meta.glob return a promise, while import does?
 * `const { metadata, default: component} = module as any;` -- why type only for second?
+* Type 'never' error workaround in notes/.../+page.svelte
+* redirect usage in +page.ts vs +page.server.ts – should I worry about CSR vs SSR?

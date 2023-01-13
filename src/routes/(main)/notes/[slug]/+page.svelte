@@ -1,17 +1,27 @@
-<script lang="ts">
-    import HomeLinkOverlay from '$lib/components/HomeLinkOverlay.svelte';
-    import type { NoteData } from '$lib/types';
-    import NoteDisplay from '../NoteDisplay.svelte';
-    import type { PageLoad } from './$types';
+<script lang='ts'>
+    import PagesDisplay from '../PagesDisplay.svelte';
+    import Note from '../NoteDisplay.svelte';
+    import BigHeader from '../../BigHeader.svelte';
+    import { HeaderType, type NoteData } from '$lib/types';
+    import type { PageData } from '../$types';
+    import NotesLede from '../NotesLede.svelte';
 
-    export let data: PageLoad | any; // suppress warnings
-    export let note: NoteData = data.note;
+    export let data: PageData;
+    const notes: NoteData[] = data['notes']; // (type 'never' error w/ data.notes)
 </script>
 
-<HomeLinkOverlay />
+<svelte:head>
+    <title>Notes and Such</title>
+</svelte:head>
 
-<NoteDisplay
-    note = {note}
-    exclusive = {true}
-/>
+<BigHeader type={HeaderType.NotesAndSuch} />
 
+<NotesLede />
+
+<div class="notes-wrapper">
+    {#each notes as note }   
+        <Note {note} />
+    {/each}
+
+    <PagesDisplay />
+</div>

@@ -38,6 +38,24 @@ export default class Content {
             return this.makeNote(key, module as Record<string, any>); // ??
         });
     }
+
+    static async notesPage(pageNum: number): Promise<NoteData[]> {
+        const allNotesFiles = import.meta.glob('./content/notes/*.md');
+        const iterableNotes = Object.entries(allNotesFiles);
+        const sortedNotes = iterableNotes.sort(([pathA], [pathB]) => {
+            return pathA.localeCompare(pathB);
+        });
+
+        // todo extract page, error if invalid
+
+        return await Promise.all(
+            sortedNotes.map(async ([path, resolver]) => {
+                const module = await resolver() as any;
+                const key = this.keyFromPath(path);
+                return this.makeNote(key, module);
+            })
+        );
+    }
     
     static mediaProject(key: string): ProjectData | null {
         return mediaProjects[key];
@@ -73,7 +91,7 @@ export default class Content {
     private static makeNote(key: string, module: Record<string, any>): NoteData {
         return {
             title: module.metadata.title,
-            url: `/notes/${key}`,
+            url: `/note/${key}`,
             date: new Date(module.metadata.date),
             // updated: todo
             component: module.default
