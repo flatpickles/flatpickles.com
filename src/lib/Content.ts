@@ -74,7 +74,7 @@ export default class Content {
 
     /*** Single entry request */
     
-    static mediaProject(key: string): ProjectData | null {
+    static mediaProject(key: string): ProjectData {
         return mediaProjects[key];
     }
 

@@ -1,13 +1,13 @@
 <script lang='ts'>
-    import PagesDisplay from '../PagesDisplay.svelte';
-    import Note from '../NoteDisplay.svelte';
-    import BigHeader from '../../BigHeader.svelte';
+    import Note from '$lib/components/NoteDisplay.svelte';
+    import BigHeader from '$lib/components/BigHeader.svelte';
     import { HeaderType, type NoteData, type NotesPage } from '$lib/types';
-    import type { PageData } from '../$types';
-    import NotesLede from '../NotesLede.svelte';
+    import type { PageData } from './$types';
+    import NotesLede from '$lib/components/NotesLede.svelte';
+    import PaginationDisplay from '$lib/components/PaginationDisplay.svelte';
 
     export let data: PageData;
-    $: page = data['page'] as NotesPage; // ?? - using data.page results in type 'never' error
+    $: page = data.page;
 </script>
 
 <svelte:head>
@@ -24,7 +24,7 @@
     {/each}
 
     {#if page.pageCount > 1}
-        <PagesDisplay 
+        <PaginationDisplay 
             currentPage={page.currentPage}
             pageCount={page.pageCount}
         />

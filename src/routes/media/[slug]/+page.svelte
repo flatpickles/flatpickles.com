@@ -1,10 +1,10 @@
 <script lang="ts">
     import type { ProjectData } from '$lib/types';
-    import MediaDisplay from '../MediaDisplay.svelte';
-    import MediaOverlay from '../MediaOverlay.svelte';
-    import type { PageLoad } from "./$types";
+    import MediaDisplay from '$lib/components/MediaDisplay.svelte';
+    import MediaOverlay from '$lib/components/MediaOverlay.svelte';
+    import type { PageData } from './$types';
 
-    export let data: PageLoad | any; // suppress warnings
+    export let data: PageData;
     const project: ProjectData = data.project;
 </script>
 

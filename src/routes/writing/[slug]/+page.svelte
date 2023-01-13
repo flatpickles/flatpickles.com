@@ -1,10 +1,10 @@
 <script lang="ts">
     import HomeLinkOverlay from '$lib/components/HomeLinkOverlay.svelte';
     import type { ProjectData } from '$lib/types';
-    import WritingDisplay from '../WritingDisplay.svelte';
-    import type { PageLoad } from './$types';
+    import WritingDisplay from '$lib/components/WritingDisplay.svelte';
+    import type { PageData } from './$types';
 
-    export let data: PageLoad | any; // suppress warnings
+    export let data: PageData;
     export let project: ProjectData = data.project;
 </script>
 

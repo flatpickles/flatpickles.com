@@ -1,7 +1,7 @@
 <script lang="ts">
     import { HeaderType } from '$lib/types';
-    import BigHeader from '../BigHeader.svelte';
-    import LinkBar from './LinkBar.svelte';
+    import BigHeader from '$lib/components/BigHeader.svelte';
+    import LinkBar from '$lib/components/LinkBar.svelte';
 </script>
 
 <svelte:head>

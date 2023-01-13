@@ -1,12 +1,13 @@
 <script lang='ts'>
-    import { HeaderType } from '$lib/types';
+    import { HeaderType, type ProjectData } from '$lib/types';
     import type { PageData } from './$types';
 
-    import BigHeader from './BigHeader.svelte';
+    import BigHeader from '$lib/components/BigHeader.svelte';
     import Highlights from './Highlights.svelte';
     import ProjectList from './ProjectList.svelte';
 
     export let data: PageData;
+    const projects: ProjectData[] = data.projects;
 </script>
 
 <svelte:head>
@@ -17,11 +18,11 @@
 
 <Highlights />
 
-<ProjectList projects={data.projects} />
+<ProjectList {projects} />
 
-<div class="copyright">
+<footer class="copyright">
     Copyright &copy 2023 Matt Nichols
-</div>
+</footer>
 
 <style>
     .copyright {
