@@ -1,7 +1,7 @@
-import { type ProjectData, type NoteData, ProjectType } from '../types';
+import { type ProjectData, type NoteData, ProjectType } from './types';
 
-import { mediaProjects } from './media';
-import { externalProjects } from './external';
+import { mediaProjects } from './content/media';
+import { externalProjects } from './content/external';
 
 export default class Content {
     static async fullIndex(): Promise<ProjectData[]> {
@@ -19,7 +19,7 @@ export default class Content {
     }
 
     static async writingIndex(): Promise<ProjectData[]> {
-        const allWritingFiles = import.meta.glob('./writing/*.md');
+        const allWritingFiles = import.meta.glob('./content/writing/*.md');
         const iterableWritingFiles = Object.entries(allWritingFiles);
         return await Promise.all(
             iterableWritingFiles.map(async ([path, resolver]) => {
@@ -31,7 +31,7 @@ export default class Content {
     }
 
     static notesIndex(): NoteData[] {
-        const allNotesFiles = import.meta.glob('./notes/*.md', { eager: true });
+        const allNotesFiles = import.meta.glob('./content/notes/*.md', { eager: true });
         const iterableNotesFiles = Object.entries(allNotesFiles);
         return iterableNotesFiles.map(([path, module]) => {
             const key = this.keyFromPath(path);
@@ -44,14 +44,14 @@ export default class Content {
     }
 
     static async writingProject(key: string): Promise<ProjectData> {
-        const module = await import(`./writing/${key}.md`);
+        const module = await import(`./content/writing/${key}.md`);
         const project = this.makeWritingProject(key, module.metadata);
         project.component = module.default;
         return project;
     }
 
     static async note(key: string): Promise<NoteData> {
-        const module = await import(`./notes/${key}.md`);
+        const module = await import(`./content/notes/${key}.md`);
         return this.makeNote(key, module);
     }
 

@@ -1,5 +1,5 @@
 import type { PageLoad } from './$types';
-import Content from '$lib/content/Content';
+import Content from '$lib/Content';
 
 export const load = (() => {
     return {
