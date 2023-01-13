@@ -7,7 +7,7 @@
     import NotesLede from '../NotesLede.svelte';
 
     export let data: PageData;
-    const page: NotesPage = data['page'];
+    $: page = data['page'] as NotesPage; // ?? - using data.page results in type 'never' error
 </script>
 
 <svelte:head>
