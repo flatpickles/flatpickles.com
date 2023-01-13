@@ -2,12 +2,12 @@
     import PagesDisplay from '../PagesDisplay.svelte';
     import Note from '../NoteDisplay.svelte';
     import BigHeader from '../../BigHeader.svelte';
-    import { HeaderType, type NoteData } from '$lib/types';
+    import { HeaderType, type NoteData, type NotesPage } from '$lib/types';
     import type { PageData } from '../$types';
     import NotesLede from '../NotesLede.svelte';
 
     export let data: PageData;
-    const notes: NoteData[] = data['notes']; // (type 'never' error w/ data.notes)
+    const page: NotesPage = data['page'];
 </script>
 
 <svelte:head>
@@ -19,9 +19,12 @@
 <NotesLede />
 
 <div class="notes-wrapper">
-    {#each notes as note }   
+    {#each page.notes as note }   
         <Note {note} />
     {/each}
 
-    <PagesDisplay />
+    <PagesDisplay 
+        currentPage={page.currentPage}
+        pageCount={page.pageCount}
+    />
 </div>

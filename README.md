@@ -4,6 +4,7 @@
 * Cleanup Writing index with eager glob import (rename some stuff too)
 * Notes and Such
     * Pagination for main page (non-eager glob import)
+    * Redirect /note to /notes (unless slugged)
     * Display only part of long notes?
 * Smooth gradients in:
     * MediaOverlay

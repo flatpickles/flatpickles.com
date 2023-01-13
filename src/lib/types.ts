@@ -33,3 +33,9 @@ export interface NoteData {
     updated?: Date;
     component: ConstructorOfATypedSvelteComponent;
 }
+
+export interface NotesPage {
+    notes: NoteData[];
+    currentPage: number;
+    pageCount: number;
+}

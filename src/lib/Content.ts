@@ -1,4 +1,4 @@
-import { type ProjectData, type NoteData, ProjectType } from './types';
+import { type ProjectData, type NoteData, ProjectType, type NotesPage } from './types';
 
 import { mediaProjects } from './content/media';
 import { externalProjects } from './content/external';
@@ -39,22 +39,26 @@ export default class Content {
         });
     }
 
-    static async notesPage(pageNum: number): Promise<NoteData[]> {
+    static async notesPage(pageNum: number): Promise<NotesPage> {
         const allNotesFiles = import.meta.glob('./content/notes/*.md');
         const iterableNotes = Object.entries(allNotesFiles);
         const sortedNotes = iterableNotes.sort(([pathA], [pathB]) => {
             return pathA.localeCompare(pathB);
         });
 
-        // todo extract page, error if invalid
+        const pageFiles = [sortedNotes[pageNum - 1]];
 
-        return await Promise.all(
-            sortedNotes.map(async ([path, resolver]) => {
-                const module = await resolver() as any;
-                const key = this.keyFromPath(path);
-                return this.makeNote(key, module);
-            })
-        );
+        return {
+            notes: await Promise.all(
+                pageFiles.map(async ([path, resolver]) => {
+                    const module = await resolver() as any;
+                    const key = this.keyFromPath(path);
+                    return this.makeNote(key, module);
+                })
+            ),
+            currentPage: pageNum,
+            pageCount: 8
+        }
     }
     
     static mediaProject(key: string): ProjectData | null {

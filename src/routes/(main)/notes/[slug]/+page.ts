@@ -10,7 +10,8 @@ export const load = (async ({ params }) => {
 
     const currentPage = await Content.notesPage(pageNumber);
     // todo: redirect (as above) if pageNumber isn't valid (notesPage should error)
+    // todo: load isn't called from pagination links, what the heck
     return {
-        notes: currentPage
+        page: currentPage
     }
 }) satisfies PageLoad;
