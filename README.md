@@ -3,8 +3,6 @@
 ## To do
 * Cleanup Writing index with eager glob import (rename some stuff too)
 * Notes and Such
-    * Figure out top padding - same as writing display probably
-    * Consolidate writing display and note display?
     * Pagination for main page (non-eager glob import)
     * Display only part of long notes?
 * Smooth gradients in:
@@ -27,6 +25,7 @@
 * Adjust body class approach [this way](https://github.com/sveltejs/svelte/issues/3105#issuecomment-1373889014)
 * Adjust pixel-sized page width calculations to em values
 * Final polish
+    * Semantic markup!
     * Remove/address todos & questions
     * Sort imports
     * Remove SASS (unless used by then)
@@ -50,6 +49,9 @@
 * Generating full index requires loading all writing .md files (+100ms)
 * ProjectList responsive design could be improved: CSS grid maybe, for fewer magic numbers.
 * Double render (SSR + CSR) locally (seems expected - but why?)
+
+## Ideas / considerations
+* WritingDisplay & NoteDisplay are similar but intentionally different. Maybe these should be consolidated, as a component and/or into the same design.
 
 ## Packages added
 * npm i -D @sveltejs/adapter-vercel

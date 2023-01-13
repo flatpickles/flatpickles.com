@@ -5,9 +5,9 @@
     export let exclusive = false;
 </script>
 
-<div class="note">
-    <div class="note-header">
-        <div class="note-title">
+<article class="note">
+    <header class="note-header">
+        <h1 class="note-title">
             {#if !exclusive}
                 <a href={note.url}>
                     {note.title}
@@ -15,21 +15,21 @@
             {:else}
                 {note.title}
             {/if}
-        </div>
+        </h1>
 
-        <div class="note-date">
+        <time class="note-date" datetime={note.date.toISOString()}>
             {note.date.toLocaleDateString('en-us', {
                 day: 'numeric',
                 year: 'numeric',
                 month: 'long'
             })}
-        </div>
-    </div>
+        </time>
+    </header>
 
-    <div class="note-body">
+    <section class="note-body">
         <svelte:component this={note.component} />
-    </div>
-</div>
+    </section>
+</article>
 
 <style>
     a {
@@ -56,6 +56,7 @@
     .note-title {
         font-size: 2em;
         font-family: 'Hobeaux';
+        font-weight: normal;
     }
 
     .note-date {

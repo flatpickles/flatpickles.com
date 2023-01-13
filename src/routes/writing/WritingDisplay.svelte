@@ -4,51 +4,39 @@
     export let project: ProjectData;
 </script>
 
-<div class="writing-container">
-    <div class="title">
-        {project.title}
-    </div>
-    
-    <div class="date">
-        {project.date.toLocaleDateString('en-us', {
-            day: 'numeric',
-            year: 'numeric',
-            month: 'long'
-        })}
-    </div>
+<article class="piece">
+    <header class="piece-header">
+        <h1 class="piece-title">
+            {project.title}
+        </h1>
+        
+        <time class="piece-date" datetime={project.date.toISOString()}>
+            {project.date.toLocaleDateString('en-us', {
+                day: 'numeric',
+                year: 'numeric',
+                month: 'long'
+            })}
+        </time>
+    </header>
 
-    <div class="writing-body">
+    <section class="piece-body">
         <svelte:component this={project.component} />
-    </div>
-</div>
+    </section>
+</article>
 
 <style>
-    .writing-container {
-        --writing-container-top-bottom-padding: calc(
-            max(
-                min(100px, 100/7 * 1vw),
-                4em
-            )
-        );
-
-        max-width: var(--page-width);
-        padding-top: var(--writing-container-top-bottom-padding);
-        padding-bottom: var(--writing-container-top-bottom-padding);
-        padding-left: 1em;
-        padding-right: 1em;
-    }
-
-    .title {
+    .piece-title {
         font-family: 'Hobeaux';
         font-size: 2em;
+        font-weight: normal;
     }
 
-    .date {
+    .piece-date {
         color: var(--transparent-dark-text);
         font-size: 1em;
     }
 
-    .writing-body {
+    .piece-body {
         padding-top: 1em;
         font-size: 1.1em;
     }
