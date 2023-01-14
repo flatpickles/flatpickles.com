@@ -8,6 +8,10 @@
     export let note: NoteData = data.note;
 </script>
 
+<svelte:head>
+    <title>{note.title}</title> 
+</svelte:head>
+
 <HomeLinkOverlay />
 
 <NoteDisplay

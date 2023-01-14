@@ -1,7 +1,6 @@
 # flatpickles.com
 
 ## To do
-* Cleanup Writing index with eager glob import (rename some stuff too)
 * Smooth gradients in:
     * MediaOverlay
     * HighlightCard
