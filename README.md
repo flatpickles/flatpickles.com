@@ -14,6 +14,7 @@
     * Content loading indicator
 * Finalize fonts
     * Buy Hobeaux
+    * Figure out how to use Hobeaux descenders
     * Experiment with different weights
     * Include only the weights that are actually used
 * SEO improvements
@@ -50,6 +51,9 @@
 * Double render (SSR + CSR) locally (seems expected - but why?)
 
 ## Ideas / considerations
+* Notes design
+    * Better code & code block formatting (vulf mono?)
+    * Justify alignment only on larger screens; looks goofy on iPhone
 * WritingDisplay & NoteDisplay are similar but intentionally different. Maybe these should be consolidated, as a component and/or into the same design.
 * Better original date display within NoteDisplay
 * Display only the first part of especially long notes on the main notes page

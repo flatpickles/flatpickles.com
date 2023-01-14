@@ -51,6 +51,8 @@
 
         background-color: var(--transparent-background);
         border-radius: 0.25em;
+
+        font-size: 0.9em;
     }
 
     .note {

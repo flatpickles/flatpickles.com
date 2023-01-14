@@ -3,7 +3,7 @@ title: generate-template-files
 date: 1/14/23
 ---
 
-I recently discovered the brilliantly designed [generate-template-files](https://github.com/codeBelt/generate-template-files) package, which is now my starting point for new projects within [Sketchbook](https://sketchbook.flatpickles.com/). Now instead of duplicating, renaming, and editing template files to start each new sketch, I can just run `npm run new`, then get into the creative part of the work more quickly.
+I recently discovered the brilliantly designed [generate-template-files](https://github.com/codeBelt/generate-template-files) package, which is now my starting point for new projects within [Sketchbook](https://sketchbook.flatpickles.com/). Now instead of duplicating, renaming, and editing my template files manually when starting a sketch project, I can just run `npm run new`, then get into the creative part of the work more quickly.
 
 The author emphasizes in his [overview post](https://medium.com/@robertsavian/generate-template-files-with-ease-19b320615359) that generate-template-files is particularly unopinionated about its use cases, even being useful outside of code-based projects. I'm excited to absorb this into my toolkit, and continue finding ways to move more quickly in situations where I end up routinely creating similar files. I'm also pondering ways to extend this, e.g. by automatically adding imports and other usages of generated files throughout existing code, as appropriate.
 
