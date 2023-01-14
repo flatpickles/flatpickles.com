@@ -59,6 +59,8 @@
 * Return to whichever notes page we came from on [Back to Notes and Such] (re: pagination)
 
 ## Packages added
+* npm install postcss-easing-gradients
+* npx svelte-add@latest postcss
 * npm i -D @sveltejs/adapter-vercel
 * npm i -D mdsvex
 * npm i -D svelte-body 

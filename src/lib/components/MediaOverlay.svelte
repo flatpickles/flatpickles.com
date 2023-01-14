@@ -21,7 +21,7 @@
     </div>
 </div>
 
-<style>
+<style lang="postcss">
     .overlay {
         z-index: 1;
         width: 100%;
@@ -37,8 +37,12 @@
     }
 
     .header {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
-        padding-bottom: 0.5em;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.75),
+            cubic-bezier(0.25, 0, 0.75, 1),
+            rgba(0, 0, 0, 0)
+        );
+        padding-bottom: 2em;
         pointer-events: all;
 
         display: flex;
