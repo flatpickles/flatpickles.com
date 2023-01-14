@@ -1,7 +1,7 @@
-import preprocess from "svelte-preprocess";
-import adapter from "@sveltejs/adapter-vercel";
-import { vitePreprocess } from "@sveltejs/kit/vite";
-import { mdsvex } from "mdsvex";
+import preprocess from 'svelte-preprocess';
+import adapter from '@sveltejs/adapter-vercel';
+import { vitePreprocess } from '@sveltejs/kit/vite';
+import { mdsvex } from 'mdsvex';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -9,11 +9,11 @@ const config = {
     adapter: adapter(),
   },
 
-  extensions: [".svelte", ".md"],
+  extensions: ['.svelte', '.md'],
 
   preprocess: [
     mdsvex({
-      extensions: [".md"],
+      extensions: ['.md'],
     }),
     vitePreprocess(),
     preprocess({

@@ -1,8 +1,8 @@
-<script lang="ts">
-  import "../app.postcss";
-  import "ress";
-  import "./fonts.scss";
-  import "./global.scss";
+<script lang='ts'>
+  import '../app.postcss';
+  import 'ress';
+  import './fonts.scss';
+  import './global.scss';
 </script>
 
 <slot />
