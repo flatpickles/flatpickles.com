@@ -44,6 +44,15 @@
         color: var(--link-color);
     }
 
+    /* todo: better code formatting (including blocks) */
+    :global(code) {
+        padding-left: 0.25em;
+        padding-right: 0.25em;
+
+        background-color: var(--transparent-background);
+        border-radius: 0.25em;
+    }
+
     .note {
         padding-bottom: 1em;
     }

@@ -3,8 +3,8 @@
     import type { PageData } from './$types';
 
     import BigHeader from '$lib/components/BigHeader.svelte';
-    import Highlights from './Highlights.svelte';
-    import ProjectList from './ProjectList.svelte';
+    import Highlights from '$lib/components/Highlights.svelte';
+    import ProjectList from '$lib/components/ProjectList.svelte';
 
     export let data: PageData;
     const projects: ProjectData[] = data.projects;

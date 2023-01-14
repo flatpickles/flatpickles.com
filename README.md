@@ -21,6 +21,7 @@
     * robots.txt
 * Adjust body class approach [this way](https://github.com/sveltejs/svelte/issues/3105#issuecomment-1373889014)
 * Adjust pixel-sized page width calculations to em values
+* Link previews - at least a higher res favicon (e.g. iMessage preview)
 * Final polish
     * Semantic markup!
     * Remove/address todos & questions
