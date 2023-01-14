@@ -44,7 +44,11 @@
         flex-direction: column;
         justify-content: flex-end;
 
-        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9));
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0),
+            cubic-bezier(0.25, 0, 0.75, 1), 
+            rgba(0, 0, 0, 0.8)
+        );
     }
 
     .title {

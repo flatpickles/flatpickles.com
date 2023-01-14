@@ -1,9 +1,6 @@
 # flatpickles.com
 
 ## To do
-* Smooth gradients in:
-    * MediaOverlay
-    * HighlightCard
 * About page content
 * Error pages (same one for everything?)
 * Slug page for text & notes
@@ -26,7 +23,8 @@
     * Semantic markup!
     * Remove/address todos & questions
     * Sort imports
-    * Remove SASS (unless used by then)
+    * Check for quote style, indentation, etc (maybe use a linter?)
+    * SASS -> postcss // Remove SASS (unless used by then)
 * Publishing
     * Move archived webapps to Vercel
     * Redirect flatpickles.com URL to vercel
