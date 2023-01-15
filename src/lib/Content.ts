@@ -77,8 +77,7 @@ export default class Content {
 
     static async writingProject(key: string): Promise<ProjectData> {
         const module = await import(`./content/writing/${key}.md`);
-        const project = this.makeWritingProject(key, module);
-        return project;
+        return this.makeWritingProject(key, module);
     }
 
     static async note(key: string): Promise<NoteData> {

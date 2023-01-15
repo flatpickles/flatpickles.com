@@ -1,9 +1,17 @@
 import type { PageLoad } from './$types';
 import Content from '$lib/Content';
+import { error } from '@sveltejs/kit';
 
 export const load = (async ({ params }) => {
-    const note = await Content.note(params.slug);
-    return {
-        note: note
+    try {
+        const note = await Content.note(params.slug);
+        return {
+            note: note
+        }
+    } catch {
+        throw error(404, {
+            message: `Note not found with key "${params.slug}".`
+        });
     }
+
 }) satisfies PageLoad;

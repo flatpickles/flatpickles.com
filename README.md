@@ -1,8 +1,8 @@
 # flatpickles.com
 
 ## To do
+* Links should stand out more
 * About page content
-* Error pages (same one for everything?)
 * Slug page for text & notes
     * Hide header when scrolling down (maybe within HomeLinkOverlay)
 * Slug page for media
@@ -48,9 +48,11 @@
 * Double render (SSR + CSR) locally (seems expected - but why?)
 
 ## Ideas / considerations
+* Convert straight to curly quotes throughout
 * Notes design
     * Better code & code block formatting (vulf mono?)
     * Justify alignment only on larger screens; looks goofy on iPhone
+* Loop some videos, but not all?
 * WritingDisplay & NoteDisplay are similar but intentionally different. Maybe these should be consolidated, as a component and/or into the same design.
 * Better original date display within NoteDisplay
 * Display only the first part of especially long notes on the main notes page
