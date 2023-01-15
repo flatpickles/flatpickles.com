@@ -4,7 +4,7 @@
     </div>
 </div>
 
-<style lang="scss">
+<style>
     .main-container {
         width: 100%;
         max-width: var(--page-width);

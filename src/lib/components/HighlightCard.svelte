@@ -13,7 +13,7 @@
     </div>
 </a>
 
-<style lang="scss">
+<style>
     img {
         position: absolute;
         width: 100%;
@@ -32,7 +32,7 @@
         border-radius: 1em;
         overflow: hidden;
 
-        // https://stackoverflow.com/a/58283449/280404
+        /* https://stackoverflow.com/a/58283449/280404 */
         transform: translateZ(0);
     }
 

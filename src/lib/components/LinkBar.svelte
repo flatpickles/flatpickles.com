@@ -7,7 +7,7 @@
     <a href="/matt-nichols-resume.pdf">Resume</a>
 </div>
 
-<style lang="scss">
+<style>
     .links {
         margin-top: 1em;
         margin-bottom: 0.8em;
@@ -35,24 +35,28 @@
     @media ( max-width: 600px) {
         a {
             flex-basis: 25%;
-            &:nth-child(3n - 1) {
-                text-align: center;
-            }
-            &:nth-child(3n) {
-                text-align: right;
-            }
+        }
+
+        a:nth-child(3n - 1) {
+            text-align: center;
+        }
+    
+        a:nth-child(3n) {
+            text-align: right;
         }
     }
 
     @media ( max-width: 350px) {
         a {
             flex-basis: 45%;
-            &:nth-child(odd) {
-                text-align: left;
-            }
-            &:nth-child(even) {
-                text-align: right;
-            }
+        }
+
+        a:nth-child(odd) {
+            text-align: left;
+        }
+
+        a:nth-child(even) {
+            text-align: right;
         }
     }
 </style>

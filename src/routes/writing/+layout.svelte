@@ -9,7 +9,7 @@
     </div>
 </div>
 
-<style lang="scss">
+<style>
     :global(.writing) {
         background-color: rgb(255, 255, 255);
     }

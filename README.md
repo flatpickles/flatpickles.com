@@ -24,7 +24,6 @@
     * Remove/address todos & questions
     * Sort imports
     * Check for quote style, indentation, etc (maybe use a linter?)
-    * SASS -> postcss // Remove SASS (unless used by then)
 * Publishing
     * Move archived webapps to Vercel
     * Redirect flatpickles.com URL to vercel
@@ -65,7 +64,6 @@
 * npm i -D mdsvex
 * npm i -D svelte-body 
 * ress i ress
-* npm i -D sass 
 
 ## Questions
 * Comparison with TypeScript enum - triple equals? // ??

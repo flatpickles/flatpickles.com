@@ -24,7 +24,7 @@
     />
 </div>
 
-<style lang="scss">
+<style>
     .highlights {
         display: flex;
         flex-direction: row;

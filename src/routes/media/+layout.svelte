@@ -7,7 +7,7 @@
     <slot></slot>
 </div>
 
-<style lang="scss">
+<style>
     :global(.media) {
         color: rgb(255, 255, 255);
         background-color: rgb(0, 0, 0);
