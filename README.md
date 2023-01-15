@@ -1,7 +1,6 @@
 # flatpickles.com
 
 ## To do
-* Links should stand out more
 * About page content
 * Slug page for text & notes
     * Hide header when scrolling down (maybe within HomeLinkOverlay)
