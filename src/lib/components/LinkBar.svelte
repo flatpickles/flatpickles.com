@@ -18,11 +18,16 @@
         flex-wrap: wrap;
         gap: 0.5em;
 
+        border-bottom: 2px solid black;
         font-size: 1.2em;
     }
 
     a {
         font-family: 'Hobeaux';
+    }
+
+    a:hover {
+        text-decoration: none;
     }
 
     /*
