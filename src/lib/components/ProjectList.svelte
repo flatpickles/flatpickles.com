@@ -40,7 +40,8 @@
     }
 
     .project-row {
-        padding: 0.5em;
+        padding: 0.7em;
+        padding-top: 0.5em; /* appear centered */
         border-radius: 0.5em;
 
         display: flex;

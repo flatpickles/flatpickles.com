@@ -36,7 +36,6 @@
 * Anchor page for text
 
 ## Known problems
-* Text doesn't look quite centered vertically in project list entries
 * Header image loads after page on mobile
 * Header image presented small first, then sized up (one frame)
 * Flash of unstyled content even when loading on Vercel?

@@ -24,6 +24,8 @@
 
     a {
         font-family: 'Hobeaux';
+        padding-bottom: 0.2em;
+        transition: filter 0.3s;
     }
 
     a:hover {

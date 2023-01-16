@@ -1,0 +1,37 @@
+// Global variables
+
+/* :root {
+    --page-width: 700px;
+    --page-top-bottom-padding: calc(
+        max(
+            min(100px, 100/7 * 1vw),
+            4em
+        )
+    );
+
+    --link-color: rgb(37, 104, 55); 
+
+    --transparent-background: rgba(0, 0, 0, 7%);
+    --transparent-dark-text: rgba(0, 0, 0, 50%);
+    --transparent-light-text: rgba(255, 255, 255, 75%);
+} */
+
+// Global styles
+
+body {
+    background-color: rgb(231, 255, 238);
+    font-family: 'Vulf Sans';
+}
+
+/* p:not(:last-child)  {
+    margin-bottom: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+a:hover {
+    text-decoration: underline;
+} */

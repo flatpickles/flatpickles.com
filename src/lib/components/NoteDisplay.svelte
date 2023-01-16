@@ -46,11 +46,11 @@
 
     /* todo: better code formatting (including blocks) */
     :global(code) {
-        padding-left: 0.25em;
-        padding-right: 0.25em;
+        padding-left: 0.2em;
+        padding-right: 0.2em;
 
         background-color: var(--transparent-background);
-        border-radius: 0.25em;
+        border-radius: 0.2em;
 
         font-size: 0.9em;
     }
