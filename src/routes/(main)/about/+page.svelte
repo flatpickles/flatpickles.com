@@ -1,5 +1,5 @@
 <script lang="ts">
-    import About from '$lib/content/about.md';
+    import AboutContent from '$lib/content/about.md';
     import { HeaderType } from '$lib/types';
     import BigHeader from '$lib/components/BigHeader.svelte';
     import LinkBar from '$lib/components/LinkBar.svelte';
@@ -14,7 +14,7 @@
 <LinkBar />
 
 <div class="about-wrapper">
-    <About />
+    <AboutContent />
 </div>
 
 <style>
