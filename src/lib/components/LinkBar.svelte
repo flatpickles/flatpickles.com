@@ -25,11 +25,7 @@
     a {
         font-family: 'Hobeaux';
         padding-bottom: 0.2em;
-        transition: filter 0.3s;
-    }
-
-    a:hover {
-        text-decoration: none;
+        text-decoration-thickness: 2px;
     }
 
     /*
