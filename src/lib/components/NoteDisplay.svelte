@@ -55,13 +55,13 @@
         font-size: 0.9em;
     }
 
-    .note {
-        padding-bottom: 1em;
+    .note:not(:last-child) {
+        padding-bottom: 2em;
     }
 
     .note-header {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         column-gap: 1em;
         justify-content: space-between;

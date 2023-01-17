@@ -31,6 +31,6 @@
         flex-wrap: wrap;
         gap: 0.5em;
         margin-top: 1.5em;
-        margin-bottom: 1.5em;
+        margin-bottom: 2em;
     }
 </style>

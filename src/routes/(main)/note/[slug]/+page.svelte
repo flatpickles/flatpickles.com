@@ -14,10 +14,12 @@
 
 <HomeLinkOverlay />
 
-<NoteDisplay
-    note = {note}
-    exclusive = {true}
-/>
+<div class="note-wrapper">
+    <NoteDisplay
+        note = {note}
+        exclusive = {true}
+    />
+</div>
 
 <nav class="back">
     <a href="/notes">[Back to Notes and Such]</a>
@@ -33,6 +35,7 @@
     }
 
     .back {
+        padding-top: 1em;
         text-align: center;
         font-size: 1.1em;
     }

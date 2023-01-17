@@ -1,7 +1,8 @@
 # flatpickles.com
 
 ## To do
-* About page content
+* About page content - bold some stuff!
+* Main page - flag cool stuff?
 * Slug page for text & notes
     * Hide header when scrolling down (maybe within HomeLinkOverlay)
 * Slug page for media
