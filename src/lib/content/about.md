@@ -1,7 +1,7 @@
-Hello world, it's me, Matt! Welcome to my internet living room.
-This is where I put the stuff I'm creating and thinking about, and where I maintain an ongoing archive of projects and explorations.
-If you see fit to poke around, I hope you find something cool. Thanks for visiting!
+Hello world, it's me, Matt! I'm a software engineer and creative technologist, living and working in San Francisco. Over my decade-long career, I've worked for a few companies you've heard of and at least one you haven't, generally striving to create things that make the world a more fun and friendly place. Most recently, I've been working in a hybrid design/eng role on the Sound Design team at Meta, building interactive multimedia experiences with a particular focus on audio.
 
-Here's another paragraph even, and we can see how this feels! It might not be that great. In fact, I might take all of this about text and put it straight into the trash, because let's be honest, your time is too valuable to sit here and read my nonsense. Like seriously, I can't believe you're still reading. You deserve a medal, or some similar acknowledgement of exceptional character! I'm sure you get this all the time, but you rock. Big time.
+In both my day job and my personal life, I am driven by curiosity. I love figuring out how complex things fit together, especially when I can distill any underlying principles to empower my own creativity. I rarely have trouble getting excited about learning new things, and I’m blessed to be cultivating deep curiosity in my vocation and hobbies, while creating curious things along the way. I’m continuously aware of how much I have yet to learn, but I wouldn’t have it any other way.
 
-BIG TIME!!!
+Much like its author, this website is a work in progress. It is primarily intended to be a published archive of my thoughts and creations, though having an audience here (be it real or imagined) also brings structure to the things I’m working on. I’d like [flatpickles.com](http://flatpickles.com) to be my internet living room: a vibey space for me to fill with things I’m proud of or fascinated by, and a comfy spot for others to hang out too. It’s nice to have a little place online that I can call home, and I’m honored to be sharing it with you.
+
+I’m always open to a good conversation, and I’d love to hear from you if you want to reach out. You can follow any of my links from the top of this page, or [send me an email](mailto:matt@flatpickles.com). Thanks for reading!

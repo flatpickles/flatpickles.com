@@ -28,6 +28,7 @@
     * Redirect flatpickles.com URL to vercel
     * Close out GitHub pages
     * Publish new repository as public (why not)
+    * Update NPM version (and set up further auto-updating)
 * Tests - [helpful resource](https://el3um4s.medium.com/how-to-test-sveltekit-app-with-jest-848afa8edbc7)
 * Smooth transitions between pages
 * Update Spark effects and add links to archive
