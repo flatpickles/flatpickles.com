@@ -25,8 +25,9 @@
 <style>
     h1 {
         font-family: 'Hobeaux';
-        font-size: 4em;
+        font-feature-settings: 'salt';
         font-weight: bold;
+        font-size: 4em;
     }
 
     p {

@@ -53,6 +53,7 @@
 
     .title {
         font-family: 'Hobeaux';
+        font-feature-settings: 'salt';
         font-weight: bold;
         font-size: 1.2em;
         line-height: 1;

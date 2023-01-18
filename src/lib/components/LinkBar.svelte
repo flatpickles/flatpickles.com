@@ -19,6 +19,7 @@
         gap: 0.5em;
 
         font-family: 'Hobeaux';
+        font-feature-settings: 'salt';
         font-weight: 600;
         font-size: 1.2em;
 

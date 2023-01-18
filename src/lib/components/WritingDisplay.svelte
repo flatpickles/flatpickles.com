@@ -27,8 +27,9 @@
 <style>
     .piece-title {
         font-family: 'Hobeaux';
-        font-size: 2em;
+        font-feature-settings: 'salt';
         font-weight: bold;
+        font-size: 2em;
     }
 
     .piece-date {

@@ -57,7 +57,7 @@
     }
 
     .note:not(:last-child) {
-        padding-bottom: 2em;
+        padding-bottom: 1.5em;
     }
 
     .note-header {
@@ -70,9 +70,10 @@
     }
 
     .note-title {
-        font-size: 2em;
         font-family: 'Hobeaux';
+        font-feature-settings: 'salt';
         font-weight: bold;
+        font-size: 2em;
     }
 
     .note-date {

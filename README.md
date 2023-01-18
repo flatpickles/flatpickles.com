@@ -1,29 +1,25 @@
 # flatpickles.com
 
 ## To do
-* About page content - bold some stuff!
-* Main page - flag cool stuff?
 * Slug page for text & notes
     * Hide header when scrolling down (maybe within HomeLinkOverlay)
 * Slug page for media
     * Hide header & footer between taps & mouse movement
     * Content loading indicator
-* Finalize fonts
-    * Buy Hobeaux
-    * Figure out how to use Hobeaux descenders
-    * Experiment with different weights
-    * Include only the weights that are actually used
 * SEO improvements
     * [SvelteKit docs](https://kit.svelte.dev/docs/seo)
     * robots.txt
-* Adjust body class approach [this way](https://github.com/sveltejs/svelte/issues/3105#issuecomment-1373889014)
-* Adjust pixel-sized page width calculations to em values
 * Link previews - at least a higher res favicon (e.g. iMessage preview)
-* Final polish
+* Polish
+    * Card title text wrapping
+    * Padding between title & date on writing & notes
+    * Em padding when font-size is set (e.g. footer size)
+    * Adjust pixel-sized page width calculations to em values
     * Semantic markup!
     * Remove/address todos & questions
     * Sort imports
     * Check for quote style, indentation, etc (maybe use a linter?)
+    * Adjust body class approach [this way](https://github.com/sveltejs/svelte/issues/3105#issuecomment-1373889014)
 * Publishing
     * Move archived webapps to Vercel
     * Redirect flatpickles.com URL to vercel

@@ -56,9 +56,10 @@
         user-select: none;
 
         font-family: 'Hobeaux';
+        font-feature-settings: 'salt';
         font-weight: bold;
         line-height: 1;
-        color: rgb(255, 255, 255);
         font-size: 1.3em;
+        color: rgba(255, 255, 255, 100%);
     }
 </style>
