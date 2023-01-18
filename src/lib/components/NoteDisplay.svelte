@@ -52,7 +52,8 @@
         background-color: var(--transparent-background);
         border-radius: 0.2em;
 
-        font-size: 0.9em;
+        font-family: 'Vulf Mono';
+        font-size: 0.8em;
     }
 
     .note:not(:last-child) {

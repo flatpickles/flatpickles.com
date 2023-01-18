@@ -52,13 +52,13 @@
     }
 
     .title {
-        padding: 1.2em;
+        padding: 1.1em;
         user-select: none;
 
         font-family: 'Hobeaux';
         font-weight: bold;
         line-height: 1;
         color: rgb(255, 255, 255);
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
 </style>

@@ -60,7 +60,7 @@
         flex-basis: 300px;
         flex-grow: 2;
 
-        font-weight: bold;
+        font-weight: 500;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;

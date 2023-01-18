@@ -10,7 +10,7 @@
 <style>
     .links {
         margin-top: 1em;
-        margin-bottom: 0.8em;
+        margin-bottom: 1em;
 
         display: flex;
         flex-direction: row;
@@ -18,13 +18,14 @@
         flex-wrap: wrap;
         gap: 0.5em;
 
-        border-bottom: 2px solid black;
+        font-family: 'Hobeaux';
+        font-weight: 600;
         font-size: 1.2em;
+
+        border-bottom: 2px solid black;
     }
 
     a {
-        font-family: 'Hobeaux';
-        font-weight: 600;
         padding-bottom: 0.2em;
         text-decoration-thickness: 2px;
     }

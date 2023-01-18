@@ -8,13 +8,13 @@
 <style>
     .notes-lede {
         margin-top: 1em;
-        margin-bottom: 1.5em;
+        margin-bottom: 1em;
         padding: 0.7em;
         padding-top: 0.5em; /* appear centered */
         border-radius: 0.5em;
         background-color: var(--transparent-background);
 
         text-align: justify;
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 </style>

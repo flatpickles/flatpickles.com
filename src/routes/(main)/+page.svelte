@@ -28,7 +28,9 @@
     .copyright {
         text-align: center;
         margin-top: 2em;
-        font-size: 1.1em;
-        color: var(--transparent-dark-text);
+
+        font-family: 'Vulf Mono';
+        font-size: 0.9em;
+        color: rgba(0, 0, 0, 30%);
     }
 </style>
