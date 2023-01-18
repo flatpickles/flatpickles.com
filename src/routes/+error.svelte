@@ -26,6 +26,7 @@
     h1 {
         font-family: 'Hobeaux';
         font-size: 4em;
+        font-weight: bold;
     }
 
     p {

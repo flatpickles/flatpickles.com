@@ -24,6 +24,7 @@
 
     a {
         font-family: 'Hobeaux';
+        font-weight: 600;
         padding-bottom: 0.2em;
         text-decoration-thickness: 2px;
     }

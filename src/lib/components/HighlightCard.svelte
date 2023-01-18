@@ -7,9 +7,9 @@
 <a href={link} class="card">
     <img src={image} alt={title}/>
     <div class="overlay">
-        <div class="title">
+        <h1 class="title">
             {title}
-        </div>
+        </h1>
     </div>
 </a>
 
@@ -52,10 +52,12 @@
     }
 
     .title {
-        padding: 1em;
+        padding: 1.2em;
         user-select: none;
 
         font-family: 'Hobeaux';
+        font-weight: bold;
+        line-height: 1;
         color: rgb(255, 255, 255);
         font-size: 1.2em;
     }

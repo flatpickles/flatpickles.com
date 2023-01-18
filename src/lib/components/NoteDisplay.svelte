@@ -71,7 +71,7 @@
     .note-title {
         font-size: 2em;
         font-family: 'Hobeaux';
-        font-weight: normal;
+        font-weight: bold;
     }
 
     .note-date {

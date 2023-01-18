@@ -8,7 +8,7 @@
 <div class="overlay">
     <div class="meta header">
         <div class="metadata">
-            <div class="title">{title}</div>
+            <h1 class="title">{title}</h1>
             <div class="date">
                 {date.toLocaleDateString('en-us', {
                     day: 'numeric',
@@ -53,7 +53,9 @@
 
     .title {
         font-family: 'Hobeaux';
+        font-weight: bold;
         font-size: 1.2em;
+        line-height: 1;
     }
 
     .date {

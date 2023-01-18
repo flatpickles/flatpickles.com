@@ -28,7 +28,7 @@
     .piece-title {
         font-family: 'Hobeaux';
         font-size: 2em;
-        font-weight: normal;
+        font-weight: bold;
     }
 
     .piece-date {
