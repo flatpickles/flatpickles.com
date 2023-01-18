@@ -14,6 +14,10 @@
     })();
 </script>
 
+<svelte:head>
+    <title>Whoops!</title> 
+</svelte:head>
+
 <div class="error-container">
     <h1>Whoops!</h1>
     <p>{errorMessage}</p>

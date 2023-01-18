@@ -7,6 +7,7 @@
 
 <svelte:head>
     <title>Matt Nichols</title>
+    <meta name="description" content="A few paragraphs about Matt Nichols and his website. Thanks for visiting!" />
 </svelte:head>
 
 <BigHeader type={HeaderType.MattNichols} />

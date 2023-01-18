@@ -9,7 +9,8 @@
 </script>
 
 <svelte:head>
-    <title>{note.title}</title> 
+    <title>{note.title}</title>
+    <meta name="description" content='A note by Matt Nichols, entitled "{note.title}".' />
 </svelte:head>
 
 <HomeLinkOverlay />

@@ -10,6 +10,7 @@
 
 <svelte:head>
     <title>{project.title}</title> 
+    <meta name="description" content='A writing project by Matt Nichols, entitled "{project.title}".' />
 </svelte:head>
 
 <HomeLinkOverlay />

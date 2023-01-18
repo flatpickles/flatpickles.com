@@ -12,6 +12,7 @@
 
 <svelte:head>
     <title>Notes and Such</title>
+    <meta name="description" content="Notes and Such from Matt Nichols, page {page.currentPage}."/>
 </svelte:head>
 
 <BigHeader type={HeaderType.NotesAndSuch} />
