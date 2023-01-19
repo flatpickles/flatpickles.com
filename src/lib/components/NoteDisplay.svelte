@@ -44,18 +44,6 @@
         color: var(--link-color);
     }
 
-    /* todo: better code formatting (including blocks) */
-    :global(code) {
-        padding-left: 0.2em;
-        padding-right: 0.2em;
-
-        background-color: var(--transparent-background);
-        border-radius: 0.2em;
-
-        font-family: 'Vulf Mono';
-        font-size: 0.8em;
-    }
-
     .note:not(:last-child) {
         padding-bottom: 1.5em;
     }
@@ -86,5 +74,25 @@
         padding-bottom: 0.5em;
         font-size: 1.1em;
         text-align: justify;
+    }
+
+
+    /* todo: better code formatting */
+    
+    :global(code) {
+        padding-left: 0.2em;
+        padding-right: 0.2em;
+
+        background-color: var(--transparent-background);
+        border-radius: 0.2em;
+
+        font-family: 'Vulf Mono';
+        font-size: 0.8em;
+    }
+
+    :global(code.language-undefined) {
+        display: block;
+        width: fit-content;
+        margin-bottom: 1em;
     }
 </style>
