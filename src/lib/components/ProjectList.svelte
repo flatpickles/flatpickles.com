@@ -18,7 +18,8 @@
                     {project.date.toLocaleDateString('en-us', {
                         day: 'numeric',
                         year: 'numeric',
-                        month: 'short'
+                        month: 'short',
+                        timeZone: 'America/Los_Angeles'
                     })}
                 </div>
             </div>

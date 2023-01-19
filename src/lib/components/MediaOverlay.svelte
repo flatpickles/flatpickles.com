@@ -13,7 +13,8 @@
                 {date.toLocaleDateString('en-us', {
                     day: 'numeric',
                     year: 'numeric',
-                    month: 'long'
+                    month: 'long',
+                    timeZone: 'America/Los_Angeles'
                 })}
             </div>
         </div>

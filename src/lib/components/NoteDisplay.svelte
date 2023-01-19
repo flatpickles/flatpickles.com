@@ -25,7 +25,8 @@
             {displayedDate.toLocaleDateString('en-us', {
                 day: 'numeric',
                 year: updated ? '2-digit' : 'numeric',
-                month: updated ? 'short' : 'long'
+                month: updated ? 'short' : 'long',
+                timeZone: 'America/Los_Angeles'
             })}
         </time>
     </header>

@@ -1,16 +1,12 @@
 # flatpickles.com
 
 ## To do
-* Slug page for text & notes
-    * Hide header when scrolling down (maybe within HomeLinkOverlay)
-* Slug page for media
-    * Hide header & footer between taps & mouse movement
-    * Content loading indicator
-* SEO improvements & link previews
-    * [Create](https://dev.to/domagojvidovic/how-to-create-beautiful-link-previews-for-every-platform-1nka) and [test](https://socialsharepreview.com/) link previews
-    * [Structured data](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data#structured-data)
-    * [SvelteKit docs](https://kit.svelte.dev/docs/seo)
-* Link previews - at least a higher res favicon (e.g. iMessage preview)
+* Publishing
+    * Move archived webapps to Vercel
+    * Redirect flatpickles.com URL to vercel
+    * Close out GitHub pages
+    * Publish new repository as public (why not)
+    * Update NPM version (and set up further auto-updating)
 * Polish
     * Card title text wrapping
     * Padding between title & date on writing & notes
@@ -21,18 +17,16 @@
     * Sort imports
     * Check for quote style, indentation, etc (maybe use a linter?)
     * Adjust body class approach [this way](https://github.com/sveltejs/svelte/issues/3105#issuecomment-1373889014)
-* Publishing
-    * Move archived webapps to Vercel
-    * Redirect flatpickles.com URL to vercel
-    * Close out GitHub pages
-    * Publish new repository as public (why not)
-    * Update NPM version (and set up further auto-updating)
+* Slug page for text & notes
+    * Hide header when scrolling down (maybe within HomeLinkOverlay)
+* Slug page for media
+    * Hide header & footer between taps & mouse movement
+    * Content loading indicator
+* SEO improvements & link previews
+    * [Create](https://dev.to/domagojvidovic/how-to-create-beautiful-link-previews-for-every-platform-1nka) and [test](https://socialsharepreview.com/) link previews
+    * [Structured data](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data#structured-data)
+    * [SvelteKit docs](https://kit.svelte.dev/docs/seo)
 * Tests - [helpful resource](https://el3um4s.medium.com/how-to-test-sveltekit-app-with-jest-848afa8edbc7)
-* Smooth transitions between pages
-* Update Spark effects and add links to archive
-* Maybe use Vite imports for media assets
-* Anchor page for media
-* Anchor page for text
 
 ## Known problems
 * Header image loads after page on mobile
@@ -44,10 +38,15 @@
 * Double render (SSR + CSR) locally (seems expected - but why?)
 
 ## Ideas / considerations
-* Convert straight to curly quotes throughout
+* Smooth transitions between pages
+* Update Spark effects and add links to archive
+* Maybe use Vite imports for media assets
+* Anchor page for media
+* Anchor page for text
+* Convert straight to curly quotes throughout (pre-process?)
 * Notes design
-    * Better code & code block formatting (vulf mono?)
-    * Justify alignment only on larger screens; looks goofy on iPhone
+    * Better code & code block formatting
+    * Justify alignment only on larger screens? Looks goofy on iPhone. Maybe smaller text would help as well.
 * Loop some videos, but not all?
 * WritingDisplay & NoteDisplay are similar but intentionally different. Maybe these should be consolidated, as a component and/or into the same design.
 * Better original date display within NoteDisplay
