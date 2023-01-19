@@ -6,9 +6,10 @@
 * Slug page for media
     * Hide header & footer between taps & mouse movement
     * Content loading indicator
-* SEO improvements
+* SEO improvements & link previews
+    * [Create](https://dev.to/domagojvidovic/how-to-create-beautiful-link-previews-for-every-platform-1nka) and [test](https://socialsharepreview.com/) link previews
+    * [Structured data](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data#structured-data)
     * [SvelteKit docs](https://kit.svelte.dev/docs/seo)
-    * robots.txt
 * Link previews - at least a higher res favicon (e.g. iMessage preview)
 * Polish
     * Card title text wrapping
