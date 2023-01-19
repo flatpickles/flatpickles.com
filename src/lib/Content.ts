@@ -3,6 +3,7 @@ import { type ProjectData, type NoteData, ProjectType, type NotesPage } from './
 
 import { mediaProjects } from './content/media';
 import { externalProjects } from './content/external';
+import { datePST } from './utilities';
 
 /**
  * Content is a pseudo-API for all content included on flatpickles.com! Perhaps someday
@@ -95,7 +96,7 @@ export default class Content {
         return {
             title: module.metadata.title,
             url: `/writing/${key}`,
-            date: new Date(module.metadata.date),
+            date: datePST(module.metadata.date),
             type: ProjectType.Writing,
             component: module.default
         };
@@ -105,8 +106,8 @@ export default class Content {
         return {
             title: module.metadata.title,
             url: `/note/${key}`,
-            date: new Date(module.metadata.date),
-            updated: module.metadata.updated ? new Date(module.metadata.updated) : undefined,
+            date: datePST(module.metadata.date),
+            updated: module.metadata.updated ? datePST(module.metadata.updated) : undefined,
             component: module.default
         };
     }

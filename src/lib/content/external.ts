@@ -1,10 +1,11 @@
 import { type ProjectData, ProjectType } from '$lib/types';
+import { datePST } from '$lib/utilities';
 
 export const externalProjects: ProjectData[] = [
     {
         'title': 'Ethereal Goop v2',
         'url': 'http://sketchbook.flatpickles.com/#ethereal-goop',
-        'date': new Date('2022-10-29'),
+        'date': datePST('2022-10-29'),
         'type': ProjectType.Live
     },
     {

@@ -1,4 +1,5 @@
 import { type ProjectData, ProjectType } from '$lib/types';
+import { datePST } from '$lib/utilities';
 
 interface MediaRecord {
     title: string,
@@ -486,7 +487,7 @@ export const mediaProjects: Record<string, ProjectData> = Object.fromEntries(
             title: record.title,
             url: `/media/${key}`,
             assetPath: `/media/${record.filename}`,
-            date: new Date(record.date),
+            date: datePST(record.date),
             type: extensionMap[extension]
         }];
     })
