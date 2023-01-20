@@ -2,11 +2,12 @@
 
 ## To do
 * Publishing
-    * Move archived webapps to Vercel
-    * Redirect flatpickles.com URL to vercel
+    * Polish README
+    * Move flatpickles.com DNS to vercel
     * Close out GitHub pages
     * Publish new repository as public (why not)
     * Update NPM version (and set up further auto-updating)
+    * Update direct link from Sketchbook (Ethereal Goop)
 * Polish
     * Card title text wrapping
     * Padding between title & date on writing & notes

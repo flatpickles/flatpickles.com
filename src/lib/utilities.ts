@@ -8,5 +8,6 @@
  * @returns - a Date object
  */
 export function datePST(dateString: string) {
+    // todo: this doesn't work in Safari, with dates like '2022-10-29'
     return new Date(dateString + ' 12:00:00 GMT-0800');
 }
