@@ -3,7 +3,6 @@
     import MediaDisplay from '$lib/components/MediaDisplay.svelte';
     import MediaOverlay from '$lib/components/MediaOverlay.svelte';
     import type { PageData } from './$types';
-    import { type } from 'os';
 
     export let data: PageData;
     const project: ProjectData = data.project;
