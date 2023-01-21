@@ -1,4 +1,5 @@
 <script lang="ts">
+    import DateUtils from '$lib/DateUtils';
     import type { ProjectData } from '$lib/types';
 
     export let projects: ProjectData[];
@@ -15,12 +16,7 @@
                     {project.type}
                 </div>
                 <div class="project-date">
-                    {project.date.toLocaleDateString('en-us', {
-                        day: 'numeric',
-                        year: 'numeric',
-                        month: 'short',
-                        timeZone: 'America/Los_Angeles'
-                    })}
+                    {DateUtils.renderShort(project.date)}
                 </div>
             </div>
         </a>

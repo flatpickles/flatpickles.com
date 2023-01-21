@@ -1,9 +1,10 @@
 import Config from './Config';
 import { type ProjectData, type NoteData, ProjectType, type NotesPage } from './types';
+import type { ZonedDateTime } from '@js-joda/core';
 
 import { mediaProjects } from './content/media';
 import { externalProjects } from './content/external';
-import { datePST } from './utilities';
+import DateUtils from './DateUtils';
 
 /**
  * Content is a pseudo-API for all content included on flatpickles.com! Perhaps someday
@@ -13,7 +14,9 @@ export default class Content {
     static projects(): ProjectData[] {
         const writingIndex: ProjectData[] = this.writingProjects();
         const allContents: ProjectData[] = this.mediaProjects().concat(this.externalProjects()).concat(writingIndex);
-        return allContents.sort((a, b) => b.date.getTime() - a.date.getTime());
+        return allContents.sort((a, b) => {
+            return b.date.compareTo(a.date);
+        });
     }
 
     /*** Entry collection requests ***/
@@ -49,9 +52,9 @@ export default class Content {
             return this.makeNote(key, module as Record<string, any>); // ??
         })
         const sortedNotes = hydratedNotes.sort((noteA, noteB) => {
-            const dateA: Date = noteA.updated ?? noteA.date;
-            const dateB: Date = noteB.updated ?? noteB.date;
-            return dateB.getTime() - dateA.getTime();
+            const dateA: ZonedDateTime = noteA.updated ?? noteA.date;
+            const dateB: ZonedDateTime = noteB.updated ?? noteB.date;
+            return dateB.compareTo(dateA);
         });
 
         // Calculate page bounds and check validity
@@ -96,7 +99,7 @@ export default class Content {
         return {
             title: module.metadata.title,
             url: `/writing/${key}`,
-            date: datePST(module.metadata.date),
+            date: DateUtils.pacificDate(module.metadata.date),
             type: ProjectType.Writing,
             component: module.default
         };
@@ -106,8 +109,8 @@ export default class Content {
         return {
             title: module.metadata.title,
             url: `/note/${key}`,
-            date: datePST(module.metadata.date),
-            updated: module.metadata.updated ? datePST(module.metadata.updated) : undefined,
+            date: DateUtils.pacificDate(module.metadata.date),
+            updated: module.metadata.updated ? DateUtils.pacificDate(module.metadata.updated) : undefined,
             component: module.default
         };
     }

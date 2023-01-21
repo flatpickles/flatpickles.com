@@ -1,11 +1,13 @@
 <script lang="ts">
+    import DateUtils from '$lib/DateUtils';
     import type { NoteData } from '$lib/types';
+    import type { ZonedDateTime } from '@js-joda/core';
 
     export let note: NoteData;
     export let exclusive = false;
 
     const updated: boolean = (note.updated != undefined);
-    const displayedDate: Date = (updated ? note.updated : note.date) as Date;
+    const displayedDate: ZonedDateTime = note.updated ?? note.date;
 </script>
 
 <article class="note">
@@ -20,14 +22,9 @@
             {/if}
         </h1>
 
-        <time class="note-date" datetime={displayedDate.toISOString()} title={`Published: ${note.date.toLocaleDateString()}`}>
+        <time class="note-date" datetime={displayedDate.toString()} title={`Published: ${DateUtils.renderLong(note.date)}`}>
             {#if updated}Updated:{/if}
-            {displayedDate.toLocaleDateString('en-us', {
-                day: 'numeric',
-                year: updated ? '2-digit' : 'numeric',
-                month: updated ? 'short' : 'long',
-                timeZone: 'America/Los_Angeles'
-            })}
+            {DateUtils.renderLong(displayedDate)}
         </time>
     </header>
 

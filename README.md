@@ -55,7 +55,11 @@
 * Return to whichever notes page we came from on [Back to Notes and Such] (re: pagination)
 
 ## Packages added
-* npm install postcss-easing-gradients
+* npm i @js-joda/locale_en-us
+* npm i @js-joda/core
+* npx ts-jest config:init (then rename to jest.config.cjs)
+* npm install -D jest typescript ts-jest @types/jest
+* npm i postcss-easing-gradients
 * npx svelte-add@latest postcss
 * npm i -D @sveltejs/adapter-vercel
 * npm i -D mdsvex

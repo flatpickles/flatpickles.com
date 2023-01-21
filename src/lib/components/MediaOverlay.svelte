@@ -1,8 +1,10 @@
 <script lang="ts">
     import HomeLink from '$lib/components/HomeLink.svelte';
+    import DateUtils from '$lib/DateUtils';
+    import type { ZonedDateTime } from '@js-joda/core';
 
     export let title: string;
-    export let date: Date;
+    export let date: ZonedDateTime;
 </script>
 
 <div class="overlay">
@@ -10,12 +12,7 @@
         <div class="metadata">
             <h1 class="title">{title}</h1>
             <div class="date">
-                {date.toLocaleDateString('en-us', {
-                    day: 'numeric',
-                    year: 'numeric',
-                    month: 'long',
-                    timeZone: 'America/Los_Angeles'
-                })}
+                {DateUtils.renderLong(date)}
             </div>
         </div>
         <HomeLink />

@@ -1,3 +1,5 @@
+import type { ZonedDateTime } from '@js-joda/core';
+
 export enum ProjectType {
     Image = "Image",
     Video = "Video",
@@ -20,7 +22,7 @@ export enum HeaderType {
 export interface ProjectData {
     title: string;
     url: string;
-    date: Date;
+    date: ZonedDateTime;
     type: ProjectType;
     assetPath?: string;
     component?: ConstructorOfATypedSvelteComponent;
@@ -29,8 +31,8 @@ export interface ProjectData {
 export interface NoteData {
     title: string;
     url: string;
-    date: Date;
-    updated?: Date;
+    date: ZonedDateTime;
+    updated?: ZonedDateTime;
     component: ConstructorOfATypedSvelteComponent;
 }
 

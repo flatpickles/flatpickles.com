@@ -1,5 +1,6 @@
 <script lang="ts">
-    import type { ProjectData } from '$lib/types';
+    import DateUtils from '$lib/DateUtils';
+import type { ProjectData } from '$lib/types';
 
     export let project: ProjectData;
 </script>
@@ -10,13 +11,8 @@
             {project.title}
         </h1>
         
-        <time class="piece-date" datetime={project.date.toISOString()}>
-            {project.date.toLocaleDateString('en-us', {
-                day: 'numeric',
-                year: 'numeric',
-                month: 'long',
-                timeZone: 'America/Los_Angeles' 
-            })}
+        <time class="piece-date" datetime={project.date.toString()}>
+            {DateUtils.renderLong(project.date)}
         </time>
     </header>
 
