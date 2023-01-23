@@ -19,6 +19,7 @@ Lately I've been doing project planning via the readme files in my project repos
     * Header updates - MN vs FP?
     * Update NPM version (and set up further auto-updating)
     * Update direct link from Sketchbook (Ethereal Goop)
+    * Google Analytics
 * Polish
     * Card title text wrapping
     * Padding between title & date on writing & notes

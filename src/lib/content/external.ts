@@ -16,7 +16,7 @@ export const externalProjects: ProjectData[] = [
     },
     {
         'title': 'Mandelbrot Set Viewer',
-        'url': 'http://sketchbook.flatpickles.com/#mandelbrot',
+        'url': 'http://sketchbook.flatpickles.com/#mandelbrot-set',
         'date': DateUtils.pacificDate('2022-09-29'),
         'type': ProjectType.Live
     },
