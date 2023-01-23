@@ -1,6 +1,6 @@
-# flatpickles.com
+# [flatpickles.com](https://flatpickles.com)
 
-Ahoy there! You've found the source code for my personal website, [flatpickles.com](https://flatpickles.com). If you want to know more about how I built the site, you've come to the right place!
+Ahoy there! You've found the source code for my personal website. If you want to know more about how I built the site, you've come to the right place!
 
 The site is built with [SvelteKit](https://kit.svelte.dev/). This marvelous framework makes lots of things easy: routing, server-side rendering, bundling, TypeScript compilation, and more. [Svelte](https://svelte.dev/) is also a beautiful tool for front-end development, putting scripting and styling in the same files as component markdown, and generally streamlining things in an intuitive way. I'm currently deploying the site to [Vercel](https://vercel.com/), which is extremely easy to use – each time I push to main, Vercel automatically picks up my changes and deploys them moments later.
 
@@ -17,8 +17,6 @@ Lately I've been doing project planning via the readme files in my project repos
 ## To do
 * Publishing v2
     * Header updates - MN vs FP?
-    * v1 Readme & github edits - archived, etc
-    * Publish new repository as public (why not)
     * Add repo as an external project link
     * Update NPM version (and set up further auto-updating)
     * Update direct link from Sketchbook (Ethereal Goop)

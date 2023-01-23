@@ -3,6 +3,12 @@ import DateUtils from '$lib/DateUtils';
 
 export const externalProjects: ProjectData[] = [
     {
+        'title': 'flatpickles.com',
+        'url': 'https://github.com/flatpickles/flatpickles.com',
+        'date': DateUtils.pacificDate('2023-01-23'),
+        'type': ProjectType.WebApp
+    },
+    {
         'title': 'Ethereal Goop',
         'url': 'http://sketchbook.flatpickles.com/#ethereal-goop',
         'date': DateUtils.pacificDate('2022-10-29'),

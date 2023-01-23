@@ -11,7 +11,7 @@
 </script>
 
 <svelte:head>
-    <title>Flat Pickles</title>
+    <title>Matt Nichols</title>
     <meta name="description" content="Matt Nichols is a software engineer and creative human. This is where he publishes side projects, and notes on whatever he's creating and learning." />
 </svelte:head>
 

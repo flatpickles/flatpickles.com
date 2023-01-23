@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-    <title>Matt Nichols</title>
+    <title>About Matt</title>
     <meta name="description" content="A few paragraphs about Matt Nichols and his website. Thanks for visiting!" />
 </svelte:head>
 
