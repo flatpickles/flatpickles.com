@@ -17,7 +17,6 @@ Lately I've been doing project planning via the readme files in my project repos
 ## To do
 * Publishing v2
     * Header updates - MN vs FP?
-    * Add repo as an external project link
     * Update NPM version (and set up further auto-updating)
     * Update direct link from Sketchbook (Ethereal Goop)
 * Polish

@@ -3,7 +3,7 @@
     <a href="https://xoxo.zone/@flatpickles">Mastodon</a>
     <a href="https://instagram.com/flatpickles">Instagram</a>
     <a href="https://github.com/flatpickles">GitHub</a>
-    <a href="https://man1.biz">LinkedIn</a>
+    <a href="https://linkedin.com/in/man1">LinkedIn</a>
     <a href="/matt-nichols-resume.pdf">Resume</a>
 </div>
 
