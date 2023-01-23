@@ -15,9 +15,9 @@ Lately I've been doing project planning via the readme files in my project repos
 -------
 
 ## To do
-* Publishing
+* Publishing v2
+    * Header updates - MN vs FP?
     * v1 Readme & github edits - archived, etc
-    * Move flatpickles.com DNS to vercel & close out GitHub pages
     * Publish new repository as public (why not)
     * Add repo as an external project link
     * Update NPM version (and set up further auto-updating)
