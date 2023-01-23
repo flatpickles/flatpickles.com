@@ -1,9 +1,8 @@
-<div class="notes-lede">
+<section class="notes-lede">
     <p>
         This is a space for bits, pieces, odds, and ends. If you're looking for completed projects, check out my <a href="/">homepage!</a>
     </p>
-</div>
-
+</section>
 
 <style>
     .notes-lede {

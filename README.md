@@ -1,11 +1,25 @@
 # flatpickles.com
 
+Ahoy there! You've found the source code for my personal website, [flatpickles.com](https://flatpickles.com). If you want to know more about how I built the site, you've come to the right place!
+
+The site is built with [SvelteKit](https://kit.svelte.dev/). This marvelous framework makes lots of things easy: routing, server-side rendering, bundling, TypeScript compilation, and more. [Svelte](https://svelte.dev/) is also a beautiful tool for front-end development, putting scripting and styling in the same files as component markdown, and generally streamlining things in an intuitive way. I'm currently deploying the site to [Vercel](https://vercel.com/), which is extremely easy to use – each time I push to main, Vercel automatically picks up my changes and deploys them moments later.
+
+All projects published on the site are either media files (photos & videos), markdown text, or external links. The media files are displayed directly with no compression or special treatment for now, and I'm using [MDsveX](https://mdsvex.com/) for markdown rendering throughout the site (writing projects, notes, about page, etc). All content is bundled into the site; I don't have a database or proper API of any sort, though it should be easy to swap in a more heavy duty solution if/when that becomes relevant.
+
+I'm using [ts-jest](https://huafu.github.io/ts-jest/) for some lightweight testing – currently limited to tests for datetime parsing and rendering (via [js-joda](https://js-joda.github.io/js-joda/). I'll get around to writing more tests eventually, but this will do for now.
+
+The design of the site is clearly very typography focused, which is quite intentional. I've licensed the Vulf and Hobeaux families from [OH no Type Co.](https://ohnotype.co/), and I'm glad to let these magnificent typefaces anchor my visual aesthetic. I've also kept responsiveness in mind while designing and building, and my hope is that flatpickles.com is equally appealing for both desktop and mobile users. 
+
+Lately I've been doing project planning via the readme files in my project repos; expect only rough notes beyond this point, mostly for my future reference!
+
+-------
+
 ## To do
 * Publishing
-    * Polish README
-    * Move flatpickles.com DNS to vercel
-    * Close out GitHub pages
+    * v1 Readme & github edits - archived, etc
+    * Move flatpickles.com DNS to vercel & close out GitHub pages
     * Publish new repository as public (why not)
+    * Add repo as an external project link
     * Update NPM version (and set up further auto-updating)
     * Update direct link from Sketchbook (Ethereal Goop)
 * Polish
