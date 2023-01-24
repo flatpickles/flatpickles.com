@@ -1,3 +1,3 @@
 export default class Config {
-    static notesPageSize = 4;
+    static notesPageSize = 3;
 }

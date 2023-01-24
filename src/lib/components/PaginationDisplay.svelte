@@ -21,6 +21,7 @@
         flex-direction: row;
         justify-content: center;
         column-gap: 0.5em;
+        margin-top: 1em;
 
         font-size: 1.1em;
     }
