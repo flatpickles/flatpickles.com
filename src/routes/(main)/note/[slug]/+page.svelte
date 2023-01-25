@@ -20,11 +20,11 @@
         note = {note}
         exclusive = {true}
     />
-</div>
 
-<nav class="back">
-    <a href="/notes">[Back to Notes and Such]</a>
-</nav>
+    <nav class="back">
+        <a href="/notes">[Back to Notes and Such]</a>
+    </nav>
+</div>
 
 <style>
     a {
@@ -36,7 +36,7 @@
     }
 
     .back {
-        padding-top: 1em;
+        margin-top: 0.5em;
         text-align: center;
         font-size: 1.1em;
     }
