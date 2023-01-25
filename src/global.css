@@ -17,6 +17,7 @@
 body {
     background-color: rgb(231, 255, 238);
     font-family: 'Vulf Sans';
+    line-height: 1.4;
 }
 
 p:not(:last-child)  {

@@ -17,8 +17,8 @@ Lately I've been doing project planning via the readme files in my project repos
 ## To do
 * Publishing v2
     * Header updates - MN vs FP?
-    * Update direct link from Sketchbook (Ethereal Goop)
     * Google Analytics
+    * Firefox vs. Chromium - line height?
 * Polish
     * Card title text wrapping
     * Padding between title & date on writing & notes
