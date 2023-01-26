@@ -9,11 +9,18 @@
         margin-top: 1em;
         margin-bottom: 1em;
         padding: 0.7em;
-        padding-top: 0.5em; /* appear centered */
         border-radius: 0.5em;
         background-color: var(--transparent-background);
 
         text-align: justify;
         font-size: 1.1em;
+    }
+
+    /* appear vertically centered in Firefox */
+    @supports (-moz-appearance: none) {
+        .notes-lede {
+            padding-top: 0.8em;
+            padding-bottom: 0.6em;
+        }
     }
 </style>

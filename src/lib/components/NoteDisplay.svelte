@@ -64,7 +64,7 @@
 
     .note-date {
         color: var(--transparent-dark-text);
-        font-size: 1.1em;
+        font-size: 1em;
     }
 
     .note-body {

@@ -38,15 +38,21 @@
 
     .project-row {
         padding: 0.7em;
-        padding-top: 0.5em; /* appear centered */
         border-radius: 0.5em;
-
         display: flex;
         flex-direction: row;
         column-gap: 1em;
         justify-content: space-between;
         flex-wrap: wrap;
         align-items: baseline;
+    }
+
+    /* appear vertically centered in Firefox */
+    @supports (-moz-appearance: none) {
+        .project-row {
+            padding-top: 0.8em;
+            padding-bottom: 0.6em;
+        }
     }
 
     .project-row:nth-child(odd) {
