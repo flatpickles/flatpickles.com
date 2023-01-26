@@ -13,12 +13,6 @@ export enum ProjectType {
     Other = "Other"
 }
 
-export enum HeaderType {
-    FlatPickles,
-    NotesAndSuch,
-    MattNichols
-}
-
 export interface ProjectData {
     title: string;
     url: string;

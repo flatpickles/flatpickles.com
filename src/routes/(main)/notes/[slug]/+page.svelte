@@ -1,7 +1,6 @@
 <script lang='ts'>
     import Note from '$lib/components/NoteDisplay.svelte';
     import BigHeader from '$lib/components/BigHeader.svelte';
-    import { HeaderType, type NoteData, type NotesPage } from '$lib/types';
     import type { PageData } from './$types';
     import NotesLede from '$lib/components/NotesLede.svelte';
     import PaginationDisplay from '$lib/components/PaginationDisplay.svelte';
@@ -15,7 +14,7 @@
     <meta name="description" content="Notes and Such from Matt Nichols, page {page.currentPage}."/>
 </svelte:head>
 
-<BigHeader type={HeaderType.NotesAndSuch} />
+<BigHeader />
 
 <NotesLede />
 

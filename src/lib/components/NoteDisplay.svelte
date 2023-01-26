@@ -74,6 +74,11 @@
         text-align: justify;
     }
 
+    @media ( max-width: 500px) {
+        .note-body {
+            hyphens: auto;
+        }
+    }
 
     /* todo: better code formatting */
     
@@ -86,11 +91,13 @@
 
         font-family: 'Vulf Mono';
         font-size: 0.8em;
+        hyphens: none;
     }
 
     :global(code.language-undefined) {
         display: block;
         width: fit-content;
+        padding-bottom: 0.2em;
         margin-bottom: 1em;
     }
 </style>

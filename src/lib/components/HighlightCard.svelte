@@ -59,7 +59,7 @@
         font-feature-settings: 'salt';
         font-weight: bold;
         line-height: 1;
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: rgba(255, 255, 255, 100%);
     }
 </style>

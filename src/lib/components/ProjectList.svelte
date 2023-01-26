@@ -50,8 +50,8 @@
     /* appear vertically centered in Firefox */
     @supports (-moz-appearance: none) {
         .project-row {
-            padding-top: 0.8em;
-            padding-bottom: 0.6em;
+            padding-top: 0.75em;
+            padding-bottom: 0.65em;
         }
     }
 

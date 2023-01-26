@@ -16,11 +16,9 @@ Lately I've been doing project planning via the readme files in my project repos
 
 ## To do
 * Publishing v2
-    * Header updates - MN vs FP?
     * Google Analytics
 * Polish
-    * Card title text wrapping
-    * Padding between title & date on writing & notes
+    * Add back descenders for Hobeaux fonts (Font Squirrel / adjust alt in CSS)
     * Em padding when font-size is set (e.g. footer size)
     * Adjust pixel-sized page width calculations to em values
     * Semantic markup!
@@ -43,7 +41,7 @@ Lately I've been doing project planning via the readme files in my project repos
 * Header image loads after page on mobile
 * Header image presented small first, then sized up (one frame)
 * Flash of unstyled content even when loading on Vercel?
-* Occasional "Not found: /favicon.ico" errors
+* Occasional "Not found" errors
 * Generating full index requires loading all writing .md files (+100ms)
 * ProjectList responsive design could be improved: CSS grid maybe, for fewer magic numbers.
 * Double render (SSR + CSR) locally (seems expected - but why?)

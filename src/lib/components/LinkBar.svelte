@@ -9,8 +9,9 @@
 
 <style>
     .links {
-        margin-top: 1em;
-        margin-bottom: 1em;
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+        padding-bottom: 0.5em;
 
         display: flex;
         flex-direction: row;
@@ -18,16 +19,16 @@
         flex-wrap: wrap;
         gap: 0.5em;
 
-        font-family: 'Hobeaux';
-        font-feature-settings: 'salt';
-        font-weight: 600;
-        font-size: 1.2em;
-
         border-bottom: 2px solid black;
     }
 
     a {
-        padding-bottom: 0.2em;
+        font-family: 'Hobeaux';
+        font-feature-settings: 'salt';
+        font-weight: 600;
+        font-size: 1.2em;
+        line-height: 1;
+
         text-decoration-thickness: 2px;
     }
 
