@@ -80,24 +80,39 @@
         }
     }
 
-    /* todo: better code formatting */
+    /* todo: better code formatting, probably in a dedicated file */
     
     :global(code) {
         padding-left: 0.2em;
         padding-right: 0.2em;
+        vertical-align: baseline;
 
         background-color: var(--transparent-background);
         border-radius: 0.2em;
 
         font-family: 'Vulf Mono';
-        font-size: 0.8em;
+        font-size: 0.77em;
         hyphens: none;
     }
 
     :global(code.language-undefined) {
         display: block;
-        width: fit-content;
+        max-width: fit-content;
         padding-bottom: 0.2em;
         margin-bottom: 1em;
+        overflow: scroll;
+
+        /* Hide scrollbar in Firefox */
+        overflow: -moz-scrollbars-none;
+        scrollbar-width: none;
+
+        /* Hide scrollbar in IE */
+        -ms-overflow-style: none;
+    }
+
+    /* Hide scrollbar in Webkit */
+    :global(code.language-undefined::-webkit-scrollbar) { 
+        width: 0 !important;
+        display: none; 
     }
 </style>
