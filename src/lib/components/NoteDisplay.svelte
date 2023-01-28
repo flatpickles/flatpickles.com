@@ -25,6 +25,7 @@
         <time class="note-date" datetime={displayedDate.toString()} title={`Published: ${DateUtils.renderLong(note.date)}`}>
             {#if updated}Updated:{/if}
             {DateUtils.renderLong(displayedDate)}
+            {#if note.draft}• Draft{/if}
         </time>
     </header>
 
@@ -78,6 +79,18 @@
         .note-body {
             hyphens: auto;
         }
+    }
+
+    :global(blockquote) {
+        margin-left: 0.5em;
+        margin-bottom: 1em;
+        padding-left: 1em;
+        padding-right: 1.5em;
+
+        border-left: 2px dotted rgba(0, 0, 0, 75%);
+
+        color: rgba(0, 0, 0, 75%);
+        font-size: 0.909090em;
     }
 
     /* todo: better code formatting, probably in a dedicated file */

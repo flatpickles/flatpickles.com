@@ -50,8 +50,9 @@ export default class Content {
         const hydratedNotes: NoteData[] = iterableNotes.map(([path, module]) => {
             const key = this.keyFromPath(path);
             return this.makeNote(key, module as Record<string, any>); // ??
-        })
-        const sortedNotes = hydratedNotes.sort((noteA, noteB) => {
+        });
+        const filteredNotes = hydratedNotes.filter(note => !note.draft);
+        const sortedNotes = filteredNotes.sort((noteA, noteB) => {
             const dateA: ZonedDateTime = noteA.updated ?? noteA.date;
             const dateB: ZonedDateTime = noteB.updated ?? noteB.date;
             return dateB.compareTo(dateA);
@@ -111,6 +112,7 @@ export default class Content {
             url: `/note/${key}`,
             date: DateUtils.pacificDate(module.metadata.date),
             updated: module.metadata.updated ? DateUtils.pacificDate(module.metadata.updated) : undefined,
+            draft: module.metadata.draft ?? false,
             component: module.default
         };
     }

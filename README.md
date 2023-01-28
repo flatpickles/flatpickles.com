@@ -6,20 +6,19 @@ The site is built with [SvelteKit](https://kit.svelte.dev/). This marvelous fram
 
 All projects published on the site are either media files (photos & videos), markdown text, or external links. The media files are displayed directly with no compression or special treatment for now, and I'm using [MDsveX](https://mdsvex.com/) for markdown rendering throughout the site (writing projects, notes, about page, etc). All content is bundled into the site; I don't have a database or proper API of any sort, though it should be easy to swap in a more heavy duty solution if/when that becomes relevant.
 
-I'm using [ts-jest](https://huafu.github.io/ts-jest/) for some lightweight testing – currently limited to tests for datetime parsing and rendering (via [js-joda](https://js-joda.github.io/js-joda/). I'll get around to writing more tests eventually, but this will do for now.
+I'm using [ts-jest](https://huafu.github.io/ts-jest/) for some lightweight testing – currently limited to tests for datetime parsing and rendering (via [js-joda](https://js-joda.github.io/js-joda/)). I'll get around to writing more tests eventually, but this will do for now.
 
-The design of the site is clearly very typography focused, which is quite intentional. I've licensed the Vulf and Hobeaux families from [OH no Type Co.](https://ohnotype.co/), and I'm glad to let these magnificent typefaces anchor my visual aesthetic. I've also kept responsiveness in mind while designing and building, and my hope is that flatpickles.com is equally appealing for both desktop and mobile users. 
+The design of the site is quite typography focused. I've licensed the Vulf and Hobeaux families from [OH no Type Co.](https://ohnotype.co/), and I'm glad to let these magnificent typefaces anchor my visual aesthetic. I've also kept responsiveness in mind while designing and building, and my hope is that flatpickles.com is equally appealing for both desktop and mobile users. 
 
-Lately I've been doing project planning via the readme files in my project repos; expect only rough notes beyond this point, mostly for my future reference!
+Lately I've been doing project planning via the readme files in my project repos, so expect only rough notes beyond this point, mostly for my future reference!
 
 -------
 
 ## To do
-* Publishing v2
-    * Google Analytics
+* Fix keying of notes posts between pages (incorrect dates)
 * Polish
-    * Add back descenders for Hobeaux fonts (Font Squirrel / adjust alt in CSS)
-    * Em padding when font-size is set (e.g. footer size)
+    * Em padding when font-size is set (e.g. unequal bottom padding for block in Notes)
+    * Add back descenders for Hobeaux fonts (Font Squirrel - adjust alt in CSS)
     * Adjust pixel-sized page width calculations to em values
     * Semantic markup!
     * Remove/address todos & questions

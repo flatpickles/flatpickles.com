@@ -27,6 +27,7 @@ export interface NoteData {
     url: string;
     date: ZonedDateTime;
     updated?: ZonedDateTime;
+    draft?: boolean;
     component: ConstructorOfATypedSvelteComponent;
 }
 
