@@ -4,17 +4,30 @@ date: 1/27/23
 draft: true
 ---
 
-I recently encountered the concept of "Grammars of Action", introduced in Philip Agre's 1994 paper, *[Surveillance and Capture](https://djp3.westmont.edu/classes/2017_01_CS195/readings/CaptureModelOfSurveillance.pdf)*. Despite its age, this paper discusses concepts that are still strikingly relevant, as emphasized in this more recent and more quickly digestible [overview](https://www.fordes.de/posts/agre-surveillance_and_capture.html) from 2020 (Jan Dittrich & Lisa Conrad; Fordes). Even beyond its original context, the "Grammars of Action" concept provides a powerful framework for thinking about creating tools, and building technology in general.
+I recently encountered the concept of "Grammars of Action", introduced in Philip Agre's 1994 paper, *[Surveillance and Capture](https://djp3.westmont.edu/classes/2017_01_CS195/readings/CaptureModelOfSurveillance.pdf)*. Despite its age, this paper discusses concepts that are still strikingly relevant, as emphasized in a more recent and more quickly digestible [overview](https://www.fordes.de/posts/agre-surveillance_and_capture.html) from 2020 (Jan Dittrich & Lisa Conrad; Fordes). Even beyond its original context, the "Grammars of Action" concept presents a powerful framework for thinking about building technology in the modern world.
 
-The materials linked above extensively discuss "Capture" as a model for the organization and monitoring of computerized work: "the practice of re-organizing certain activities so that they can be represented by computers in real time" (Fordes). This representation is achieved via a synthetically constructed "Grammar of Action"; relevant activities within the organization are broken down into their atomic parts, and then a "grammar" is built to describe the way these atoms may fit together in achieving a high-level task. The linguistic metaphor here is obvious, and the parallels to programming are fitting as well, seeing as Agre's paper is "an analysis of the professional practice of computer people" (in his words).
+The materials linked above extensively discuss "Capture" as a model for collaborative computerized work, i.e. "the practice of re-organizing certain activities so that they can be represented by computers in real time" (Fordes). This representation is achieved via implicitly constructed "Grammars of Action": relevant activities within the organization are broken down into their atomic parts, and then a "grammar" is developed to describe the way these atoms may fit together in achieving high-level goals. The linguistic metaphor here is obvious, and the parallels to programming are fitting as well, as Agre's paper is "an analysis of the professional practice of computer people" (in his words).
 
-Particularly among computer people, grammars of action can be subject to both the myth of "having been discovered" (vs. created), and "the mythology of transparent representation", i.e. the belief that the grammar represents the system it describes without any ontological distortion. The Fordes authors describe this well:
+Particularly among computer people, grammars of action can be subject to both the myth of "having been discovered" (vs. created), and "the mythology of transparent representation", i.e. the belief that the grammar represents the system it describes without any ontological distortion. The Fordes authors dispel these myths:
 
-> Rather than being a transparent representation, capturing an activity actually has profound effects on the activity itself: Capture claims to represent, but it actually intervenes. Grammars of action are applied. They involve a re-organization (p.110) of the activities to make them compatible with computer technologies. The redesigned activity is then encouraged by “social and technical means” (p.110), becoming ingrained in the work so that people “… out of necessity, orient their activities toward the capture machinery and its institutional consequences.”
+> Rather than being a transparent representation, capturing an activity actually has profound effects on the activity itself: Capture claims to represent, but it actually intervenes. Grammars of action are applied. They involve a re-organization of the activities to make them compatible with computer technologies. The redesigned activity is then encouraged by “social and technical means”, becoming ingrained in the work so that people “… out of necessity, orient their activities toward the capture machinery and its institutional consequences.”
 
-I've been thinking about this as a sort of lossy compression...
+I've been thinking about this as a sort of lossy compression: grammars of action represent a subset of outcomes within the possibility space, introducing new efficiencies, but but potentially diluting the intentionality of agents within the system. Though I may begin with a firm idea of what I want to accomplish, a grammar of action may guide me toward a different outcome. Grammars of action encode an intrinsic value system, simply by making some things more expensive than others (in time, effort, or some other resource).
 
---
+Agre writes with an institutional lens and a cautionary tone, but I think these ideas are also applicable as powerfully constructive concepts for the designers of creative tools. Tooling designers must also develop grammars of action to describe the creative processes of their users, and in doing so, they have the opportunity to develop a thoughtfully opaque representation of the possibility space. Many creative professionals will speak to the value of opinionated tools that emphasize best practices, and this is exactly what I mean by an opaque representation: full freedom of expression isn't available at each step in the creative process, but a focused subset of possibilities can direct the user on a more efficient path towards their intended outcome. A well aligned creative tool shouldn't distort a user's intentions, but should nonetheless confidently shape their engagement and direction.
+
+** Tighten up the paragraph above, write something below about my own creative life, call it done **
+
+
+One final extrapolation of Agre's ideas applies in my own creative life outside 
+
+In my own creative life, I've been thinking about the value of developing spaces for thought 
+
+– creating spaces (and/or tools) with a predefined grammar to evoke what I aspire to achieve. Make it easier to think, build, or connect in advantageous ways.
+
+
+
+----
 
 Risks & downsides
 
@@ -23,6 +36,26 @@ Opportunities
 Parallels in tools that we build
 
 Ways to use this in one's own life
+
+-----
+
+Magnetism - we're drawn to the concrete (stuff)
+
+Tools require grammars of action - good ones develop grammars that don't warp a user's intention in a particular way
+
+Grammars are opinionated - fit to a particular type of stylistic output
+
+A tool covers a particular utility space: a range of intentions mapped ot outcomes. The grammar presented by a good tool
+
+In my own creativity – creating spaces (and/or tools) with a predefined grammar to evoke what I aspire to achieve. Make it easier to think, build, or connect in advantageous ways.
+
+Grammars presented by privatized interests will have a particular bias – the capture of capital. ("Capture" is used differently in these resources - maybe related)
+
+Look for grammars of action around you, either those you create or those presented by the people you engage with and the products & tools you use. Notice the influence that these grammars are having on your actions, and when you can, 
+
+At the very least we can each learn to form our intentions with a little more clarity.
+
+Toys absorb "behavioral surplus", tools present grammars of action.
 
 -----
 
@@ -70,23 +103,3 @@ Another myth, that grammars of action have "been ‘discovered.’" (find the or
 > “behavioral surplus” (Zuboff)
 
 Worth looking into this! I think it's relevant for a consideration of toys (and their tool counterparts).
-
------
-
-Magnetism - we're drawn to the concrete (stuff)
-
-Tools require grammars of action - good ones develop grammars that don't warp a user's intention in a particular way
-
-Grammars are opinionated - fit to a particular type of stylistic output
-
-A tool covers a particular utility space: a range of intentions mapped ot outcomes. The grammar presented by a good tool
-
-In my own creativity – creating spaces (and/or tools) with a predefined grammar to evoke what I aspire to achieve. Make it easier to think, build, or connect in advantageous ways.
-
-Grammars presented by privatized interests will have a particular bias – the capture of capital. ("Capture" is used differently in these resources - maybe related)
-
-Look for grammars of action around you, either those you create or those presented by the people you engage with and the products & tools you use. Notice the influence that these grammars are having on your actions, and when you can, 
-
-At the very least we can each learn to form our intentions with a little more clarity.
-
-Toys absorb "behavioral surplus", tools present grammars of action.
