@@ -15,7 +15,6 @@ Lately I've been doing project planning via the readme files in my project repos
 -------
 
 ## To do
-* Fix keying of notes posts between pages (incorrect dates)
 * Polish
     * Em padding when font-size is set (e.g. unequal bottom padding for block in Notes)
     * Add back descenders for Hobeaux fonts (Font Squirrel - adjust alt in CSS)

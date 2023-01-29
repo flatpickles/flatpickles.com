@@ -5,6 +5,7 @@
     import BigHeader from '$lib/components/BigHeader.svelte';
     import Highlights from '$lib/components/Highlights.svelte';
     import ProjectList from '$lib/components/ProjectList.svelte';
+    import Copyright from '$lib/components/Copyright.svelte';
 
     export let data: PageData;
     const projects: ProjectData[] = data.projects;
@@ -21,17 +22,5 @@
 
 <ProjectList {projects} />
 
-<footer class="copyright">
-    Copyright &copy 2023 Matt Nichols
-</footer>
+<Copyright />
 
-<style>
-    .copyright {
-        text-align: center;
-        margin-top: 2em;
-
-        font-family: 'Vulf Mono';
-        font-size: 0.9em;
-        color: rgba(0, 0, 0, 30%);
-    }
-</style>
