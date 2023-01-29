@@ -19,7 +19,7 @@
 <NotesLede />
 
 <div class="notes-wrapper">
-    {#each page.notes as note }   
+    {#each page.notes as note (note.title)}   
         <Note {note} />
     {/each}
 
