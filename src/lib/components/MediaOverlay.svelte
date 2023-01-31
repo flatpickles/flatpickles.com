@@ -1,6 +1,6 @@
 <script lang="ts">
-    import HomeLink from '$lib/components/HomeLink.svelte';
     import DateUtils from '$lib/DateUtils';
+    import HomeLink from '$lib/components/HomeLink.svelte';
     import type { ZonedDateTime } from '@js-joda/core';
 
     export let title: string;

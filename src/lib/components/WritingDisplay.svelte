@@ -1,6 +1,6 @@
 <script lang="ts">
     import DateUtils from '$lib/DateUtils';
-import type { ProjectData } from '$lib/types';
+    import type { ProjectData } from '$lib/types';
 
     export let project: ProjectData;
 </script>

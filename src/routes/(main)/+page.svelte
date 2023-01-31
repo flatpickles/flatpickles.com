@@ -1,11 +1,11 @@
 <script lang='ts'>
-    import type { ProjectData } from '$lib/types';
     import type { PageData } from './$types';
+    import type { ProjectData } from '$lib/types';
 
     import BigHeader from '$lib/components/BigHeader.svelte';
+    import Copyright from '$lib/components/Copyright.svelte';
     import Highlights from '$lib/components/Highlights.svelte';
     import ProjectList from '$lib/components/ProjectList.svelte';
-    import Copyright from '$lib/components/Copyright.svelte';
 
     export let data: PageData;
     const projects: ProjectData[] = data.projects;

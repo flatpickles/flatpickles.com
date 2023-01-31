@@ -1,10 +1,10 @@
 import Config from './Config';
+import DateUtils from './DateUtils';
 import { type ProjectData, type NoteData, ProjectType, type NotesPage } from './types';
 import type { ZonedDateTime } from '@js-joda/core';
 
 import { mediaProjects } from './content/media';
 import { externalProjects } from './content/external';
-import DateUtils from './DateUtils';
 
 /**
  * Content is a pseudo-API for all content included on flatpickles.com! Perhaps someday

@@ -16,23 +16,22 @@ Lately I've been doing project planning via the readme files in my project repos
 
 ## To do
 * Polish
-    * Em padding when font-size is set (e.g. unequal bottom padding for block in Notes)
+    * Em padding when font-size is set (e.g. unequal bottom padding for block in Notes) (use rem!)
     * Add back descenders for Hobeaux fonts (Font Squirrel - adjust alt in CSS)
     * Adjust pixel-sized page width calculations to em values
     * Semantic markup!
     * Remove/address todos & questions
-    * Sort imports
     * Check for quote style, indentation, etc (maybe use a linter?)
     * Adjust body class approach [this way](https://github.com/sveltejs/svelte/issues/3105#issuecomment-1373889014)
 * Slug page for text & notes
     * Hide header when scrolling down (maybe within HomeLinkOverlay)
 * Slug page for media
-    * Hide header & footer between taps & mouse movement
     * Content loading indicator
+    * Hide header & footer between taps & mouse movement
 * SEO improvements & link previews
     * [Create](https://dev.to/domagojvidovic/how-to-create-beautiful-link-previews-for-every-platform-1nka) and [test](https://socialsharepreview.com/) link previews
     * [Structured data](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data#structured-data)
-    * [SvelteKit docs](https://kit.svelte.dev/docs/seo)
+    * [SvelteKit SEO docs](https://kit.svelte.dev/docs/seo)
 * Tests - [helpful resource](https://el3um4s.medium.com/how-to-test-sveltekit-app-with-jest-848afa8edbc7)
 
 ## Known problems

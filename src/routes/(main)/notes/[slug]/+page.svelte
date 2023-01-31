@@ -1,8 +1,8 @@
 <script lang='ts'>
-    import Note from '$lib/components/NoteDisplay.svelte';
     import BigHeader from '$lib/components/BigHeader.svelte';
-    import type { PageData } from './$types';
+    import Note from '$lib/components/NoteDisplay.svelte';
     import NotesLede from '$lib/components/NotesLede.svelte';
+    import type { PageData } from './$types';
     import PaginationDisplay from '$lib/components/PaginationDisplay.svelte';
 
     export let data: PageData;
