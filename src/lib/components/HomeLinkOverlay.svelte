@@ -9,7 +9,7 @@
 <style>
     .home-wrapper {
         position: fixed;
-        background-color: inherit;
+        background-color: rgb(255, 255, 255);
         top: 1em;
         right: 1em;
         border-radius: 50%;
