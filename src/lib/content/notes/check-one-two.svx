@@ -1,0 +1,18 @@
+---
+title: Check One Two
+date: 02/04/23
+---
+
+<script>
+	import SpotifyEmbed from '$lib/components/SpotifyEmbed.svelte';
+</script>
+
+I spend a lot of time listening to and thinking about music, and as I continue pondering the sorts of things I want to write about here, music certainly stands out. So to that end, I've added support for Spotify embeds in my notes entries!
+
+For my inaugural musical submission, I'll share an album I've had on repeat over the past couple months: Ritual, by Bay Ledges.
+
+<SpotifyEmbed link="https://open.spotify.com/album/3Ml6WGt3ogt1GcmaTXGA4w"/>
+
+There's something magical about the interplay between acoustic and electronic elements in these pieces. Wistful vocal layering, washy guitars, and synthy decorations all contribute to a spacey and ethereal vibe that seems to fit the world I'm living in lately. Most days I'm floating between nostalgia and cautious optimism, not quite sure if I should be longing for the past, or excited for the future.
+
+I love how music is such an emotional language. Both playing and listening to music give me the opportunity to bring my feelings into the conscious realm, but don't demand active engagement. Absorbing music with emotional intentionality is a wonderful way to acknowledge the way I feel, without trying to change, or even deeply understand. It's usually okay to just be.

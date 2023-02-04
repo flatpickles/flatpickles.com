@@ -9,11 +9,11 @@ const config = {
     adapter: adapter(),
   },
 
-  extensions: ['.svelte', '.md'],
+  extensions: ['.svelte', '.md', '.svx'],
 
   preprocess: [
     mdsvex({
-      extensions: ['.md'],
+      extensions: ['.md', '.svx'],
     }),
     vitePreprocess(),
     preprocess({

@@ -82,8 +82,9 @@
     }
 
     :global(blockquote) {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
         margin-left: 0.5em;
-        margin-bottom: 1em;
         padding-left: 1em;
         padding-right: 1.5em;
 
@@ -111,8 +112,9 @@
     :global(code.language-undefined) {
         display: block;
         max-width: fit-content;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
         padding-bottom: 0.2em;
-        margin-bottom: 1em;
         overflow: scroll;
 
         /* Hide scrollbar in Firefox */

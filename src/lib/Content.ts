@@ -45,8 +45,9 @@ export default class Content {
         }
 
         // Collect notes files and sort them by published or updated date
-        const allNotesFiles = import.meta.glob('./content/notes/*.md', { eager: true });
-        const iterableNotes: [string, any][] = Object.entries(allNotesFiles);
+        const allNotesMd = import.meta.glob('./content/notes/*.md', { eager: true });
+        const allNotesSvx = import.meta.glob('./content/notes/*.svx', { eager: true });
+        const iterableNotes = Object.entries(allNotesMd).concat(Object.entries(allNotesSvx));
         const hydratedNotes: NoteData[] = iterableNotes.map(([path, module]) => {
             const key = this.keyFromPath(path);
             return this.makeNote(key, module as Record<string, any>); // ??
@@ -86,7 +87,19 @@ export default class Content {
     }
 
     static async note(key: string): Promise<NoteData> {
-        const module = await import(`./content/notes/${key}.md`);
+        let module;
+        try {
+            // Attempt .md import
+            module = await import(`./content/notes/${key}.md`);
+        } catch {
+            try {
+                // Attempt .svx import
+                module = await import(`./content/notes/${key}.svx`);
+            } catch {
+                // Note doesn't exist!
+                throw new Error(`Note not found with key ${key}`);
+            }
+        }
         return this.makeNote(key, module);
     }
 
