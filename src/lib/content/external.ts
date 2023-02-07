@@ -9,6 +9,12 @@ export const externalProjects: ProjectData[] = [
         'type': ProjectType.WebApp
     },
     {
+        'title': 'Face Replace',
+        'url': 'https://github.com/flatpickles/ML-Experiments/blob/main/Face_Replace.ipynb',
+        'date': DateUtils.pacificDate('2023-02-03'),
+        'type': ProjectType.Notebook
+    },
+    {
         'title': 'Ethereal Goop',
         'url': 'http://sketchbook.flatpickles.com/#ethereal-goop',
         'date': DateUtils.pacificDate('2022-10-29'),

@@ -18,7 +18,7 @@ Lately I've been doing project planning via the readme files in my project repos
 * Polish
     * Em padding when font-size is set (e.g. unequal bottom padding for block in Notes) (use rem!)
     * Add back descenders for Hobeaux fonts (Font Squirrel - adjust alt in CSS)
-    * Adjust pixel-sized page width calculations to em values
+    * Adjust pixel-sized page width calculations to rem values (?)
     * Semantic markup!
     * Remove/address todos & questions
     * Check for quote style, indentation, etc (maybe use a linter?)
@@ -26,8 +26,8 @@ Lately I've been doing project planning via the readme files in my project repos
 * New project (sub)types:
     * Writing: Prose, Poem
     * Image: Photography, Design, Render
-* New note embeds:
-    * Spotify
+* Tags/categories for notes
+* Note embed for project status (project idea posts)
 * RSS feed for notes!
 * Backdrop visualizer: REGL -> 2D shader, or some such
 * Slug page for text & notes
