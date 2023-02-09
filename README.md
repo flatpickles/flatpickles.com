@@ -24,14 +24,12 @@ Lately I've been doing project planning via the readme files in my project repos
     * Check for quote style, indentation, etc (maybe use a linter?)
     * Adjust body class approach [this way](https://github.com/sveltejs/svelte/issues/3105#issuecomment-1373889014)
 * New project (sub)types:
-    * Writing: Prose, Poem
+    * Writing: Prose, Poem, Fiction
     * Image: Photography, Design, Render
 * Tags/categories for notes
 * Note embed for project status (project idea posts)
 * RSS feed for notes!
 * Backdrop visualizer: REGL -> 2D shader, or some such
-* Slug page for text & notes
-    * Hide header when scrolling down (maybe within HomeLinkOverlay)
 * Slug page for media
     * Content loading indicator
     * Hide header & footer between taps & mouse movement
