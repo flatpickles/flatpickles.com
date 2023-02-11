@@ -20,7 +20,7 @@
             if (opacity == 0.0) {
                 scrollBaseline = scrollPosition - scrollDepth;
             } else if (opacity == 1.0) {
-                scrollBaseline = scrollPosition;
+                scrollBaseline = Math.max(0.0, scrollPosition);
             }
         }
 
