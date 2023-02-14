@@ -1,7 +1,7 @@
 <script lang="ts">
     import { type ProjectData, ProjectType } from '$lib/types';
 
-    export let project: ProjectData
+    export let project: ProjectData;
 </script>
 
 <div class="media-outer-container">
@@ -25,6 +25,9 @@
             </audio>
         {/if}
     </div>
+    <div class="loading">
+        Loading...
+    </div>
 </div>
 
 <style>
@@ -38,8 +41,22 @@
         align-items: center;
     }
 
+    .loading {
+        position: absolute;
+        height: 100%;
+        z-index: 0;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        font-size: 1.2rem;
+        color: rgba(255, 255, 255, 50%);
+    }
+
     .media-inner-container {
         height: 100%;
+        z-index: 1;
 
         display: flex;
         flex-direction: row;

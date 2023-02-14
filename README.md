@@ -31,7 +31,6 @@ Lately I've been doing project planning via the readme files in my project repos
 * RSS feed for notes!
 * Backdrop visualizer: REGL -> 2D shader, or some such
 * Slug page for media
-    * Content loading indicator
     * Hide header & footer between taps & mouse movement
 * SEO improvements & link previews
     * [Create](https://dev.to/domagojvidovic/how-to-create-beautiful-link-previews-for-every-platform-1nka) and [test](https://socialsharepreview.com/) link previews
