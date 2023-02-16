@@ -3,6 +3,12 @@ import { type ProjectData, ProjectType } from '$lib/types';
 
 export const externalProjects: ProjectData[] = [
     {
+        'title': 'Aurora Vibes',
+        'url': 'http://sketchbook.flatpickles.com/#aurora-vibes',
+        'date': DateUtils.pacificDate('2023-02-15'),
+        'type': ProjectType.Live
+    },
+    {
         'title': 'flatpickles.com',
         'url': 'https://github.com/flatpickles/flatpickles.com',
         'date': DateUtils.pacificDate('2023-01-23'),

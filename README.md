@@ -32,6 +32,9 @@ Lately I've been doing project planning via the readme files in my project repos
 * Backdrop visualizer: REGL -> 2D shader, or some such
 * Slug page for media
     * Hide header & footer between taps & mouse movement
+* Slug page for text/notes
+    * Seems like mobile scroll height is too tall (on short pieces)
+    * HomeLinkOverlay fades back in when hitting bottom scroll on mobile Safari
 * SEO improvements & link previews
     * [Create](https://dev.to/domagojvidovic/how-to-create-beautiful-link-previews-for-every-platform-1nka) and [test](https://socialsharepreview.com/) link previews
     * [Structured data](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data#structured-data)
