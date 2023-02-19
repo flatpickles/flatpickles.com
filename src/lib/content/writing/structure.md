@@ -3,7 +3,7 @@ title: Structure
 date: 2/18/23
 ---
 
-the clock on the wall says  
+the clock on the wall ticks  
 struc... ture.  
 struc... ture.  
 struc... ture.  
@@ -26,4 +26,4 @@ continuing onward into
 struc... ture.  
 struc... ture.  
 struc... ture.  
-the clock on the wall says  
+the clock on the wall ticks  
