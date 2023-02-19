@@ -15,7 +15,6 @@ pulsing and
 drifting a  
 part  
 .  
-
 at  
 once  
 all things  
