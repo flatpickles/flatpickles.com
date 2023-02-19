@@ -1,5 +1,5 @@
 <script lang="ts">
-    import DateUtils from '$lib/DateUtils';
+    import { DateUtils } from '$lib/Utils';
     import type { NoteData } from '$lib/types';
     import type { ZonedDateTime } from '@js-joda/core';
 

@@ -1,5 +1,5 @@
 import Config from './Config';
-import DateUtils from './DateUtils';
+import { DateUtils } from './Utils';
 import { type ProjectData, type NoteData, ProjectType, type NotesPage } from './types';
 import type { ZonedDateTime } from '@js-joda/core';
 

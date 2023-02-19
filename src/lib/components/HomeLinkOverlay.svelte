@@ -3,6 +3,7 @@
     import HomeLink from './HomeLink.svelte';
     
     const scrollDepth = 50; // px
+    const bounceBack = 100;
 
     let scrollPosition = 0.0;
     let scrollBaseline = 0.0;
@@ -18,7 +19,7 @@
         // Adjust baseline if fully in/out when changing directions
         if (scrollingDown != prevScrollingDown) {
             if (opacity == 0.0) {
-                scrollBaseline = scrollPosition - scrollDepth;
+                scrollBaseline = Math.max(0.0, scrollPosition - scrollDepth - bounceBack);
             } else if (opacity == 1.0) {
                 scrollBaseline = Math.max(0.0, scrollPosition);
             }

@@ -1,5 +1,5 @@
 <script lang="ts">
-    import DateUtils from '$lib/DateUtils';
+    import { DateUtils } from '$lib/Utils';
     import HomeLink from '$lib/components/HomeLink.svelte';
     import type { ZonedDateTime } from '@js-joda/core';
 

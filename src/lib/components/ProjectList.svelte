@@ -1,5 +1,5 @@
 <script lang="ts">
-    import DateUtils from '$lib/DateUtils';
+    import { DateUtils } from '$lib/Utils';
     import type { ProjectData } from '$lib/types';
 
     export let projects: ProjectData[];

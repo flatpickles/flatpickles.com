@@ -1,7 +1,7 @@
 import { Locale } from '@js-joda/locale_en-us'
 import { LocalDate, ZoneId, DateTimeFormatter, ZonedDateTime, LocalTime } from '@js-joda/core';
 
-export default class DateUtils {
+export class DateUtils {
     static pacificDate(simpleDateString: string): ZonedDateTime {
         const parsedDate = this.parse(simpleDateString);
         if (!parsedDate) throw new Error('Couldn\'t parse date');

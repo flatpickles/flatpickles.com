@@ -1,4 +1,4 @@
-import DateUtils from '$lib/DateUtils';
+import { DateUtils } from '$lib/Utils';
 import { type ProjectData, ProjectType } from '$lib/types';
 
 export const externalProjects: ProjectData[] = [
