@@ -24,7 +24,7 @@ Lately I've been doing project planning via the readme files in my project repos
     * Check for quote style, indentation, etc (maybe use a linter?)
     * Adjust body class approach [this way](https://github.com/sveltejs/svelte/issues/3105#issuecomment-1373889014)
 * New project (sub)types:
-    * Writing: Prose, Poem, Fiction
+    * Writing: Prose, Poem, Fiction, Essay
     * Image: Photography, Design, Render
 * Tags/categories for notes
 * Note embed for project status (project idea posts)
