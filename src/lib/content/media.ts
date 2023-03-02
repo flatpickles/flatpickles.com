@@ -133,7 +133,7 @@ const mediaRecords: MediaRecord[] = [
     },
     {
         title: 'Peaceful Piano Thoughts',
-        filename: 'rainy-daze.mp3',
+        filename: 'peaceful-piano-thoughts.mp3',
         date: '2020-08-18',
     },
     {
