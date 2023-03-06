@@ -3,6 +3,12 @@ import { type ProjectData, ProjectType } from '$lib/types';
 
 export const externalProjects: ProjectData[] = [
     {
+        'title': 'World Wide Webcam',
+        'url': 'https://wwweb.cam/',
+        'date': DateUtils.pacificDate('2023-03-06'),
+        'type': ProjectType.WebApp
+    },
+    {
         'title': 'Aurora Vibes',
         'url': 'http://sketchbook.flatpickles.com/#aurora-vibes',
         'date': DateUtils.pacificDate('2023-02-15'),
