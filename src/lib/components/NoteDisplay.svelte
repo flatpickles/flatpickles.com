@@ -6,7 +6,7 @@
     export let note: NoteData;
     export let exclusive = false;
 
-    const updated: boolean = (note.updated != undefined);
+    const updated: boolean = note.updated != undefined;
     const displayedDate: ZonedDateTime = note.updated ?? note.date;
 </script>
 
@@ -22,7 +22,11 @@
             {/if}
         </h1>
 
-        <time class="note-date" datetime={displayedDate.toString()} title={`Published: ${DateUtils.renderLong(note.date)}`}>
+        <time
+            class="note-date"
+            datetime={displayedDate.toString()}
+            title={`Published: ${DateUtils.renderLong(note.date)}`}
+        >
             {#if updated}Updated:{/if}
             {DateUtils.renderLong(displayedDate)}
             {#if note.draft}• Draft{/if}
@@ -75,10 +79,16 @@
         text-align: justify;
     }
 
-    @media ( max-width: 500px) {
+    @media (max-width: 500px) {
         .note-body {
             hyphens: auto;
         }
+    }
+
+    /* Following are note-formatting things; maybe move this elsewhere */
+
+    :global(ul) {
+        padding-left: 1.5rem;
     }
 
     :global(blockquote) {
@@ -91,11 +101,11 @@
         border-left: 2px dotted rgba(0, 0, 0, 75%);
 
         color: rgba(0, 0, 0, 75%);
-        font-size: 0.909090em;
+        font-size: 0.90909em;
     }
 
     /* todo: better code formatting, probably in a dedicated file */
-    
+
     :global(code) {
         padding-left: 0.2em;
         padding-right: 0.2em;
@@ -126,8 +136,8 @@
     }
 
     /* Hide scrollbar in Webkit */
-    :global(code.language-undefined::-webkit-scrollbar) { 
+    :global(code.language-undefined::-webkit-scrollbar) {
         width: 0 !important;
-        display: none; 
+        display: none;
     }
 </style>

@@ -1,5 +1,7 @@
 {
     "cSpell.enableFiletypes": [
         "svx"
-    ]
+    ],
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": true
 }
