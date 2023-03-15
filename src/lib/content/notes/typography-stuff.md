@@ -1,7 +1,7 @@
 ---
 title: Typography Stuff
 date: 3/10/23
-# updated: 3/10/23
+updated: 3/15/23
 ---
 
 I've been unusually enthusiastic about typography lately, and I keep coming across resources worth saving. To that end, I'll start collecting those resources here, and I'll bump this note up to the top of my Notes page if/when I update it.
@@ -29,6 +29,7 @@ I've been unusually enthusiastic about typography lately, and I keep coming acro
 
 -   [Font Squirrel Webfont Generator](https://www.fontsquirrel.com/tools/webfont-generator). Indispensible tool for optimizing and normalizing type for the web. Fix vertical metrics, convert file types, etc.
 -   [opentype.js](https://opentype.js.org/). Access letterform vector data, modify shapes, and render text in creative ways.
+-   [Modern Font Stacks](https://modernfontstacks.com/). System fonts for every modern OS, organized by typeface classification.
 
 **Reading materials:**
 
