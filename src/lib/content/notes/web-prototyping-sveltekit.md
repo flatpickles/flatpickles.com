@@ -9,7 +9,9 @@ Over the past year, I've been getting back into web development. I've been makin
 
 First I create a SvelteKit project, then follow the prompts to install all the needed packages with NPM, and initialize a Git repo:
 
-`npm create svelte@latest new-thang`
+```
+npm create svelte@latest new-thang
+```
 
 I then create a new repo on GitHub (either public or private), and push my new prototype project up to remote:
 
