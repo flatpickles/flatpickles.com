@@ -121,7 +121,7 @@
 
     :global(code.language-undefined) {
         display: block;
-        max-width: fit-content;
+        max-width: 100%;
         margin-top: 0.5em;
         margin-bottom: 0.5em;
         padding-bottom: 0.2em;
