@@ -7,7 +7,7 @@ The [Svelte SCSS adder](https://github.com/svelte-add/scss) is giving me npm dep
 
 First, let's add Sass as a dev dependency: `npm install -D sass`
 
-Next, let's create a few SCSS files. Inspired by the aforementioned adder, I like to create `src/app.scss` and `src/variables.scss`. Out of the box, we should already be able to import these files directly.
+Next, let's create a few SCSS files. Inspired by the aforementioned adder, I like to create `src/app.scss` and `src/variables.scss`. Out of the box, we should already be able to import these files directly, or set up `<style lang="scss">` blocks within our Svelte files.
 
 To use `src/app.scss` at the top level of our app, we can import it in our highest SvelteKit layout file, e.g. within `src/routes/+layout.svelte`:
 
@@ -19,7 +19,7 @@ To use `src/app.scss` at the top level of our app, we can import it in our highe
 <slot />
 ```
 
-We also want to be able to access the contents of `variables.scss` from any style files throughout our project. We can do this by adding a Vite preprocessing step. Let's update `vite.config.ts` like so:
+We also want to be able to access the contents of `variables.scss` from any style files or blocks throughout our project. We can do this by adding a Vite preprocessing step. Let's update `vite.config.ts` like so:
 
 ```
 import { sveltekit } from '@sveltejs/kit/vite';
@@ -37,6 +37,7 @@ export default defineConfig({
 });
 ```
 
+<!---
 Additionally, to make sure we're set up with Sass for `<style lang="scss">` blocks in our Svelte files, we can can configure `svelte.config.js` with something like this:
 
 ```
@@ -60,7 +61,8 @@ const config = {
 
 export default config;
 ```
+-->
 
-And just like that, we've got Sass/SCSS set up and ready to rock! It's worth checking out the `svelte-preprocess` [docs](https://github.com/sveltejs/svelte-preprocess/blob/main/docs/preprocessing.md) to see what other configuration options are available.
+And just like that, we've got Sass set up and ready to rock! We can define and use global variables in our variables file (restarting the server after each update), set up global styles in our app file, and further use Sass functionality throughout our project.
 
 _These steps were working for me as of March 22, 2023. It's quite possible that this won't be relevant forever._
