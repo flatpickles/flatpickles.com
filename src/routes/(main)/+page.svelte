@@ -8,7 +8,7 @@
     import ProjectList from '$lib/components/ProjectList.svelte';
 
     export let data: PageData;
-    const projects: ProjectData[] = data.projects;
+    $: projects = data.projects;
 </script>
 
 <svelte:head>

@@ -5,7 +5,7 @@
     import WritingDisplay from '$lib/components/WritingDisplay.svelte';
 
     export let data: PageData;
-    export let project: ProjectData = data.project;
+    $: project = data.project;
 </script>
 
 <svelte:head>

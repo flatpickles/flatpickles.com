@@ -5,7 +5,7 @@
     import type { PageData } from './$types';
 
     export let data: PageData;
-    export let note: NoteData = data.note;
+    $: note = data.note;
 </script>
 
 <svelte:head>

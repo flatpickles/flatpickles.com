@@ -5,7 +5,7 @@
     import type { ProjectData } from '$lib/types';
 
     export let data: PageData;
-    const project: ProjectData = data.project;
+    $: project = data.project;
 </script>
 
 <svelte:head>
