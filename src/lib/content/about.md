@@ -4,4 +4,4 @@ In both my professional work and in my personal life, **I am driven by curiosity
 
 Much like its author, **this website is a work in progress.** I primarily intend for it to be a published archive of my thoughts and creations, though having an audience here (be it real or imagined) also brings structure to the things I’m working on. I’d like flatpickles.com to be my internet living room: a vibey space decorated with things I’m proud of and fascinated by, a comfy spot for others to hang out, and a place I can call home. I'm honored that you've chosen to spend some time here with me – thanks so much for visiting!
 
-If you want to get in touch, **I'd love to hear from you.** You can follow any of my links from the [top](#) of this page, or you can [send me an email](mailto:matt@flatpickles.com).
+If you want to get in touch, **I'd love to hear from you.** You can follow any of my links from the [top](#) of this page, [send me an email](mailto:matt@flatpickles.com), or [book a chat](https://calendly.com/flatpickles).
