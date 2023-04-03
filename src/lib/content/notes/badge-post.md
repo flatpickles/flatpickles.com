@@ -4,7 +4,7 @@ date: 4/3/23
 draft: true
 ---
 
-_There's a much revered tradition of the "Badge Post" at Facebook/Meta – when someone decides to leave the company, they post a photo of their employee badge, along with a carefully penned tribute to their time at the company. Here's mine._
+_There's a much revered tradition of the "Badge Post" at Facebook/Meta – when someone decides to resign, they post a photo of their employee badge, along with a carefully penned tribute to their time at the company. Here's mine._
 
 My dear Meta friends – it’s time to say goodbye.
 
