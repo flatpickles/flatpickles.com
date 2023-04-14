@@ -3,6 +3,12 @@ import { type ProjectData, ProjectType } from '$lib/types';
 
 export const externalProjects: ProjectData[] = [
     {
+        title: 'Is It Perfect?',
+        url: 'https://www.isitperfect.com/',
+        date: DateUtils.pacificDate('2023-04-13'),
+        type: ProjectType.WebApp,
+    },
+    {
         title: 'Convergence',
         url: 'https://convergence.guru/',
         date: DateUtils.pacificDate('2023-04-10'),
