@@ -3,6 +3,12 @@ import { type ProjectData, ProjectType } from '$lib/types';
 
 export const externalProjects: ProjectData[] = [
     {
+        title: 'Beastly Groove',
+        url: 'https://www.soundslice.com/slices/vVlyc/',
+        date: DateUtils.pacificDate('2023-04-20'),
+        type: ProjectType.Transcription,
+    },
+    {
         title: 'Is It Perfect?',
         url: 'https://www.isitperfect.com/',
         date: DateUtils.pacificDate('2023-04-13'),
@@ -93,7 +99,7 @@ export const externalProjects: ProjectData[] = [
         type: ProjectType.Playlist,
     },
     {
-        title: 'What a Day Transcription',
+        title: 'What a Day (Kiefer Solo)',
         url: 'https://www.soundslice.com/slices/qfMDc/',
         date: DateUtils.pacificDate('2021-04-21'),
         type: ProjectType.Transcription,
