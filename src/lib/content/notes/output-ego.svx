@@ -7,7 +7,7 @@ date: 4/22/23
 	import SpotifyEmbed from '$lib/components/SpotifyEmbed.svelte';
 </script>
 
-Mac DeMarco [recently released](https://pitchfork.com/news/mac-demarco-releases-new-199-song-collection-one-wayne-g-listen/) an album of demos and sketches: a 9.5 hour long goliath, packed to the brim with mellow instrumental sketches. I'm only an hour in, but I'm loving the tunes I've heard so far, and the concept as a whole.
+Mac DeMarco [recently released](https://pitchfork.com/news/mac-demarco-releases-new-199-song-collection-one-wayne-g-listen/) an album of demos: a 9.5 hour long goliath, packed to the brim with mellow instrumental sketches. I'm only an hour in, but I'm loving the tunes I've heard so far, and the concept as a whole.
 
 <SpotifyEmbed link="https://open.spotify.com/album/70hX7IYqmUGV97OXs2v848?si=8IN1Rd73RfugTurapet2CQ"/>
 
