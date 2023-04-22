@@ -1,0 +1,22 @@
+---
+title: High Output, Low Ego
+date: 4/22/23
+---
+
+<script>
+	import SpotifyEmbed from '$lib/components/SpotifyEmbed.svelte';
+</script>
+
+Mac DeMarco [recently released](https://pitchfork.com/news/mac-demarco-releases-new-199-song-collection-one-wayne-g-listen/) an album of demos and sketches: a 9.5 hour long goliath, packed to the brim with mellow instrumental sketches. I'm only an hour in, but I'm loving the tunes I've heard so far, and the concept as a whole.
+
+<SpotifyEmbed link="https://open.spotify.com/album/70hX7IYqmUGV97OXs2v848?si=8IN1Rd73RfugTurapet2CQ"/>
+
+Similar to [*untitled unmastered*](https://open.spotify.com/album/0kL3TYRsSXnu0iJvFO3rud?si=4vgKMjC_TEyM7yKyVpe1tg), these tracks are mostly titled with just a date, though differently from Kendrick's project, *One Wayne G* contains enough content to imply a relatively un-curated subset of Mac's previously unpublished work from these years. And while they may not be high-production bangers, they're all interesting and worth listening to, and each feels like an authentic expression of his creative being. Deeply inspiring stuff, if you ask me!
+
+In my own creative work (music, code, art, whatever), I often feel at odds with a compulsion to only show my most polished work to the world – to present only my most refined creative self. This feels like it can easily become an [anti-pattern](https://en.wikipedia.org/wiki/Anti-pattern). When I unfold my perfectionist urge, I find two motivations: a first desire to properly manifest my creative intent, and a second desire to *present myself well*. While the former is critical for effective creative work, the latter is less virtuous.
+
+A certain degree of perfection is inherent in the "completion" of any creative project, but further polish can feel disingenuous, and out of alignment with my original inspiration. These days, I've been thinking of myself and others as individuated expressions of the same universal essence, or "sacred incarnations of source" as a friend has beautifully put it. My creative work is a way to channel that source into lived experience, but once I get caught up in focusing on polish as an egotistical pursuit, the creative work stops feeling authentic. I want to continue reorienting my perfectionism: pursuing perfection only while it feels like a project's natural continuation, and using that feeling to help define "completion".
+
+Anyway, I'll probably always be a perfectionist, and I'm sure that'll always be integral to my success as a professional and/or independent creative. But I want to focus on **output over ego** when it comes to personal work, and take a page out of Mac DeMarco's book in publishing projects whenever they feel whole. This note is no exception: I could edit this down, but for now I think it lives best as a meandering monologue. If you've read this far, you're a true legend – thanks for being here, my friend.
+
+I'll leave you with a video that I cherish, [this beautiful clip](https://www.youtube.com/watch?v=syIBWDnZqCw&t=248s) of Mac reflecting on some of his creative work. Just garbage, but fun to make, you know?

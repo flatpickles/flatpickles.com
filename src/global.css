@@ -1,13 +1,8 @@
 :root {
     --page-width: 700px;
-    --page-top-bottom-padding: calc(
-        max(
-            min(100px, 100/7 * 1vw),
-            4em
-        )
-    );
+    --page-top-bottom-padding: calc(max(min(100px, 100/7 * 1vw), 4em));
 
-    --link-color: rgb(11, 118, 41); 
+    --link-color: rgb(11, 118, 41);
 
     --transparent-background: rgba(0, 0, 0, 7%);
     --transparent-dark-text: rgba(0, 0, 0, 50%);
@@ -24,12 +19,15 @@ p:not(:first-child) {
     padding-top: 0.5em;
 }
 
-p:not(:last-child)  {
+p:not(:last-child) {
     padding-bottom: 0.5em;
 }
 
-iframe {
+iframe:not(:first-child) {
     padding-top: 0.5em;
+}
+
+iframe:not(:last-child) {
     padding-bottom: 0.5em;
 }
 
