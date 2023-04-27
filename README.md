@@ -17,7 +17,6 @@ Lately I've been doing project planning via the readme files in my project repos
 ## To do
 
 -   Ongoing updates
-    -   Remove link to Mastodon – not using it enough to justify the linkitude
     -   Consider tumblr instead of notes? Or reformat notes to make them less formal.
     -   Build a midjourney results page
 -   Polish

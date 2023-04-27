@@ -1,69 +1,125 @@
-<div class="links">
-    <a href="/">Homepage</a>
-    <a href="https://xoxo.zone/@flatpickles">Mastodon</a>
-    <a href="https://instagram.com/flatpickles">Instagram</a>
-    <a href="https://github.com/flatpickles">GitHub</a>
-    <a href="https://linkedin.com/in/man1">LinkedIn</a>
-    <a href="/matt-nichols-resume.pdf">Resume</a>
+<script lang="ts">
+    import { onMount } from 'svelte';
+
+    let links: HTMLDivElement;
+    let topDivider: HTMLSpanElement;
+    let bottomDivider: HTMLSpanElement;
+
+    function setBottomDividerSize() {
+        bottomDivider.style.maxWidth = `${topDivider.clientWidth}px`;
+    }
+
+    onMount(() => {
+        // Keep bottom divider the same size as top dividers for visual consistency
+        window.addEventListener('resize', setBottomDividerSize);
+
+        // Set bottom divider size then fade in links on load
+        setBottomDividerSize();
+        links.style.opacity = '100%';
+    });
+</script>
+
+<div class="links" bind:this={links}>
+    <div class="wide">
+        <a href="/">Homepage</a>
+        <span class="divider">•</span>
+        <a href="https://instagram.com/flatpickles">Instagram</a>
+        <span class="divider">•</span>
+        <a href="https://github.com/flatpickles">GitHub</a>
+        <span class="divider">•</span>
+        <a href="https://linkedin.com/in/man1">LinkedIn</a>
+        <span class="divider">•</span>
+        <a href="/matt-nichols-resume.pdf">Resume</a>
+    </div>
+
+    <div class="narrow">
+        <div class="top">
+            <a href="/">Homepage</a>
+            <span class="divider" bind:this={topDivider}>•</span>
+            <a href="https://instagram.com/flatpickles">Instagram</a>
+            <span class="divider">•</span>
+            <a href="https://github.com/flatpickles">GitHub</a>
+        </div>
+        <div class="bottom">
+            <a href="https://linkedin.com/in/man1">LinkedIn</a>
+            <span class="divider" bind:this={bottomDivider}>•</span>
+            <a href="/matt-nichols-resume.pdf">Resume</a>
+        </div>
+    </div>
 </div>
 
-<style>
+<style lang="scss">
+    $break-size: 550px;
+
     .links {
-        margin-top: 1.5em;
-        margin-bottom: 1.5em;
-        padding-bottom: 0.5em;
-
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        gap: 0.5em;
-
-        border-bottom: 2px solid black;
+        font-family: 'Hobeaux';
+        margin: 1rem 0.5rem;
+        padding-bottom: 0.5rem;
+        opacity: 0%;
+        transition: 1000ms;
     }
 
     a {
         font-family: 'Hobeaux';
         font-feature-settings: 'salt';
         font-weight: 600;
-        font-size: 1.2em;
+        font-size: 1.2rem;
         line-height: 1;
 
         text-decoration-thickness: 2px;
     }
 
-    /*
-        Size and align links so that there are always the same
-        number on each wrapped line (2 or 3).
+    .divider {
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: 1.2rem; // center vertically
+    }
 
-        todo: mitigate magic numbers in here
-    */
+    /* Kind of a gnarly responsive setup, not beautiful but it works */
 
-    @media ( max-width: 600px) {
-        a {
-            flex-basis: 25%;
+    .wide {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .narrow {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+
+        .top, .bottom {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
         }
 
-        a:nth-child(3n - 1) {
-            text-align: center;
-        }
-    
-        a:nth-child(3n) {
-            text-align: right;
+        .divider {
+            flex-grow: 1;
+            min-width: 2rem;
+            max-width: 3rem;
         }
     }
 
-    @media ( max-width: 350px) {
-        a {
-            flex-basis: 45%;
-        }
-
-        a:nth-child(odd) {
-            text-align: left;
-        }
-
-        a:nth-child(even) {
-            text-align: right;
+    @media ( max-width: ($break-size - 1)) {
+        .wide {
+            display: none;
         }
     }
+
+    @media ( min-width: $break-size) {
+        .narrow {
+            display: none;
+        }
+    }
+
+
 </style>
