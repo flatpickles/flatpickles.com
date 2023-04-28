@@ -49,11 +49,11 @@
 </div>
 
 <style lang="scss">
-    $break-size: 550px;
+    $break-size: 600px;
 
     .links {
         font-family: 'Hobeaux';
-        margin: 1rem 0.5rem;
+        margin: 1rem 2rem;
         padding-bottom: 0.5rem;
         opacity: 0%;
         transition: 1000ms;
