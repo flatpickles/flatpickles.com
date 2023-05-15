@@ -1,17 +1,18 @@
 import type { ZonedDateTime } from '@js-joda/core';
 
 export enum ProjectType {
-    Image = "Image",
-    Video = "Video",
-    Audio = "Audio",
-    Live = "Live Graphics",
-    WebApp = "Web App",
-    VideoEffect = "Video Effect",
-    Writing = "Writing",
-    Playlist = "Playlist",
-    Transcription = "Transcription",
-    Notebook = "Notebook",
-    Other = "Other"
+    Image = 'Image',
+    Video = 'Video',
+    Audio = 'Audio',
+    Live = 'Live Graphics',
+    Generative = 'Generative Art',
+    WebApp = 'Web App',
+    VideoEffect = 'Video Effect',
+    Writing = 'Writing',
+    Playlist = 'Playlist',
+    Transcription = 'Transcription',
+    Notebook = 'Notebook',
+    Other = 'Other',
 }
 
 export interface ProjectData {
