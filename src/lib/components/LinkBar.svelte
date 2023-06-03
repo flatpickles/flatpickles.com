@@ -56,6 +56,7 @@
         margin: 1rem 2rem;
         padding-bottom: 0.5rem;
         opacity: 0%;
+        transition-property: opacity;
         transition: 1000ms;
     }
 
