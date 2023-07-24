@@ -2,20 +2,25 @@ import { DateUtils } from '$lib/Utils';
 import { type ProjectData, ProjectType } from '$lib/types';
 
 interface MediaRecord {
-    title: string,
-    filename: string,
-    date: string
+    title: string;
+    filename: string;
+    date: string;
 }
 
 const extensionMap: Record<string, ProjectType> = {
-    'png': ProjectType.Image,
-    'jpg': ProjectType.Image,
-    'svg': ProjectType.Image,
-    'mp4': ProjectType.Video,
-    'mp3': ProjectType.Audio,
-}
+    png: ProjectType.Image,
+    jpg: ProjectType.Image,
+    svg: ProjectType.Image,
+    mp4: ProjectType.Video,
+    mp3: ProjectType.Audio,
+};
 
 const mediaRecords: MediaRecord[] = [
+    {
+        title: 'Longitude Studio Logo',
+        filename: 'ls-logo.png',
+        date: '2023-07-20',
+    },
     {
         title: 'Mandelbrot Render',
         filename: 'mandelbrot-render.png',
@@ -42,17 +47,17 @@ const mediaRecords: MediaRecord[] = [
         date: '2021-05-08',
     },
     {
-        title: 'Mind\'s Eye #3',
+        title: "Mind's Eye #3",
         filename: 'minds-eye-3.png',
         date: '2021-02-15',
     },
     {
-        title: 'Mind\'s Eye #2',
+        title: "Mind's Eye #2",
         filename: 'minds-eye-2.png',
         date: '2021-02-15',
     },
     {
-        title: 'Mind\'s Eye #1',
+        title: "Mind's Eye #1",
         filename: 'minds-eye-1.png',
         date: '2021-02-15',
     },
@@ -112,7 +117,7 @@ const mediaRecords: MediaRecord[] = [
         date: '2020-11-15',
     },
     {
-        title: 'Sam\'s Danze',
+        title: "Sam's Danze",
         filename: 'sams-danze.mp3',
         date: '2020-11-11',
     },
@@ -347,7 +352,7 @@ const mediaRecords: MediaRecord[] = [
         date: '2018-03-11',
     },
     {
-        title: 'Thank God It\'s Fried Chicken',
+        title: "Thank God It's Fried Chicken",
         filename: 'thank-god-its-fried-chicken.mp3',
         date: '2017-06-17',
     },
@@ -475,7 +480,7 @@ const mediaRecords: MediaRecord[] = [
         title: 'Impermanence',
         filename: 'impermanence.jpg',
         date: '2012-10-02',
-    }
+    },
 ];
 
 export const mediaProjects: Record<string, ProjectData> = Object.fromEntries(
@@ -483,12 +488,15 @@ export const mediaProjects: Record<string, ProjectData> = Object.fromEntries(
         const filenameParts = record.filename.split('.');
         const key = filenameParts[0];
         const extension = filenameParts[1];
-        return [key, {
-            title: record.title,
-            url: `/media/${key}`,
-            assetPath: `/media/${record.filename}`,
-            date: DateUtils.pacificDate(record.date),
-            type: extensionMap[extension]
-        }];
+        return [
+            key,
+            {
+                title: record.title,
+                url: `/media/${key}`,
+                assetPath: `/media/${record.filename}`,
+                date: DateUtils.pacificDate(record.date),
+                type: extensionMap[extension],
+            },
+        ];
     })
 );

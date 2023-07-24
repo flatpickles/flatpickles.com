@@ -3,6 +3,12 @@ import { type ProjectData, ProjectType } from '$lib/types';
 
 export const externalProjects: ProjectData[] = [
     {
+        title: 'ART 125A Projects',
+        url: 'https://www.instagram.com/p/CvFtsR7vFuG/',
+        date: DateUtils.pacificDate('2023-07-24'),
+        type: ProjectType.Image,
+    },
+    {
         title: 'Contours',
         url: 'https://sketchbook.flatpickles.com/#contours',
         date: DateUtils.pacificDate('2023-07-21'),
