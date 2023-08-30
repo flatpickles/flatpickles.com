@@ -3,6 +3,7 @@
 
     import floppyImg from '$lib/assets/floppy.png';
     import goopImg from '$lib/assets/goop.png';
+    import lsImg from '$lib/assets/ls-header.png';
     import rectImg from '$lib/assets/rect.png';
 </script>
 
@@ -13,9 +14,9 @@
         image={floppyImg}
     />
     <HighlightCard 
-        title="Notes and Such"
-        link="/notes"
-        image={goopImg}
+        title="Longitude Studio"
+        link="https://instagram.com/longitude.studio"
+        image={lsImg}
     />
     <HighlightCard 
         title="About Me"
