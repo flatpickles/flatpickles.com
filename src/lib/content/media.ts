@@ -17,6 +17,11 @@ const extensionMap: Record<string, ProjectType> = {
 
 const mediaRecords: MediaRecord[] = [
     {
+        title: 'Penny Postcard',
+        filename: 'penny-postcard.jpg',
+        date: '2023-09-22',
+    },
+    {
         title: 'Longitude Studio Logo',
         filename: 'ls-logo.png',
         date: '2023-07-20',

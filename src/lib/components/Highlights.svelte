@@ -2,14 +2,13 @@
     import HighlightCard from './HighlightCard.svelte';
 
     import floppyImg from '$lib/assets/floppy.png';
-    import goopImg from '$lib/assets/goop.png';
     import lsImg from '$lib/assets/ls-header.png';
     import rectImg from '$lib/assets/rect.png';
 </script>
 
 <div class="highlights">
     <HighlightCard 
-        title="Sketchbook"
+        title="Generative Art"
         link="https://sketchbook.flatpickles.com"
         image={floppyImg}
     />

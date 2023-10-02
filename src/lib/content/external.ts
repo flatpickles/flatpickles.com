@@ -3,6 +3,12 @@ import { type ProjectData, ProjectType } from '$lib/types';
 
 export const externalProjects: ProjectData[] = [
     {
+        title: 'Sketchbook v0.1',
+        url: 'https://github.com/flatpickles/sketchbook/releases/tag/v0.1.0',
+        date: DateUtils.pacificDate('2023-10-01'),
+        type: ProjectType.WebApp,
+    },
+    {
         title: "That's a Moiré",
         url: "https://sketchbook.flatpickles.com/#that's-a-moire",
         date: DateUtils.pacificDate('2023-07-28'),
@@ -111,7 +117,7 @@ export const externalProjects: ProjectData[] = [
         type: ProjectType.Generative,
     },
     {
-        title: 'Sketchbook',
+        title: 'Sketchbook (Legacy)',
         url: 'http://sketchbook.flatpickles.com/#no-signal',
         date: DateUtils.pacificDate('2022-08-15'),
         type: ProjectType.WebApp,
