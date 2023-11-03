@@ -2,20 +2,20 @@
     import HighlightCard from './HighlightCard.svelte';
 
     import floppyImg from '$lib/assets/floppy.png';
-    import lsImg from '$lib/assets/ls-header.png';
+    import swirlImg from '$lib/assets/essentia.png';
     import rectImg from '$lib/assets/rect.png';
 </script>
 
 <div class="highlights">
     <HighlightCard 
         title="Generative Art"
-        link="https://sketchbook.flatpickles.com"
+        link="https://longitude.studio"
         image={floppyImg}
     />
     <HighlightCard 
-        title="Longitude Studio"
-        link="https://instagram.com/longitude.studio"
-        image={lsImg}
+        title="Sketchbook"
+        link="https://skbk.cc"
+        image={swirlImg}
     />
     <HighlightCard 
         title="About Me"

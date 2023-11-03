@@ -118,7 +118,7 @@ export const externalProjects: ProjectData[] = [
     },
     {
         title: 'Sketchbook (Legacy)',
-        url: 'http://sketchbook.flatpickles.com/#no-signal',
+        url: 'http://skbk-legacy.flatpickles.com/#no-signal',
         date: DateUtils.pacificDate('2022-08-15'),
         type: ProjectType.WebApp,
     },
