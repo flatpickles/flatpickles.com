@@ -3,6 +3,12 @@ import { type ProjectData, ProjectType } from '$lib/types';
 
 export const externalProjects: ProjectData[] = [
     {
+        title: 'Sketchbook v0.2',
+        url: 'https://github.com/flatpickles/sketchbook/releases/tag/v0.2.0',
+        date: DateUtils.pacificDate('2023-11-06'),
+        type: ProjectType.WebApp,
+    },
+    {
         title: 'Sketchbook v0.1',
         url: 'https://github.com/flatpickles/sketchbook/releases/tag/v0.1.0',
         date: DateUtils.pacificDate('2023-10-01'),
@@ -10,7 +16,7 @@ export const externalProjects: ProjectData[] = [
     },
     {
         title: "That's a Moiré",
-        url: "https://sketchbook.flatpickles.com/#that's-a-moire",
+        url: 'https://longitude.studio/ThatsAMoire',
         date: DateUtils.pacificDate('2023-07-28'),
         type: ProjectType.Generative,
     },
@@ -22,7 +28,7 @@ export const externalProjects: ProjectData[] = [
     },
     {
         title: 'Contours',
-        url: 'https://sketchbook.flatpickles.com/#contours',
+        url: 'https://longitude.studio/Contours',
         date: DateUtils.pacificDate('2023-07-21'),
         type: ProjectType.Generative,
     },
@@ -34,25 +40,25 @@ export const externalProjects: ProjectData[] = [
     },
     {
         title: 'Solar Praxis',
-        url: 'https://sketchbook.flatpickles.com/#solar-praxis',
+        url: 'https://longitude.studio/SolarPraxis',
         date: DateUtils.pacificDate('2023-06-14'),
         type: ProjectType.Generative,
     },
     {
         title: 'Relax',
-        url: 'https://sketchbook.flatpickles.com/#relax',
+        url: 'https://longitude.studio/Relax',
         date: DateUtils.pacificDate('2023-06-03'),
         type: ProjectType.Generative,
     },
     {
         title: 'Concentric',
-        url: 'https://sketchbook.flatpickles.com/#concentric',
+        url: 'https://longitude.studio/Concentric',
         date: DateUtils.pacificDate('2023-05-14'),
         type: ProjectType.Generative,
     },
     {
         title: 'Essentia',
-        url: 'https://sketchbook.flatpickles.com/#essentia',
+        url: 'https://longitude.studio/Essentia',
         date: DateUtils.pacificDate('2023-04-23'),
         type: ProjectType.Live,
     },
@@ -82,7 +88,7 @@ export const externalProjects: ProjectData[] = [
     },
     {
         title: 'Aurora Vibes',
-        url: 'http://sketchbook.flatpickles.com/#aurora-vibes',
+        url: 'http://longitude.studio/AuroraVibes',
         date: DateUtils.pacificDate('2023-02-15'),
         type: ProjectType.Live,
     },
@@ -100,19 +106,19 @@ export const externalProjects: ProjectData[] = [
     },
     {
         title: 'Ethereal Goop',
-        url: 'http://sketchbook.flatpickles.com/#ethereal-goop',
+        url: 'http://longitude.studio/EtherealGoop',
         date: DateUtils.pacificDate('2022-10-29'),
         type: ProjectType.Live,
     },
     {
         title: 'Mandelbrot Set Viewer',
-        url: 'http://sketchbook.flatpickles.com/#mandelbrot-set',
+        url: 'http://longitude.studio/MandelbrotSet',
         date: DateUtils.pacificDate('2022-09-29'),
         type: ProjectType.Live,
     },
     {
         title: 'Rectilinear',
-        url: 'http://sketchbook.flatpickles.com/#rectilinear',
+        url: 'http://longitude.studio/Rectilinear',
         date: DateUtils.pacificDate('2022-09-14'),
         type: ProjectType.Generative,
     },
@@ -136,7 +142,7 @@ export const externalProjects: ProjectData[] = [
     },
     {
         title: 'Floppy Disk',
-        url: 'http://sketchbook.flatpickles.com/#floppy-disk',
+        url: 'http://longitude.studio/FloppyDisk',
         date: DateUtils.pacificDate('2022-04-08'),
         type: ProjectType.Live,
     },

@@ -12,10 +12,21 @@ const extensionMap: Record<string, ProjectType> = {
     jpg: ProjectType.Image,
     svg: ProjectType.Image,
     mp4: ProjectType.Video,
+    gif: ProjectType.Image,
     mp3: ProjectType.Audio,
 };
 
 const mediaRecords: MediaRecord[] = [
+    {
+        title: "Luke's Warm Ham",
+        filename: 'lukes-warm-ham-small.gif',
+        date: '2023-10-26',
+    },
+    {
+        title: 'Flat Pickles Sticker',
+        filename: 'flat-pickles-sticker.png',
+        date: '2023-10-13',
+    },
     {
         title: 'Penny Postcard',
         filename: 'penny-postcard.jpg',
