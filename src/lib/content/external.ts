@@ -82,7 +82,7 @@ export const externalProjects: ProjectData[] = [
     },
     {
         title: 'World Wide Webcam',
-        url: 'https://wwweb.cam/',
+        url: 'https://wwwebcam.flatpickles.com/',
         date: DateUtils.pacificDate('2023-03-06'),
         type: ProjectType.WebApp,
     },
