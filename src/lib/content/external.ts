@@ -3,6 +3,12 @@ import { type ProjectData, ProjectType } from '$lib/types';
 
 export const externalProjects: ProjectData[] = [
     {
+        title: 'Good Wording, LLC',
+        url: 'https://goodword.ing',
+        date: DateUtils.pacificDate('2024-1-17'),
+        type: ProjectType.Landing,
+    },
+    {
         title: 'Sketchbook v0.2',
         url: 'https://github.com/flatpickles/sketchbook/releases/tag/v0.2.0',
         date: DateUtils.pacificDate('2023-11-06'),

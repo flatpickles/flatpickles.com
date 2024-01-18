@@ -7,6 +7,7 @@ export enum ProjectType {
     Live = 'Live Graphics',
     Generative = 'Algorithmic Art',
     WebApp = 'Web App',
+    Landing = 'Landing Page',
     VideoEffect = 'Video Effect',
     Writing = 'Writing',
     Playlist = 'Playlist',
