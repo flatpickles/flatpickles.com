@@ -4,7 +4,7 @@
 </script>
 
 <nav class="pages">
-    {#each [...(Array(pageCount).keys())] as pageNumber}
+    {#each [...Array(pageCount).keys()] as pageNumber}
         {#if pageNumber + 1 == currentPage}
             [{pageNumber + 1}]
         {:else}
@@ -42,5 +42,4 @@
     .current {
         font-weight: bold;
     }
-
 </style>

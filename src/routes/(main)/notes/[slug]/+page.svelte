@@ -4,6 +4,7 @@
     import NotesLede from '$lib/components/NotesLede.svelte';
     import type { PageData } from './$types';
     import PaginationDisplay from '$lib/components/PaginationDisplay.svelte';
+    import HomeLinkOverlay from '$lib/components/HomeLinkOverlay.svelte';
 
     export let data: PageData;
     $: page = data.page;
@@ -13,6 +14,8 @@
     <title>Notes</title>
     <meta name="description" content="Notes from Matt Nichols, page {page.currentPage}." />
 </svelte:head>
+
+<HomeLinkOverlay />
 
 <BigHeader linkHome={true} />
 

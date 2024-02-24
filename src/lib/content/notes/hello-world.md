@@ -10,3 +10,5 @@ Perhaps I'm reinventing the blog, and calling it something different. Blogs have
 A keen observer of flatpickles.com will spot the "Writing" project type, as listed on my homepage. Going forward, I'm thinking of those projects as polished pieces (poetry, essays, short stories, etc), while "Notes" entries will be more off-the-cuff, and perhaps more frequent. It's not a perfect science; some of my older "Writing" projects might have fit in well here, but I'm resisting the urge to spend time sorting things out, for now at least. I'm a pathological perfectionist, but I'd like this to be a little haven where perfection is approximately irrelevant.
 
 I'm going to stop writing and get back to building, but hopefully this is the first of many bits, pieces, odds, and ends among my "Notes". Onward!
+
+_A quick note from the future: I've now retroactively categorized some older pieces of writing as "Notes", but this was the first note written with a dedicated notes section in mind!_
