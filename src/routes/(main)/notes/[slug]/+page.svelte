@@ -1,4 +1,4 @@
-<script lang='ts'>
+<script lang="ts">
     import BigHeader from '$lib/components/BigHeader.svelte';
     import Note from '$lib/components/NoteDisplay.svelte';
     import NotesLede from '$lib/components/NotesLede.svelte';
@@ -10,8 +10,8 @@
 </script>
 
 <svelte:head>
-    <title>Notes and Such</title>
-    <meta name="description" content="Notes and Such from Matt Nichols, page {page.currentPage}."/>
+    <title>Notes</title>
+    <meta name="description" content="Notes from Matt Nichols, page {page.currentPage}." />
 </svelte:head>
 
 <BigHeader linkHome={true} />
@@ -19,14 +19,11 @@
 <NotesLede />
 
 <div class="notes-wrapper">
-    {#each page.notes as note (note.title)}   
+    {#each page.notes as note (note.title)}
         <Note {note} />
     {/each}
 
     {#if page.pageCount > 1}
-        <PaginationDisplay 
-            currentPage={page.currentPage}
-            pageCount={page.pageCount}
-        />
+        <PaginationDisplay currentPage={page.currentPage} pageCount={page.pageCount} />
     {/if}
 </div>

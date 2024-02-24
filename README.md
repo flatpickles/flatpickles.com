@@ -70,7 +70,7 @@ Lately I've been doing project planning via the readme files in my project repos
 -   WritingDisplay & NoteDisplay are similar but intentionally different. Maybe these should be consolidated, as a component and/or into the same design.
 -   Better original date display within NoteDisplay
 -   Display only the first part of especially long notes on the main notes page
--   Return to whichever notes page we came from on [Back to Notes and Such] (re: pagination)
+-   Return to whichever notes page we came from on [Back to Notes] (re: pagination)
 
 ## Packages added
 

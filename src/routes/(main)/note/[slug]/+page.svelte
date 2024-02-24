@@ -10,19 +10,16 @@
 
 <svelte:head>
     <title>{note.title}</title>
-    <meta name="description" content='A note by Matt Nichols, entitled "{note.title}".' />
+    <meta name="description" content={`A note by Matt Nichols, entitled "${note.title}".`} />
 </svelte:head>
 
 <HomeLinkOverlay />
 
 <div class="note-wrapper">
-    <NoteDisplay
-        note = {note}
-        exclusive = {true}
-    />
+    <NoteDisplay {note} exclusive={true} />
 
     <nav class="back">
-        <a href="/notes">[Back to Notes and Such]</a>
+        <a href="/notes">[See all Notes]</a>
     </nav>
 </div>
 

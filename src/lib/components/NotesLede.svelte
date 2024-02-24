@@ -1,6 +1,7 @@
 <section class="notes-lede">
     <p>
-        <b>“Notes and Such”</b> is a space for bits, pieces, odds, and ends. If you’re looking for completed projects, check out my <a href="/">homepage!</a>
+        Welcome to my <b>Notes</b> page! This is a space for bits, pieces, odds, and ends. One might
+        call it a chilled out blog of sorts. New posts occasionally!
     </p>
 </section>
 
