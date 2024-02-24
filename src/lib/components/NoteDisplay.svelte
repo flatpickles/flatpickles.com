@@ -30,6 +30,7 @@
             {#if updated}Updated:{/if}
             {DateUtils.renderLong(displayedDate)}
             {#if note.draft}• Draft{/if}
+            {#if note.archived}• Archived{/if}
         </time>
     </header>
 

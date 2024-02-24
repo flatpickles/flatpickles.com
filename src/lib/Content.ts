@@ -13,7 +13,11 @@ import { externalProjects } from './content/external';
 export default class Content {
     static projects(): ProjectData[] {
         const writingIndex: ProjectData[] = this.writingProjects();
-        const allContents: ProjectData[] = this.mediaProjects().concat(this.externalProjects()).concat(writingIndex);
+        const noteIndex: NoteData[] = this.noteProjects();
+        const allContents: ProjectData[] = this.mediaProjects()
+            .concat(this.externalProjects())
+            .concat(writingIndex)
+            .concat(noteIndex);
         return allContents.sort((a, b) => {
             return b.date.compareTo(a.date);
         });
@@ -38,13 +42,7 @@ export default class Content {
         });
     }
 
-    static notesPage(pageNumber: number): NotesPage {
-        // Validate numeric input
-        if (isNaN(pageNumber)) {
-            throw new Error('Non-numeric page number provided.')
-        }
-
-        // Collect notes files and sort them by published or updated date
+    static noteProjects(): NoteData[] {
         const allNotesMd = import.meta.glob('./content/notes/*.md', { eager: true });
         const allNotesSvx = import.meta.glob('./content/notes/*.svx', { eager: true });
         const iterableNotes = Object.entries(allNotesMd).concat(Object.entries(allNotesSvx));
@@ -52,12 +50,23 @@ export default class Content {
             const key = this.keyFromPath(path);
             return this.makeNote(key, module as Record<string, any>); // ??
         });
-        const filteredNotes = hydratedNotes.filter(note => !note.draft);
+        const filteredNotes = hydratedNotes.filter((note) => !note.draft && !note.archived);
         const sortedNotes = filteredNotes.sort((noteA, noteB) => {
             const dateA: ZonedDateTime = noteA.updated ?? noteA.date;
             const dateB: ZonedDateTime = noteB.updated ?? noteB.date;
             return dateB.compareTo(dateA);
         });
+        return sortedNotes;
+    }
+
+    static notesPage(pageNumber: number): NotesPage {
+        // Validate numeric input
+        if (isNaN(pageNumber)) {
+            throw new Error('Non-numeric page number provided.');
+        }
+
+        // Collect notes files and sort them by published or updated date
+        const sortedNotes = this.noteProjects();
 
         // Calculate page bounds and check validity
         const pageStart = (pageNumber - 1) * Config.notesPageSize;
@@ -71,12 +80,12 @@ export default class Content {
         return {
             notes: pageFiles,
             currentPage: pageNumber,
-            pageCount: Math.ceil(sortedNotes.length / Config.notesPageSize)
+            pageCount: Math.ceil(sortedNotes.length / Config.notesPageSize),
         };
     }
 
     /*** Single entry request */
-    
+
     static mediaProject(key: string): ProjectData {
         return mediaProjects[key];
     }
@@ -115,7 +124,7 @@ export default class Content {
             url: `/writing/${key}`,
             date: DateUtils.pacificDate(module.metadata.date),
             type: ProjectType.Writing,
-            component: module.default
+            component: module.default,
         };
     }
 
@@ -123,10 +132,14 @@ export default class Content {
         return {
             title: module.metadata.title,
             url: `/note/${key}`,
+            type: ProjectType.Note,
             date: DateUtils.pacificDate(module.metadata.date),
-            updated: module.metadata.updated ? DateUtils.pacificDate(module.metadata.updated) : undefined,
+            updated: module.metadata.updated
+                ? DateUtils.pacificDate(module.metadata.updated)
+                : undefined,
             draft: module.metadata.draft ?? false,
-            component: module.default
+            archived: module.metadata.archived ?? false,
+            component: module.default,
         };
     }
 }

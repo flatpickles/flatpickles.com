@@ -13,6 +13,7 @@ export enum ProjectType {
     Playlist = 'Playlist',
     Transcription = 'Transcription',
     Notebook = 'Notebook',
+    Note = 'Note',
     Other = 'Other',
 }
 
@@ -25,12 +26,13 @@ export interface ProjectData {
     component?: ConstructorOfATypedSvelteComponent;
 }
 
-export interface NoteData {
+export interface NoteData extends ProjectData {
     title: string;
     url: string;
     date: ZonedDateTime;
     updated?: ZonedDateTime;
     draft?: boolean;
+    archived?: boolean;
     component: ConstructorOfATypedSvelteComponent;
 }
 

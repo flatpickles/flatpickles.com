@@ -1,6 +1,7 @@
 ---
 title: Sass in a SvelteKit Project
 date: 3/22/23
+archived: true
 ---
 
 The [Svelte SCSS adder](https://github.com/svelte-add/scss) is giving me npm dependency errors with the latest SvelteKit version, and also doesn't work well with TypeScript projects. We should probably update the adder... but until then, here's a quick record of how I'm adding [Sass](https://sass-lang.com/) to new SvelteKit projects.

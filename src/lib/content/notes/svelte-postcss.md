@@ -1,6 +1,7 @@
 ---
 title: PostCSS in a SvelteKit Project
 date: 3/22/23
+archived: true
 ---
 
 Alright I just [wrote](/note/svelte-scss) about adding Sass to a SvelteKit project, and now that I'm trying to add PostCSS (in order to use [this awesome easing gradient plugin](https://www.npmjs.com/package/postcss-easing-gradients)), I'm having the same NPM dependency issues with the [SvelteKit PostCSS Adder](https://github.com/svelte-add/postcss). This probably means I'm doing something wrong, and definitely means I should try using Tailwind for my next project, but nonetheless I wanted to document here how I eventually ended up getting PostCSS working.
