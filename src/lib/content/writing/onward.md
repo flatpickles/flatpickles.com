@@ -1,12 +1,13 @@
 ---
 title: Onward
 date: 7/7/2022
+type: poetry
 ---
 
 I am a being entwined  
 amidst ungrounded thoughts  
 still moving  
-still quiet in the broken glass  
+still quiet in the broken glass
 
 Footsteps flow beneath my path  
 while the breeze blows on  

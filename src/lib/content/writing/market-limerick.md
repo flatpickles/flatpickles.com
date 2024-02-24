@@ -1,6 +1,7 @@
 ---
 title: Market Crash Limerick
 date: 06/14/2022
+type: poetry
 ---
 
 There was a young man who said though  

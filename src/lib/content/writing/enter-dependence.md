@@ -1,6 +1,7 @@
 ---
 title: 'Enter: Dependence'
 date: 2/26/2016
+type: poetry
 ---
 
 I question your authority like God  

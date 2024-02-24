@@ -18,7 +18,6 @@ Lately I've been doing project planning via the readme files in my project repos
 
 -   Ongoing updates
     -   Consider tumblr instead of notes? Or reformat notes to make them less formal.
-    -   Build a midjourney results page
 -   Polish
     -   Em padding when font-size is set (e.g. unequal bottom padding for block in Notes) (use rem!)
     -   Add back descenders for Hobeaux fonts (Font Squirrel - adjust alt in CSS)
@@ -27,9 +26,7 @@ Lately I've been doing project planning via the readme files in my project repos
     -   Remove/address todos & questions
     -   Check for quote style, indentation, etc (maybe use a linter?)
     -   Adjust body class approach [this way](https://github.com/sveltejs/svelte/issues/3105#issuecomment-1373889014)
--   New project (sub)types:
-    -   Writing: Prose, Poem, Fiction, Essay
-    -   Image: Photography, Design, Render
+-   Image project (sub)types: Photography, Design, Render
 -   Tags/categories for notes
 -   Note embed for project status (project idea posts)
 -   RSS feed for notes!

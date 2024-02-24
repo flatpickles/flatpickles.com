@@ -1,6 +1,7 @@
 ---
 title: Ascendance
 date: 9/17/2016
+type: prose
 ---
 
 Yesterday I completed my final skyscraper, and today the sky is bleeding.

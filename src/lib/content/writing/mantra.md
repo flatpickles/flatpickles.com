@@ -1,6 +1,7 @@
 ---
 title: Mantra
 date: 3/30/23
+type: poetry
 ---
 
 You’ve got what you've got  

@@ -1,6 +1,7 @@
 ---
 title: Luxury
 date: 3/29/2017
+type: poetry
 ---
 
 seven million plankton derive something  

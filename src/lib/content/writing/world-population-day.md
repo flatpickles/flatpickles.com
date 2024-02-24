@@ -1,11 +1,12 @@
 ---
 title: World Population Day
 date: 7/11/2014
+type: prose
 ---
 
 (When faced with selecting a theme for a July 11th party, naturally I chose World Population Day. Alas, this event is long past, but it’s never too late to be aware of overpopulation. Stay safe out there, citizen.)
 
-On July 11, 1987, a tragedy befell our once-pristine planet: the 5,000,000,000th person was born. Most are born with very little, but this infant, eventually known to his few friends as Eggory “Eggy” Smarth, brought with him a calamitous and woeful epidemic: overpopulation. 
+On July 11, 1987, a tragedy befell our once-pristine planet: the 5,000,000,000th person was born. Most are born with very little, but this infant, eventually known to his few friends as Eggory “Eggy” Smarth, brought with him a calamitous and woeful epidemic: overpopulation.
 
 Eggy’s parents, Henn and Rustoré Smarth, wept when they first saw him. “Look at him, this shameful being!” Henn sobbed. He could have been so much more, had he only been born a mere half-second earlier. “We should have conceived in September!” exclaimed Rustoré. “Everyone knows that October is a treacherous month.”
 

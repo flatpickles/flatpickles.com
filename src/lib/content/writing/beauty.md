@@ -1,6 +1,7 @@
 ---
 title: Beauty
 date: 10/3/2020
+type: poetry
 ---
 
 Beauty condenses in the liminal space  

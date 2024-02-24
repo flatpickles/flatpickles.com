@@ -1,6 +1,7 @@
 ---
 title: Pause
 date: 3/29/2021
+type: poetry
 ---
 
 Are you dead? or only sleeping  

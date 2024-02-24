@@ -1,6 +1,7 @@
 ---
 title: Untitled
 date: 9/23/2017
+type: poetry
 ---
 
 Grains of time slip through my fingers  

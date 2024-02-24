@@ -1,6 +1,7 @@
 ---
 title: Somniloquy
 date: 1/2/2017
+type: poetry
 ---
 
 I’m too sleepy for poetry  

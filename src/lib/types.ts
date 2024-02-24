@@ -10,6 +10,8 @@ export enum ProjectType {
     Landing = 'Landing Page',
     VideoEffect = 'Video Effect',
     Writing = 'Writing',
+    Prose = 'Prose',
+    Poetry = 'Poetry',
     Playlist = 'Playlist',
     Transcription = 'Transcription',
     Notebook = 'Notebook',

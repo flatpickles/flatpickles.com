@@ -1,6 +1,7 @@
 ---
 title: Segfault
 date: 1/13/2017
+type: poetry
 ---
 
 Still bodies cast shadows into fading upholstery  

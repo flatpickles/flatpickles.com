@@ -1,6 +1,7 @@
 ---
 title: Modern Times
 date: 7/28/2017
+type: poetry
 ---
 
 As the TV gets louder so too does my internal monologue  

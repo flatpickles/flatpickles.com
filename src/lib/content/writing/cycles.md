@@ -1,6 +1,7 @@
 ---
 title: Cycles
 date: 1/21/2021
+type: poetry
 ---
 
 Waves arc shoreward  

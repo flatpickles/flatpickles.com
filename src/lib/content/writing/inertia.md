@@ -1,6 +1,7 @@
 ---
 title: Inertia
 date: 5/26/2017
+type: poetry
 ---
 
 I feather my flightless cap with languid prolixity  

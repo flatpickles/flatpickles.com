@@ -1,6 +1,7 @@
 ---
 title: Stories
 date: 7/29/2012
+type: prose
 ---
 
 Marcella tries to convince her parents  

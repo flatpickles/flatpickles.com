@@ -1,6 +1,7 @@
 ---
 title: Reverie
 date: 11/6/2017
+type: poetry
 ---
 
 A nameless machine churns around me  

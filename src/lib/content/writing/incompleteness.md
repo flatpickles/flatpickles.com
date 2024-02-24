@@ -1,6 +1,7 @@
 ---
 title: Incompleteness
 date: 4/1/2012
+type: prose
 ---
 
 White walls, and white, flickering, fluorescent light. The walls are soft and high, with no marks or indentations. I tried, at the beginning, to tear the walls away. And then merely to mark the passage of time upon them. But the walls do not give in. Will never give in.
@@ -9,7 +10,7 @@ The light ticks, occasionally. Even when it’s off, for indescribably dark peri
 
 When it is dark, I do not sleep. I can hear the walls listening. The slow blink of ear-lids. I defy their guile – for in the light, the ears hide. This way, they can never listen to me sleep.
 
-In the darkness, my being collapses to a point, within walls. 
+In the darkness, my being collapses to a point, within walls.
 
 I cannot find anything outside my consciousness, except the walls. I long for them to also be a figment, as is everything else. But I know they are not. The walls are all that is real.
 

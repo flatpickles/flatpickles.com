@@ -1,6 +1,7 @@
 ---
 title: Disintegration
 date: 12/11/2018
+type: poetry
 ---
 
 The waves of time lap at your cranial isle  

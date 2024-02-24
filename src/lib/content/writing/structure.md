@@ -1,12 +1,13 @@
 ---
 title: Structure
 date: 2/18/23
+type: poetry
 ---
 
 the clock on the wall ticks  
 struc... ture.  
 struc... ture.  
-struc... ture.  
+struc... ture.
 
 each moment a facet  
 a form abstracted  
@@ -21,9 +22,9 @@ all things
 and no thing  
 infinitely small  
 and forever infinite  
-continuing onward into  
+continuing onward into
 
 struc... ture.  
 struc... ture.  
 struc... ture.  
-the clock on the wall ticks  
+the clock on the wall ticks

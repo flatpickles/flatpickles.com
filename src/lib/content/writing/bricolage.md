@@ -1,6 +1,7 @@
 ---
 title: Bricolage
 date: 8/31/2018
+type: poetry
 ---
 
 I’m a solipsist on a silly quest  

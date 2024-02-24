@@ -1,6 +1,7 @@
 ---
 title: Overcast
 date: 11/8/2011
+type: prose
 ---
 
 He draws the hand-rolled cigarette from his lips, slowly exhaling a curling cloud towards the rafters of a small but bustling café. He is sharp, and his mind is quickened not only by nicotine and caffeine, but also by the philosophy he reads and the ambience of the coffee shop. Ideas float through the air amidst a haze of smoke and sound, and seep into the woodwork, nurturing the building’s ancient architecture. He finishes his coffee, finishes his book, smiles at the barista, and stands.

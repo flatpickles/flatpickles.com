@@ -1,6 +1,7 @@
 ---
 title: Disassociation
 date: 7/2/2020
+type: poetry
 ---
 
 A generation seeks to drown  

@@ -123,7 +123,12 @@ export default class Content {
             title: module.metadata.title,
             url: `/writing/${key}`,
             date: DateUtils.pacificDate(module.metadata.date),
-            type: ProjectType.Writing,
+            type:
+                module.metadata.type === 'prose'
+                    ? ProjectType.Prose
+                    : module.metadata.type === 'poetry'
+                    ? ProjectType.Poetry
+                    : ProjectType.Writing,
             component: module.default,
         };
     }

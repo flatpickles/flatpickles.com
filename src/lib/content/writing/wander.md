@@ -1,6 +1,7 @@
 ---
 title: Wander
 date: 5/24/2012
+type: prose
 ---
 
 I.
@@ -87,9 +88,8 @@ VII.
 
 The doctor said that maybe  
 if Wayne tried a little harder  
-he would stop bleeding.  
+he would stop bleeding.
 
 Wayne doubts this is true  
 but agrees  
 he’s not really trying.
-

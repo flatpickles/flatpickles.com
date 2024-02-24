@@ -1,6 +1,7 @@
 ---
 title: Nightmare
 date: 1/15/2017
+type: poetry
 ---
 
 my restless mind entangles meaning without attention to detail  
@@ -23,4 +24,3 @@ then haphazardly reassembled, mortarless, unwhole, greater than my sum but
 only as evaluated by experts in the field
 
 and, at the end of the day, who am I to resist.
-

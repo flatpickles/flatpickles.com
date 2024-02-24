@@ -1,6 +1,7 @@
 ---
 title: Fog
 date: 6/14/2012
+type: poetry
 ---
 
 I spent two hours  

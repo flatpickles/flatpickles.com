@@ -1,6 +1,7 @@
 ---
 title: Divine
 date: 6/27/2017
+type: poetry
 ---
 
 Who's to say that these are your thoughts  

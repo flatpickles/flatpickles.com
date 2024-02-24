@@ -1,6 +1,7 @@
 ---
 title: Presence
 date: 8/15/2017
+type: poetry
 ---
 
 Sift through the sands of time and find this moment  

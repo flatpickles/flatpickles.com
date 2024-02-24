@@ -1,6 +1,7 @@
 ---
 title: Untitled
 date: 8/4/2016
+type: poetry
 ---
 
 eat when you’re hungry  

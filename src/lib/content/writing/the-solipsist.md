@@ -1,11 +1,12 @@
 ---
 title: The Solipsist
 date: 1/18/2017
+type: poetry
 ---
 
 The tables have turned again and again  
 and again I, a tireless adversary  
-stare deep into my own reflection  
+stare deep into my own reflection
 
 He smiles softly, eyebrows drifting upwards,  
 poorly concealing some clever protuberance  
