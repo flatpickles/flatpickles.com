@@ -3,10 +3,22 @@ import { type ProjectData, ProjectType } from '$lib/types';
 
 export const externalProjects: ProjectData[] = [
     {
+        title: 'Gear Up',
+        url: 'https://longitude.studio/GearUp',
+        date: DateUtils.pacificDate('2024-02-24'),
+        type: ProjectType.Generative,
+    },
+    {
         title: 'Good Wording, LLC',
         url: 'https://goodword.ing',
         date: DateUtils.pacificDate('2024-1-17'),
         type: ProjectType.Landing,
+    },
+    {
+        title: 'Wave Grid',
+        url: 'https://longitude.studio/WaveGrid',
+        date: DateUtils.pacificDate('2023-11-14'),
+        type: ProjectType.Live,
     },
     {
         title: 'Sketchbook v0.2',
