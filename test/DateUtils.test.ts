@@ -1,5 +1,5 @@
 import type { LocalDate } from '@js-joda/core';
-import DateUtils from '../src/lib/DateUtils';
+import { DateUtils } from '../src/lib/Utils';
 
 describe('date parsing', () => {
     function checkDate(testDate: LocalDate, month: number, day: number, year: number) {
@@ -26,7 +26,7 @@ describe('date parsing', () => {
     test('does not parse garbage', () => {
         const testDate = DateUtils.parse('garbage');
         expect(testDate).toBeNull();
-    })
+    });
 });
 
 describe('pacific date', () => {
@@ -39,7 +39,7 @@ describe('pacific date', () => {
     test('short from yyyy-M-d', () => {
         const date = DateUtils.pacificDate('2018-9-28');
         const renderedDate = DateUtils.renderShort(date);
-        expect(renderedDate).toBe('Sep 28, 2018');
+        expect(renderedDate).toBe('Sep. 2018');
     });
 
     test('error from garbage', () => {

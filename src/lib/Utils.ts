@@ -1,28 +1,24 @@
-import { Locale } from '@js-joda/locale_en-us'
+import { Locale } from '@js-joda/locale_en-us';
 import { LocalDate, ZoneId, DateTimeFormatter, ZonedDateTime, LocalTime } from '@js-joda/core';
 
 export class DateUtils {
     static pacificDate(simpleDateString: string): ZonedDateTime {
         const parsedDate = this.parse(simpleDateString);
-        if (!parsedDate) throw new Error('Couldn\'t parse date');
+        if (!parsedDate) throw new Error("Couldn't parse date");
 
-        return ZonedDateTime.of(
-            parsedDate!,
-            LocalTime.NOON,
-            ZoneId.of("-0800")
-        );
+        return ZonedDateTime.of(parsedDate!, LocalTime.NOON, ZoneId.of('-0800'));
     }
 
     static renderLong(zonedDT: ZonedDateTime): string {
         const pattern = 'MMMM d, yyyy';
         const renderFormatter = DateTimeFormatter.ofPattern(pattern).withLocale(Locale.ENGLISH);
-        return zonedDT.format(renderFormatter)
+        return zonedDT.format(renderFormatter);
     }
 
     static renderShort(zonedDT: ZonedDateTime): string {
-        const pattern = 'MMM d, yyyy';
+        const pattern = 'MMM. yyyy';
         const renderFormatter = DateTimeFormatter.ofPattern(pattern).withLocale(Locale.ENGLISH);
-        return zonedDT.format(renderFormatter)
+        return zonedDT.format(renderFormatter);
     }
 
     static parse(simpleDateString: string): LocalDate | null {
