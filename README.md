@@ -62,7 +62,6 @@ Lately I've been doing project planning via the readme files in my project repos
 -   Convert straight to curly quotes throughout (pre-process?)
 -   Notes design
     -   Better code & code block formatting
-    -   Justify alignment only on larger screens? Looks goofy on iPhone. Maybe smaller text would help as well.
 -   Loop some videos, but not all?
 -   WritingDisplay & NoteDisplay are similar but intentionally different. Maybe these should be consolidated, as a component and/or into the same design.
 -   Better original date display within NoteDisplay

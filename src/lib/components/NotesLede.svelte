@@ -19,6 +19,12 @@
         background-color: var(--transparent-background);
     }
 
+    @media (max-width: 500px) {
+        p {
+            text-align: left;
+        }
+    }
+
     /* appear vertically centered in Firefox */
     @supports (-moz-appearance: none) {
         .notes-lede {

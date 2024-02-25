@@ -82,7 +82,7 @@
 
     @media (max-width: 500px) {
         .note-body {
-            hyphens: auto;
+            text-align: left;
         }
     }
 
