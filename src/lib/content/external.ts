@@ -88,13 +88,13 @@ export const externalProjects: ProjectData[] = [
     },
     {
         title: 'Is It Perfect?',
-        url: 'https://www.isitperfect.com/',
+        url: 'https://perfect.flatpickles.com/',
         date: DateUtils.pacificDate('2023-04-13'),
         type: ProjectType.WebApp,
     },
     {
         title: 'Convergence',
-        url: 'https://convergence.guru/',
+        url: 'https://convergence.flatpickles.com/',
         date: DateUtils.pacificDate('2023-04-10'),
         type: ProjectType.WebApp,
     },
