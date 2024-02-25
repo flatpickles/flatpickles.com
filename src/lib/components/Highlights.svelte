@@ -7,21 +7,9 @@
 </script>
 
 <div class="highlights">
-    <HighlightCard 
-        title="Generative Art"
-        link="https://longitude.studio"
-        image={floppyImg}
-    />
-    <HighlightCard 
-        title="Sketchbook"
-        link="https://skbk.cc"
-        image={swirlImg}
-    />
-    <HighlightCard 
-        title="About Me"
-        link="/about"
-        image={rectImg}
-    />
+    <HighlightCard title="Sketchbook" link="https://longitude.studio" image={floppyImg} />
+    <HighlightCard title="Good Wording" link="https://goodword.ing" image={swirlImg} />
+    <HighlightCard title="About Me" link="/about" image={rectImg} />
 </div>
 
 <style>

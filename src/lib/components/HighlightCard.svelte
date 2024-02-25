@@ -5,7 +5,7 @@
 </script>
 
 <a href={link} class="card">
-    <img src={image} alt={title}/>
+    <img src={image} alt={title} />
     <div class="overlay">
         <h1 class="title">
             {title}
@@ -46,7 +46,7 @@
 
         background-image: linear-gradient(
             rgba(0, 0, 0, 0),
-            cubic-bezier(0.25, 0, 0.75, 1), 
+            cubic-bezier(0.25, 0, 0.75, 1),
             rgba(0, 0, 0, 0.8)
         );
     }
