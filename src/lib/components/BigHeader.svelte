@@ -1,16 +1,14 @@
 <script lang="ts">
-    import mattNicholsImg from '$lib/assets/mattnichols.svg';
-
     export let linkHome = false;
 </script>
 
 <div class="header">
     {#if linkHome}
         <a href="/">
-            <img src={mattNicholsImg} alt="Matt Nichols"/>
+            <img src="/img/mattnichols.svg" alt="Matt Nichols" />
         </a>
     {:else}
-        <img src={mattNicholsImg} alt="Matt Nichols"/>
+        <img src="/img/mattnichols.svg" alt="Matt Nichols" />
     {/if}
 </div>
 

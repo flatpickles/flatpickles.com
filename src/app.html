@@ -1,40 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-S4FBTZ6VT4"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'G-S4FBTZ6VT4');
+        </script>
 
-<head>
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-S4FBTZ6VT4"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
-		gtag('config', 'G-S4FBTZ6VT4');
-	</script>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, height=device-height" />
+        <meta http-equiv="cache-control" content="max-age=604800, public" />
+        <link rel="icon" href="%sveltekit.assets%/favicon.png" />
 
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, height=device-height" />
-	<meta http-equiv="cache-control" content="max-age=604800, public" />
-	<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+        <!-- Preloads for homepage -->
+        <link rel="preload" href="/img/mattnichols.svg" as="image" />
+        <link rel="preload" href="/img/essentia.png" as="image" />
+        <link rel="preload" href="/img/floppy.png" as="image" />
+        <link rel="preload" href="/img/rect.png" as="image" />
+        <link
+            rel="preload"
+            href="/fonts/Hobeaux-Bold.woff2"
+            as="font"
+            type="font/woff2"
+            crossorigin
+        />
+        <link
+            rel="preload"
+            href="/fonts/VulfSans-Medium.woff2"
+            as="font"
+            type="font/woff2"
+            crossorigin
+        />
+        <link
+            rel="preload"
+            href="/fonts/VulfSans-Regular.woff2"
+            as="font"
+            type="font/woff2"
+            crossorigin
+        />
+        <link
+            rel="preload"
+            href="/fonts/VulfMono-Regular.woff2"
+            as="font"
+            type="font/woff2"
+            crossorigin
+        />
 
-	<!-- Preloads for homepage -->
-	<link rel="preload" href="/fonts/Hobeaux-Bold.woff2" as="font" type="font/woff2" crossorigin>
-	<link rel="preload" href="/fonts/VulfSans-Medium.woff2" as="font" type="font/woff2" crossorigin>
-	<link rel="preload" href="/fonts/VulfSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
-	<link rel="preload" href="/fonts/VulfMono-Regular.woff2" as="font" type="font/woff2" crossorigin>
+        <!-- Preloads for everywhere else -->
+        <link
+            rel="preload"
+            href="/fonts/Hobeaux-Semibold.woff2"
+            as="font"
+            type="font/woff2"
+            crossorigin
+        />
+        <link
+            rel="preload"
+            href="/fonts/VulfSans-Italic.woff2"
+            as="font"
+            type="font/woff2"
+            crossorigin
+        />
+        <link
+            rel="preload"
+            href="/fonts/VulfSans-Bold.woff2"
+            as="font"
+            type="font/woff2"
+            crossorigin
+        />
+        <link
+            rel="preload"
+            href="/fonts/VulfSans-Bold_Italic.woff2"
+            as="font"
+            type="font/woff2"
+            crossorigin
+        />
 
-	<!-- Preloads for everywhere else -->
-	<link rel="preload" href="/fonts/Hobeaux-Semibold.woff2" as="font" type="font/woff2" crossorigin>
-	<link rel="preload" href="/fonts/VulfSans-Italic.woff2" as="font" type="font/woff2" crossorigin>
-	<link rel="preload" href="/fonts/VulfSans-Bold.woff2" as="font" type="font/woff2" crossorigin>
-	<link rel="preload" href="/fonts/VulfSans-Bold_Italic.woff2" as="font" type="font/woff2" crossorigin>
+        %sveltekit.head%
+    </head>
 
-	%sveltekit.head%
-</head>
-
-<body data-sveltekit-preload-data="hover">
-	<div style="display: contents">
-		%sveltekit.body%
-	</div>
-</body>
-
+    <body data-sveltekit-preload-data="hover">
+        <div style="display: contents">%sveltekit.body%</div>
+    </body>
 </html>

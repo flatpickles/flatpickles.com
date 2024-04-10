@@ -1,15 +1,11 @@
 <script lang="ts">
     import HighlightCard from './HighlightCard.svelte';
-
-    import floppyImg from '$lib/assets/floppy.png';
-    import swirlImg from '$lib/assets/essentia.png';
-    import rectImg from '$lib/assets/rect.png';
 </script>
 
 <div class="highlights">
-    <HighlightCard title="Sketchbook" link="https://longitude.studio" image={floppyImg} />
-    <HighlightCard title="Good Wording" link="https://goodword.ing" image={swirlImg} />
-    <HighlightCard title="About Me" link="/about" image={rectImg} />
+    <HighlightCard title="Sketchbook" link="https://longitude.studio" image="/img/floppy.png" />
+    <HighlightCard title="Good Wording" link="https://goodword.ing" image="/img/essentia.png" />
+    <HighlightCard title="About Me" link="/about" image="/img/rect.png" />
 </div>
 
 <style>

@@ -1,9 +1,5 @@
-<script lang="ts">
-    import fpIcon from '$lib/assets/fp-icon.svg';
-</script>
-
 <a href="/">
-    <img src={fpIcon} alt="Flat Pickles" />
+    <img src="/img/fp-icon.svg" alt="Flat Pickles" />
 </a>
 
 <style>
@@ -12,7 +8,7 @@
         width: 1.5em;
         height: 1.5em;
     }
-    
+
     a {
         color: inherit;
         text-decoration: none;
