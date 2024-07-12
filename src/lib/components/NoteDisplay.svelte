@@ -56,7 +56,7 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        column-gap: 1em;
+        gap: 0.25em;
         justify-content: space-between;
         align-items: baseline;
     }
@@ -74,10 +74,10 @@
     }
 
     .note-body {
-        padding-top: 0.75em;
+        padding-top: 1em;
         padding-bottom: 0.5em;
         font-size: 1.1em;
-        text-align: justify;
+        line-height: 1.75em;
     }
 
     @media (max-width: 500px) {
