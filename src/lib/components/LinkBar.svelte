@@ -1,25 +1,4 @@
-<script lang="ts">
-    import { onMount } from 'svelte';
-
-    let links: HTMLDivElement;
-    let topDivider: HTMLSpanElement;
-    let bottomDivider: HTMLSpanElement;
-
-    function setBottomDividerSize() {
-        bottomDivider.style.maxWidth = `${topDivider.clientWidth}px`;
-    }
-
-    onMount(() => {
-        // Keep bottom divider the same size as top dividers for visual consistency
-        window.addEventListener('resize', setBottomDividerSize);
-
-        // Set bottom divider size then fade in links on load
-        setBottomDividerSize();
-        links.style.opacity = '100%';
-    });
-</script>
-
-<div class="links" bind:this={links}>
+<div class="links">
     <div class="wide">
         <a href="/">Homepage</a>
         <span class="divider">•</span>
@@ -35,14 +14,14 @@
     <div class="narrow">
         <div class="top">
             <a href="/">Homepage</a>
-            <span class="divider" bind:this={topDivider}>•</span>
+            <span class="divider">•</span>
             <a href="https://instagram.com/flatpickles">Instagram</a>
             <span class="divider">•</span>
             <a href="https://github.com/flatpickles">GitHub</a>
         </div>
         <div class="bottom">
             <a href="https://linkedin.com/in/man1">LinkedIn</a>
-            <span class="divider" bind:this={bottomDivider}>•</span>
+            <span class="divider">•</span>
             <a href="/matt-nichols-resume.pdf">Resume</a>
         </div>
     </div>
@@ -55,9 +34,6 @@
         font-family: 'Hobeaux';
         margin: 1rem 2rem;
         padding-bottom: 0.5rem;
-        opacity: 0%;
-        transition-property: opacity;
-        transition: 1000ms;
     }
 
     a {
