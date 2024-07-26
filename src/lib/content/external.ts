@@ -3,10 +3,10 @@ import { ProjectType, type ProjectData } from '$lib/types';
 
 export const externalProjects: ProjectData[] = [
     {
-        title: 'Good Wording Alpha Launch',
-        url: 'https://x.com/flatpickles/status/1810816367492477097',
-        date: DateUtils.pacificDate('2024-07-09'),
-        type: ProjectType.Video,
+        title: 'Book Pass Sticker',
+        url: 'https://flatpickles.square.site/product/book-pass/1',
+        date: DateUtils.pacificDate('2024-07-26'),
+        type: ProjectType.Merch,
     },
     {
         title: 'Organa',

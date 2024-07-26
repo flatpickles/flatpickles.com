@@ -16,6 +16,7 @@ export enum ProjectType {
     Transcription = 'Transcription',
     Notebook = 'Notebook',
     Note = 'Note',
+    Merch = 'Merchandise',
     Other = 'Other',
 }
 
