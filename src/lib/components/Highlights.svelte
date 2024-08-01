@@ -3,8 +3,8 @@
 </script>
 
 <div class="highlights">
-    <HighlightCard title="Sketchbook" link="https://longitude.studio" image="/img/floppy.png" />
-    <HighlightCard title="Good Wording" link="https://goodword.ing" image="/img/essentia.png" />
+    <HighlightCard title="Art Portfolio" link="https://longitude.studio" image="/img/floppy.png" />
+    <HighlightCard title="Sketchbook" link="https://skbk.cc" image="/img/essentia.png" />
     <HighlightCard title="About Me" link="/about" image="/img/rect.png" />
 </div>
 
