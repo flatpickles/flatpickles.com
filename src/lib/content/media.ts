@@ -18,6 +18,11 @@ const extensionMap: Record<string, ProjectType> = {
 
 const mediaRecords: MediaRecord[] = [
     {
+        title: 'Good Wording Signup Demo',
+        filename: 'gw-demo.mp4',
+        date: '2024-07-09',
+    },
+    {
         title: 'You Are Here',
         filename: 'you-are-here.png',
         date: '2024-2-11',

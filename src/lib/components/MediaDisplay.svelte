@@ -15,7 +15,7 @@
             />
         {:else if project.type == ProjectType.Video}
             <!-- svelte-ignore a11y-media-has-caption -->
-            <video class="media_item" autoplay>
+            <video class="media_item" autoplay controls>
                 <source src={project.assetPath} type="video/mp4">
                 <meta itemprop="name" content={project.title}>
             </video>
