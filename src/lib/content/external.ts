@@ -3,6 +3,12 @@ import { ProjectType, type ProjectData } from '$lib/types';
 
 export const externalProjects: ProjectData[] = [
     {
+        title: 'fadeloop (for Video Edits)',
+        url: 'https://github.com/flatpickles/fadeloop',
+        date: DateUtils.pacificDate('2024-08-05'),
+        type: ProjectType.Utility,
+    },
+    {
         title: 'Art Card Set #2',
         url: 'https://flatpickles.square.site/product/art-card-set-2/3',
         date: DateUtils.pacificDate('2024-08-05'),
