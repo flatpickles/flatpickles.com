@@ -21,6 +21,12 @@ export const externalProjects: ProjectData[] = [
         type: ProjectType.Merch,
     },
     {
+        title: 'Good Wording Alpha',
+        url: 'https://ink.goodword.ing',
+        date: DateUtils.pacificDate('2024-07-31'),
+        type: ProjectType.WebApp,
+    },
+    {
         title: 'Book Pass Sticker',
         url: 'https://flatpickles.square.site/product/book-pass/1',
         date: DateUtils.pacificDate('2024-07-26'),
