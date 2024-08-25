@@ -45,6 +45,12 @@ export const externalProjects: ProjectData[] = [
         type: ProjectType.Utility,
     },
     {
+        title: 'diff.haus',
+        url: 'https://github.com/flatpickles/diff.haus',
+        date: DateUtils.pacificDate('2024-04-28'),
+        type: ProjectType.WebApp,
+    },
+    {
         title: 'Echoes',
         url: 'https://longitude.studio/Echoes',
         date: DateUtils.pacificDate('2024-04-02'),
