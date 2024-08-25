@@ -39,6 +39,12 @@ export const externalProjects: ProjectData[] = [
         type: ProjectType.Live,
     },
     {
+        title: 'Simple Web Crawler',
+        url: 'https://github.com/flatpickles/web-crawler',
+        date: DateUtils.pacificDate('2024-07-16'),
+        type: ProjectType.Utility,
+    },
+    {
         title: 'Echoes',
         url: 'https://longitude.studio/Echoes',
         date: DateUtils.pacificDate('2024-04-02'),

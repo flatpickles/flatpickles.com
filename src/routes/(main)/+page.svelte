@@ -1,7 +1,6 @@
 <script lang='ts'>
     import type { PageData } from './$types';
-    import type { ProjectData } from '$lib/types';
-
+    
     import BigHeader from '$lib/components/BigHeader.svelte';
     import Copyright from '$lib/components/Copyright.svelte';
     import Highlights from '$lib/components/Highlights.svelte';
