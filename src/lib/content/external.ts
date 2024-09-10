@@ -3,6 +3,12 @@ import { ProjectType, type ProjectData } from '$lib/types';
 
 export const externalProjects: ProjectData[] = [
     {
+        title: 'Cellular',
+        url: 'https://longitude.studio/Cellular',
+        date: DateUtils.pacificDate('2024-09-10'),
+        type: ProjectType.Live,
+    },
+    {
         title: 'Rad Tile',
         url: 'https://radtile.flatpickles.com',
         date: DateUtils.pacificDate('2024-09-08'),
