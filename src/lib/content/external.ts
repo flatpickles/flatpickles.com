@@ -322,7 +322,7 @@ export const externalProjects: ProjectData[] = [
     },
     {
         title: 'WebGL Fireworks',
-        url: 'http://www.goldberg.io/fireworks/',
+        url: 'https://cs123-fireworks.vercel.app/',
         date: DateUtils.pacificDate('2012-01-10'),
         type: ProjectType.WebApp,
     },
