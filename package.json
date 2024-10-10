@@ -1,6 +1,6 @@
 {
     "name": "flatpickles.com",
-    "version": "2.0.141",
+    "version": "2.0.142",
     "private": true,
     "scripts": {
         "dev": "vite dev",
