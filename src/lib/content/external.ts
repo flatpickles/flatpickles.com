@@ -3,6 +3,12 @@ import { ProjectType, type ProjectData } from '$lib/types';
 
 export const externalProjects: ProjectData[] = [
     {
+        title: 'Dreamboat',
+        url: 'https://longitude.studio/Dreamboat',
+        date: DateUtils.pacificDate('2024-10-31'),
+        type: ProjectType.Live,
+    },
+    {
         title: 'Virtual Friend',
         url: 'https://friend.flatpickles.com',
         date: DateUtils.pacificDate('2024-09-18'),
