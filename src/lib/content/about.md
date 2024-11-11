@@ -1,4 +1,4 @@
-**Hello world, it’s me, Matt!** I’m an engineer, artist, creative technologist, musician, San Franciscan, dog dad, and lots of other things. After graduating from Brown CS in 2013, I’ve worked on engineering and creative teams at Twitter, [Eyegroove](https://techcrunch.com/2016/08/05/facebook-snatches-up-team-from-eyegroove-a-musical-selfie-app/), Facebook/Meta, and my own company, [Good Wording](https://ink.goodword.ing).
+**Hello world, it’s me, Matt!** I’m an engineer, artist, creative technologist, musician, San Franciscan, dog dad, and lots of other things. After graduating from Brown CS in 2013, I’ve worked on engineering and creative teams at Twitter, Meta, and a few smaller companies.
 
 My **life philosophy** boils down to a few big ideas: creating things is fun, fun is essential, and essentially anything is possible through human connection. Challenges abound, but we can move mountains with positivity, authenticity, courage, and good humor. Channeling creative energy into our world is an incredible privilege, and it's so cool that we get to do that together.
 

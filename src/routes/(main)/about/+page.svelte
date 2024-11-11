@@ -1,7 +1,7 @@
 <script lang="ts">
-    import AboutContent from '$lib/content/about.md';
     import BigHeader from '$lib/components/BigHeader.svelte';
     import LinkBar from '$lib/components/LinkBar.svelte';
+    import AboutContent from '$lib/content/about.md';
 </script>
 
 <svelte:head>

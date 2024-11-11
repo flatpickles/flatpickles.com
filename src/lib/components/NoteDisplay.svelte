@@ -56,7 +56,6 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        gap: 0.25em;
         justify-content: space-between;
         align-items: baseline;
     }
@@ -77,7 +76,6 @@
         padding-top: 1em;
         padding-bottom: 0.5em;
         font-size: 1.1em;
-        line-height: 1.75em;
     }
 
     @media (max-width: 500px) {

@@ -1,34 +1,18 @@
 <div class="links">
-    <div class="wide">
+    <div class="link-list">
         <a href="/">Homepage</a>
         <span class="divider">•</span>
         <a href="https://instagram.com/flatpickles">Instagram</a>
-        <span class="divider">•</span>
-        <a href="https://github.com/flatpickles">GitHub</a>
-        <span class="divider">•</span>
-        <a href="https://linkedin.com/in/man1">LinkedIn</a>
-        <span class="divider">•</span>
-        <a href="/matt-nichols-resume.pdf">Resume</a>
-    </div>
-
-    <div class="narrow">
-        <div class="top">
-            <a href="/">Homepage</a>
-            <span class="divider">•</span>
-            <a href="https://instagram.com/flatpickles">Instagram</a>
-            <span class="divider">•</span>
-            <a href="https://github.com/flatpickles">GitHub</a>
-        </div>
-        <div class="bottom">
-            <a href="https://linkedin.com/in/man1">LinkedIn</a>
-            <span class="divider">•</span>
-            <a href="/matt-nichols-resume.pdf">Resume</a>
-        </div>
+        <span class="divider large">•</span>
+        <a href="https://github.com/flatpickles" class="large">GitHub</a>
+        <span class="divider medium">•</span>
+        <a href="https://linkedin.com/in/man1" class="medium">LinkedIn</a>
     </div>
 </div>
 
 <style lang="scss">
-    $break-size: 600px;
+    $break-size-1: 600px;
+    $break-size-2: 450px;
 
     .links {
         font-family: 'Hobeaux';
@@ -42,7 +26,6 @@
         font-weight: 600;
         font-size: 1.2rem;
         line-height: 1;
-
         text-decoration-thickness: 2px;
     }
 
@@ -54,7 +37,7 @@
 
     /* Kind of a gnarly responsive setup, not beautiful but it works */
 
-    .wide {
+    .link-list {
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -63,40 +46,25 @@
         gap: 0.5rem;
     }
 
-    .narrow {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 0.5rem;
+    @media (max-width: $break-size-1) {
+        .large {
+            display: none;
+        }
+    }
 
-        .top, .bottom {
-            width: 100%;
-            display: flex;
-            flex-direction: row;
+    @media (max-width: $break-size-2) {
+        .medium {
+            display: none;
+        }
+
+
+        .link-list {
             justify-content: center;
-            align-items: center;
+            flex-wrap: nowrap;
         }
 
         .divider {
-            flex-grow: 1;
-            min-width: 2rem;
-            max-width: 3rem;
+            width: 3rem;
         }
     }
-
-    @media ( max-width: ($break-size - 1)) {
-        .wide {
-            display: none;
-        }
-    }
-
-    @media ( min-width: $break-size) {
-        .narrow {
-            display: none;
-        }
-    }
-
-
 </style>
