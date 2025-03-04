@@ -10,7 +10,7 @@ export const externalProjects: ProjectData[] = [
     },
     {
         title: 'Virtual Friend',
-        url: 'https://friend.flatpickles.com',
+        url: 'https://github.com/flatpickles/friend',
         date: DateUtils.pacificDate('2024-09-18'),
         type: ProjectType.WebApp,
     },
