@@ -3,6 +3,12 @@ import { ProjectType, type ProjectData } from '$lib/types';
 
 export const externalProjects: ProjectData[] = [
     {
+        title: 'Ripple Fade',
+        url: 'https://feedbackground.vercel.app/?effect=rippleFade',
+        date: DateUtils.pacificDate('2025-07-07'),
+        type: ProjectType.WebDemo,
+    },
+    {
         title: 'Dreamboat',
         url: 'https://longitude.studio/Dreamboat',
         date: DateUtils.pacificDate('2024-10-31'),
@@ -24,7 +30,7 @@ export const externalProjects: ProjectData[] = [
         title: 'Rad Tile',
         url: 'https://radtile.flatpickles.com',
         date: DateUtils.pacificDate('2024-09-08'),
-        type: ProjectType.WebApp,
+        type: ProjectType.WebDemo,
     },
     {
         title: 'fadeloop (for Video Edits)',
