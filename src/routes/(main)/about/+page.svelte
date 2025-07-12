@@ -20,7 +20,7 @@
 <style>
     .about-wrapper {
         font-size: 1.1em;
-        text-align: justify;
+        /* text-align: justify; */
     }
 
     @media ( max-width: 500px) {
