@@ -3,6 +3,12 @@ import { ProjectType, type ProjectData } from '$lib/types';
 
 export const externalProjects: ProjectData[] = [
     {
+        title: 'OpenAI Progress',
+        url: 'https://progress.openai.com',
+        date: DateUtils.pacificDate('2025-08-07'),
+        type: ProjectType.Microsite,
+    },
+    {
         title: 'Ripple Fade',
         url: 'https://feedbackground.vercel.app/?effect=rippleFade',
         date: DateUtils.pacificDate('2025-07-07'),
