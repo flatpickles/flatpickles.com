@@ -1,6 +1,6 @@
 {
     "name": "flatpickles.com",
-    "version": "2.0.152",
+    "version": "2.0.153",
     "private": true,
     "scripts": {
         "dev": "vite dev",
@@ -9,6 +9,9 @@
         "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
         "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
         "test": "jest"
+    },
+    "engines": {
+        "node": "22.x"
     },
     "devDependencies": {
         "@sveltejs/adapter-vercel": "^1.0.1",
