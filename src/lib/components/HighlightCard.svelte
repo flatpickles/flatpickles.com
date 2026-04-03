@@ -16,6 +16,7 @@
 <style>
     img {
         position: absolute;
+        inset: 0;
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -23,6 +24,8 @@
     }
 
     .card {
+        position: relative;
+        display: block;
         height: 7em;
         background-image: var(--image-url);
         background-size: cover;
@@ -30,18 +33,17 @@
         text-decoration: none;
         border-radius: 1em;
         overflow: hidden;
-        
-        /* https://stackoverflow.com/a/58283449/280404 */
-        transform: translateZ(0);
-        
-        filter: drop-shadow(0 0 0.5em rgba(0, 0, 0, 0.2));
-        transition: transform 0.1s ease-out, filter 0.1s ease-out;
+        isolation: isolate;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.2);
+        transition: transform 0.1s ease-out, box-shadow 0.1s ease-out;
     }
 
     @media (hover: hover) {
         .card:hover {
             transform: scale(1.03);
-            filter: drop-shadow(0 0 0.7em rgba(0, 0, 0, 0.3));
+            box-shadow: 0 0 0.7em rgba(0, 0, 0, 0.3);
         }
     }
 
