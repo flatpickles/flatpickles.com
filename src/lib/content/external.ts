@@ -243,8 +243,8 @@ export const externalProjects: ProjectData[] = [
         type: ProjectType.VideoEffect,
     },
     {
-        title: 'GutenBard',
-        url: 'https://gutenbard.vercel.app',
+        title: 'Prose Drift',
+        url: 'https://prose-drift.vercel.app',
         date: DateUtils.pacificDate('2022-06-14'),
         type: ProjectType.WebApp,
     },
